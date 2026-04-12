@@ -24,6 +24,15 @@ HEADERS = {"accept": "application/json"}
 COMMON_PARAMS = {"api_key": API_KEY}
 
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+
+RAW_MATCHES_PATH = os.path.join(DATA_DIR, "floorball_dataset_raw.csv")
+PROCESSED_DATASET_PATH = os.path.join(DATA_DIR, "floorball_dataset_processed.csv")
+ML_DATASET_PATH = os.path.join(DATA_DIR, "floorball_dataset_ml.csv")
+
+
 def get_json(path: str, extra_params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     url = f"{BASE_URL}/{path}.{FORMAT}"
     params = dict(COMMON_PARAMS)
@@ -38,14 +47,9 @@ def get_json(path: str, extra_params: Optional[Dict[str, Any]] = None) -> Dict[s
         return get_json(path, extra_params)
 
     response.raise_for_status()
-
     time.sleep(1)
 
     return response.json()
-
-
-def fetch_competitions() -> List[Dict[str, Any]]:
-    return get_json("competitions").get("competitions", [])
 
 
 def fetch_competition_seasons(competition_id: str) -> List[Dict[str, Any]]:
@@ -69,7 +73,6 @@ def fetch_season_summaries(season_id: str) -> List[Dict[str, Any]]:
             break
 
         start += limit
-
         time.sleep(1)
 
     return all_items
@@ -154,6 +157,7 @@ def make_rank_map(team_stats: Dict[str, Dict[str, Any]]) -> Dict[str, int]:
     rank_map = {}
     for idx, row in enumerate(rows, start=1):
         rank_map[row[0]] = idx
+
     return rank_map
 
 
@@ -163,7 +167,44 @@ def avg_from_history(history: deque, key: str) -> float:
     return sum(item[key] for item in history) / len(history)
 
 
-def build_dataset(matches: List[Dict[str, Any]]) -> pd.DataFrame:
+def collect_raw_matches() -> pd.DataFrame:
+    all_matches: List[Dict[str, Any]] = []
+
+    for competition_id in COMPETITION_IDS:
+        print(f"Downloading seasons for {competition_id}...")
+        seasons = fetch_competition_seasons(competition_id)
+
+        if not seasons:
+            print("No seasons found.")
+            continue
+
+        season_ids = [season["id"] for season in seasons if "id" in season]
+        print("Season IDs:", season_ids)
+
+        for season_id in season_ids:
+            print(f"Downloading summaries for {season_id}...")
+            summaries = fetch_season_summaries(season_id)
+
+            parsed_count = 0
+            for summary in summaries:
+                parsed = parse_match(summary, competition_id)
+                if parsed:
+                    all_matches.append(parsed)
+                    parsed_count += 1
+
+            print(f"Parsed finished matches: {parsed_count}")
+
+    if not all_matches:
+        raise RuntimeError("No matches parsed.")
+
+    raw_df = pd.DataFrame(all_matches)
+    raw_df = raw_df.sort_values("start_time").reset_index(drop=True)
+
+    return raw_df
+
+
+def build_processed_dataset(raw_df: pd.DataFrame) -> pd.DataFrame:
+    matches = raw_df.to_dict(orient="records")
     matches = sorted(matches, key=lambda m: parse_iso_datetime(m["start_time"]))
 
     season_team_stats = defaultdict(lambda: defaultdict(default_team_stats))
@@ -309,48 +350,68 @@ def build_dataset(matches: List[Dict[str, Any]]) -> pd.DataFrame:
             "goals_against": home_score
         })
 
-    return pd.DataFrame(rows)
+    processed_df = pd.DataFrame(rows)
+    processed_df = processed_df.sort_values("start_time").reset_index(drop=True)
 
+    return processed_df
+
+def build_ml_dataset(processed_df: pd.DataFrame, drop_draws: bool = True) -> pd.DataFrame:
+    df = processed_df.copy()
+
+    df["start_time"] = pd.to_datetime(df["start_time"], utc=True, errors="coerce")
+    df = df.sort_values("start_time").reset_index(drop=True)
+
+    if drop_draws:
+        df = df[df["target_result"] != "draw"].copy()
+
+    target_column = "target_home_win"
+
+    drop_columns = [
+        "match_id",
+        "season_id",
+        "season_name",
+        "competition_name",
+        "home_team_id",
+        "home_team_name",
+        "away_team_id",
+        "away_team_name",
+        "target_result",
+        "home_score_final",
+        "away_score_final",
+        "start_time",
+    ]
+
+    feature_columns = [col for col in df.columns if col not in drop_columns + [target_column]]
+
+    ml_df = df[feature_columns].copy()
+    ml_df[target_column] = df[target_column]
+
+    return ml_df
 
 def main() -> None:
-    all_matches = []
+    raw_df = collect_raw_matches()
+    raw_df.to_csv(RAW_MATCHES_PATH, index=False)
+    print(f"\nSaved raw matches: {RAW_MATCHES_PATH}")
+    print("Raw rows:", len(raw_df))
 
-    for competition_id in COMPETITION_IDS:
-        print(f"Downloading seasons for {competition_id}...")
-        seasons = fetch_competition_seasons(competition_id)
+    processed_df = build_processed_dataset(raw_df)
+    processed_df.to_csv(PROCESSED_DATASET_PATH, index=False)
+    print(f"Saved processed dataset: {PROCESSED_DATASET_PATH}")
+    print("Processed rows:", len(processed_df))
 
-        if not seasons:
-            print("No seasons found.")
-            continue
+    ml_df = build_ml_dataset(processed_df, drop_draws=True)
+    ml_df.to_csv(ML_DATASET_PATH, index=False)
+    print(f"Saved ML dataset: {ML_DATASET_PATH}")
+    print("ML rows:", len(ml_df))
 
-        season_ids = [season["id"] for season in seasons if "id" in season]
-        print("Season IDs:", season_ids)
+    print("\nRaw preview:")
+    print(raw_df.head(5).to_string())
 
-        for season_id in season_ids:
-            print(f"Downloading summaries for {season_id}...")
-            summaries = fetch_season_summaries(season_id)
+    print("\nProcessed preview:")
+    print(processed_df.head(5).to_string())
 
-            parsed_count = 0
-            for summary in summaries:
-                parsed = parse_match(summary, competition_id)
-                if parsed:
-                    all_matches.append(parsed)
-                    parsed_count += 1
-
-            print(f"Parsed finished matches: {parsed_count}")
-
-    if not all_matches:
-        raise RuntimeError("No matches parsed.")
-
-    dataset = build_dataset(all_matches)
-    dataset = dataset.sort_values("start_time").reset_index(drop=True)
-    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-    file_path = os.path.join(base_dir, "data", "floorball_dataset_raw.csv")
-    dataset.to_csv(file_path, index=False)
-
-    print("Saved floorball_dataset_raw.csv")
-    print("Total rows:", len(dataset))
-    print(dataset.head(10).to_string())
+    print("\nML preview:")
+    print(ml_df.head(5).to_string())
 
 
 if __name__ == "__main__":
