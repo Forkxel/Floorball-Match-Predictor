@@ -1,11 +1,12 @@
-﻿import time
+﻿import os
+import time
 import requests
 import pandas as pd
 from collections import defaultdict, deque
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
-API_KEY = "MY-API-KEY"
+API_KEY = "MY_API_KEY"
 ACCESS_LEVEL = "trial"
 LANGUAGE_CODE = "en"
 FORMAT = "json"
@@ -15,7 +16,7 @@ COMPETITION_IDS = [
     "sr:competition:306",
     "sr:competition:313",
     "sr:competition:318",
-    "sr:competition:39283",
+    "sr:competition:829",
 ]
 
 BASE_URL = f"https://api.sportradar.com/floorball/{ACCESS_LEVEL}/v2/{LANGUAGE_CODE}"
@@ -343,7 +344,9 @@ def main() -> None:
 
     dataset = build_dataset(all_matches)
     dataset = dataset.sort_values("start_time").reset_index(drop=True)
-    dataset.to_csv("floorball_dataset_raw.csv", index=False)
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    file_path = os.path.join(base_dir, "data", "floorball_dataset_raw.csv")
+    dataset.to_csv(file_path, index=False)
 
     print("Saved floorball_dataset_raw.csv")
     print("Total rows:", len(dataset))

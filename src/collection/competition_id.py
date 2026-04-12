@@ -1,6 +1,6 @@
 ﻿import requests
 
-API_KEY = "MY-API-KEY"
+API_KEY = "MY_API_KEY"
 ACCESS_LEVEL = "trial"
 LANGUAGE_CODE = "en"
 FORMAT = "json"
