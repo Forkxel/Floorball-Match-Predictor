@@ -6,7 +6,8 @@ from collections import defaultdict, deque
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
-API_KEY = "MY_API_KEY"
+
+API_KEY = "PASTE_YOUR_NEW_API_KEY_HERE"
 ACCESS_LEVEL = "trial"
 LANGUAGE_CODE = "en"
 FORMAT = "json"
@@ -23,14 +24,14 @@ BASE_URL = f"https://api.sportradar.com/floorball/{ACCESS_LEVEL}/v2/{LANGUAGE_CO
 HEADERS = {"accept": "application/json"}
 COMMON_PARAMS = {"api_key": API_KEY}
 
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-RAW_MATCHES_PATH = os.path.join(DATA_DIR, "floorball_dataset_raw.csv")
+RAW_MATCHES_PATH = os.path.join(DATA_DIR, "floorball_matches_raw.csv")
 PROCESSED_DATASET_PATH = os.path.join(DATA_DIR, "floorball_dataset_processed.csv")
 ML_DATASET_PATH = os.path.join(DATA_DIR, "floorball_dataset_ml.csv")
+OFFICIAL_STANDINGS_PATH = os.path.join(DATA_DIR, "floorball_official_standings.csv")
 
 
 def get_json(path: str, extra_params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
@@ -48,7 +49,6 @@ def get_json(path: str, extra_params: Optional[Dict[str, Any]] = None) -> Dict[s
 
     response.raise_for_status()
     time.sleep(1)
-
     return response.json()
 
 
@@ -76,6 +76,11 @@ def fetch_season_summaries(season_id: str) -> List[Dict[str, Any]]:
         time.sleep(1)
 
     return all_items
+
+
+def fetch_season_standings(season_id: str) -> Dict[str, Any]:
+    # Important: live=false, otherwise docs say live standings are returned by default
+    return get_json(f"seasons/{season_id}/standings", {"live": "false"})
 
 
 def parse_iso_datetime(value: str) -> datetime:
@@ -167,8 +172,9 @@ def avg_from_history(history: deque, key: str) -> float:
     return sum(item[key] for item in history) / len(history)
 
 
-def collect_raw_matches() -> pd.DataFrame:
+def collect_raw_matches_and_seasons() -> tuple[pd.DataFrame, List[Dict[str, str]]]:
     all_matches: List[Dict[str, Any]] = []
+    collected_seasons: List[Dict[str, str]] = []
 
     for competition_id in COMPETITION_IDS:
         print(f"Downloading seasons for {competition_id}...")
@@ -181,7 +187,18 @@ def collect_raw_matches() -> pd.DataFrame:
         season_ids = [season["id"] for season in seasons if "id" in season]
         print("Season IDs:", season_ids)
 
-        for season_id in season_ids:
+        for season in seasons:
+            season_id = season.get("id")
+            season_name = season.get("name")
+            if not season_id:
+                continue
+
+            collected_seasons.append({
+                "competition_id": competition_id,
+                "season_id": season_id,
+                "season_name": season_name,
+            })
+
             print(f"Downloading summaries for {season_id}...")
             summaries = fetch_season_summaries(season_id)
 
@@ -200,7 +217,7 @@ def collect_raw_matches() -> pd.DataFrame:
     raw_df = pd.DataFrame(all_matches)
     raw_df = raw_df.sort_values("start_time").reset_index(drop=True)
 
-    return raw_df
+    return raw_df, collected_seasons
 
 
 def build_processed_dataset(raw_df: pd.DataFrame) -> pd.DataFrame:
@@ -355,6 +372,7 @@ def build_processed_dataset(raw_df: pd.DataFrame) -> pd.DataFrame:
 
     return processed_df
 
+
 def build_ml_dataset(processed_df: pd.DataFrame, drop_draws: bool = True) -> pd.DataFrame:
     df = processed_df.copy()
 
@@ -388,8 +406,94 @@ def build_ml_dataset(processed_df: pd.DataFrame, drop_draws: bool = True) -> pd.
 
     return ml_df
 
+
+def _collect_nodes_with_standings(obj: Any, nodes: List[Dict[str, Any]]) -> None:
+    if isinstance(obj, dict):
+        if "standings" in obj and isinstance(obj["standings"], list):
+            nodes.append(obj)
+        for value in obj.values():
+            _collect_nodes_with_standings(value, nodes)
+    elif isinstance(obj, list):
+        for item in obj:
+            _collect_nodes_with_standings(item, nodes)
+
+
+def build_official_regular_standings(season_rows: List[Dict[str, str]]) -> pd.DataFrame:
+    records: List[Dict[str, Any]] = []
+
+    for row in season_rows:
+        competition_id = row["competition_id"]
+        season_id = row["season_id"]
+        season_name = row.get("season_name")
+
+        print(f"Downloading standings for {season_id}...")
+        try:
+            standings_data = fetch_season_standings(season_id)
+        except Exception as exc:
+            print(f"Standings failed for {season_id}: {exc}")
+            continue
+
+        nodes: List[Dict[str, Any]] = []
+        _collect_nodes_with_standings(standings_data, nodes)
+
+        for node in nodes:
+            phase_candidates = [
+                node.get("phase"),
+                node.get("type"),
+                node.get("name"),
+                node.get("description"),
+            ]
+
+            parent_stage = node.get("stage", {})
+            if isinstance(parent_stage, dict):
+                phase_candidates.extend([
+                    parent_stage.get("phase"),
+                    parent_stage.get("type"),
+                    parent_stage.get("name"),
+                    parent_stage.get("description"),
+                ])
+
+            phase_text = " ".join(str(x).lower() for x in phase_candidates if x)
+            if "regular" not in phase_text and "reg" not in phase_text:
+                continue
+
+            for standing_row in node.get("standings", []):
+                competitor = standing_row.get("competitor", {})
+                competitor_id = competitor.get("id")
+                competitor_name = competitor.get("name")
+
+                if not competitor_id:
+                    continue
+
+                records.append({
+                    "competition_id": competition_id,
+                    "season_id": season_id,
+                    "season_name": season_name,
+                    "team_id": competitor_id,
+                    "team_name": competitor_name,
+                    "official_rank": standing_row.get("rank"),
+                    "official_points": standing_row.get("points"),
+                    "official_played": standing_row.get("played"),
+                    "official_wins": standing_row.get("wins"),
+                    "official_losses": standing_row.get("losses"),
+                    "source_phase_text": phase_text,
+                })
+
+    standings_df = pd.DataFrame(records)
+
+    if standings_df.empty:
+        return standings_df
+
+    standings_df = standings_df.drop_duplicates(
+        subset=["competition_id", "season_id", "team_id"],
+        keep="first"
+    ).reset_index(drop=True)
+
+    return standings_df
+
+
 def main() -> None:
-    raw_df = collect_raw_matches()
+    raw_df, collected_seasons = collect_raw_matches_and_seasons()
     raw_df.to_csv(RAW_MATCHES_PATH, index=False)
     print(f"\nSaved raw matches: {RAW_MATCHES_PATH}")
     print("Raw rows:", len(raw_df))
@@ -404,6 +508,11 @@ def main() -> None:
     print(f"Saved ML dataset: {ML_DATASET_PATH}")
     print("ML rows:", len(ml_df))
 
+    official_standings_df = build_official_regular_standings(collected_seasons)
+    official_standings_df.to_csv(OFFICIAL_STANDINGS_PATH, index=False)
+    print(f"Saved official standings: {OFFICIAL_STANDINGS_PATH}")
+    print("Official standings rows:", len(official_standings_df))
+
     print("\nRaw preview:")
     print(raw_df.head(5).to_string())
 
@@ -412,6 +521,9 @@ def main() -> None:
 
     print("\nML preview:")
     print(ml_df.head(5).to_string())
+
+    print("\nOfficial standings preview:")
+    print(official_standings_df.head(5).to_string())
 
 
 if __name__ == "__main__":

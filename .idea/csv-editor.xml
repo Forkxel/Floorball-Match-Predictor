@@ -24,13 +24,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\floorball_matches_raw.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
