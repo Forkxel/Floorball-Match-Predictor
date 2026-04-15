@@ -1,0 +1,335 @@
+source,league,season,team_name,player_name,gp,goals,assists,points,shots,pim,plus_minus
+fliiga,finland,2025-2026,SPV,Hakanen Riku,32,31,54,85,257,4,50
+fliiga,finland,2025-2026,NOKIAN KRP,Rantala Joona,32,50,33,83,254,4,64
+fliiga,finland,2025-2026,CLASSIC,Lastikka Ville,28,29,30,59,200,6,61
+fliiga,finland,2025-2026,NOKIAN KRP,Hyvärinen Luukas,31,24,32,56,126,8,42
+fliiga,finland,2025-2026,NOKIAN KRP,Laakso Mikko,29,31,22,53,190,4,48
+fliiga,finland,2025-2026,OILERS,Auvinen Jasper,32,29,23,52,273,2,35
+fliiga,finland,2025-2026,SPV,Keskinen Juuso,23,34,15,49,175,10,30
+fliiga,finland,2025-2026,OILERS,Salmi Markus,31,33,16,49,193,12,36
+fliiga,finland,2025-2026,CLASSIC,Salin Eemeli,30,30,19,49,190,2,23
+fliiga,finland,2025-2026,NOKIAN KRP,Ahola Juuso,21,30,17,47,153,2,30
+fliiga,finland,2025-2026,OILERS,Markkola Markus,24,22,23,45,146,8,38
+fliiga,finland,2025-2026,JYMY,Vaarala Karri,32,25,19,44,221,16,-11
+fliiga,finland,2025-2026,SPV,Tammiranta Aaro,31,17,27,44,144,36,3
+fliiga,finland,2025-2026,JYMY,Äijälä Eemil,21,22,21,43,193,12,0
+fliiga,finland,2025-2026,CLASSIC,Karppanen Teemu,32,17,25,42,113,4,36
+fliiga,finland,2025-2026,NOKIAN KRP,Kovanen Joonatan,28,23,18,41,169,0,38
+fliiga,finland,2025-2026,CLASSIC,Heikkilä Oskari,31,25,15,40,129,18,46
+fliiga,finland,2025-2026,OILERS,Vesterinen Waltteri,22,17,23,40,140,8,33
+fliiga,finland,2025-2026,OILERS,Sorvali Eetu,32,28,11,39,116,2,36
+fliiga,finland,2025-2026,SPV,Karjanlahti Eemeli,32,24,14,38,129,8,43
+fliiga,finland,2025-2026,CLASSIC,Virtanen Viljami,29,18,20,38,110,4,26
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Haveri Elmeri,30,27,10,37,277,32,-7
+fliiga,finland,2025-2026,SPV,Haukkala Konsta,30,25,11,36,165,46,20
+fliiga,finland,2025-2026,INDIANS,Junnila Samuli,24,19,16,35,197,6,15
+fliiga,finland,2025-2026,CLASSIC,Laitila Alpo,30,15,20,35,63,2,63
+fliiga,finland,2025-2026,TPS,Jalo Eero,25,14,21,35,88,26,7
+fliiga,finland,2025-2026,NOKIAN KRP,Jonaeson Nico,32,7,28,35,88,2,53
+fliiga,finland,2025-2026,TPS,Eklund Alex,17,25,9,34,134,2,5
+fliiga,finland,2025-2026,OILERS,Lindfors Santeri,32,20,14,34,99,16,29
+fliiga,finland,2025-2026,OLS,Lukkari Olli,29,20,14,34,181,2,0
+fliiga,finland,2025-2026,CLASSIC,Salo Nico,25,13,21,34,80,32,54
+fliiga,finland,2025-2026,TPS,Paajanen Veikko,30,19,14,33,126,6,0
+fliiga,finland,2025-2026,OILERS,Suomela Antti,26,15,18,33,128,6,30
+fliiga,finland,2025-2026,OILERS,Hokkanen Joona,32,22,10,32,118,6,21
+fliiga,finland,2025-2026,JYMY,Äijälä Niklas,32,15,17,32,100,10,-8
+fliiga,finland,2025-2026,INDIANS,Einiö Niko,31,23,8,31,164,0,6
+fliiga,finland,2025-2026,CLASSIC,Hietaranta Ville,32,18,13,31,132,2,45
+fliiga,finland,2025-2026,JYMY,Tenho Oskari,32,18,12,30,154,4,-24
+fliiga,finland,2025-2026,OLS,Haverinen Aaro,32,11,19,30,102,0,9
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Möttönen Juuso,32,22,7,29,212,18,-7
+fliiga,finland,2025-2026,OLS,Savela Iiro,24,17,12,29,109,30,-5
+fliiga,finland,2025-2026,INDIANS,Havula Tatu,24,16,13,29,86,0,17
+fliiga,finland,2025-2026,TPS,Kulmala Kasper,31,18,10,28,133,6,-17
+fliiga,finland,2025-2026,CLASSIC,Trekse Peteris,30,11,17,28,135,8,33
+fliiga,finland,2025-2026,OLS,Ruonakangas Riku,32,18,9,27,154,4,-7
+fliiga,finland,2025-2026,HAWKS,Skand Felix,30,17,9,26,111,0,-2
+fliiga,finland,2025-2026,CLASSIC,Salokangas Tiitus,17,14,12,26,81,8,27
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Vaarimo Miko,32,14,12,26,146,8,6
+fliiga,finland,2025-2026,CLASSIC,Sikkinen Eetu,28,11,15,26,60,0,34
+fliiga,finland,2025-2026,HAWKS,Aarnio Antti,30,10,16,26,90,4,-37
+fliiga,finland,2025-2026,SPV,Kajaala Joona,29,15,10,25,106,2,18
+fliiga,finland,2025-2026,FBC TURKU,Laaksonen Nikolas,26,12,13,25,97,8,-50
+fliiga,finland,2025-2026,INDIANS,Niemelä Jere,24,10,15,25,156,12,-2
+fliiga,finland,2025-2026,NOKIAN KRP,Hyrkkönen Kim,31,14,10,24,112,18,25
+fliiga,finland,2025-2026,NOKIAN KRP,Viitakoski Valtteri,30,11,13,24,86,0,16
+fliiga,finland,2025-2026,OLS,Tolonen Eetu,26,10,14,24,66,8,2
+fliiga,finland,2025-2026,INDIANS,Kekki Juuso,32,16,7,23,73,6,4
+fliiga,finland,2025-2026,OLS,Karjula Joona,32,14,9,23,127,10,-3
+fliiga,finland,2025-2026,LASB,Laiti Niko,22,12,11,23,121,0,-27
+fliiga,finland,2025-2026,LASB,Porttikivi Pietari,32,11,12,23,144,8,-33
+fliiga,finland,2025-2026,OILERS,Eloluoto Lauri,22,11,12,23,91,10,21
+fliiga,finland,2025-2026,FBC TURKU,Hakola Jesper,26,9,13,22,110,10,-29
+fliiga,finland,2025-2026,TPS,Haataja Elias,32,8,14,22,112,4,-11
+fliiga,finland,2025-2026,SPV,Heikkilä Jeri,32,8,14,22,99,0,17
+fliiga,finland,2025-2026,INDIANS,Huppunen Jesse-Samuli,23,7,15,22,109,2,1
+fliiga,finland,2025-2026,JYMY,Järvikangas Viljami,32,7,15,22,53,4,-1
+fliiga,finland,2025-2026,OILERS,Iiskola Tuomas,21,6,16,22,87,4,27
+fliiga,finland,2025-2026,OILERS,Pekari Elias,32,11,10,21,70,2,24
+fliiga,finland,2025-2026,OLS,Vänttilä Kimi,31,10,11,21,89,2,-3
+fliiga,finland,2025-2026,FBC TURKU,Pöyhtäri Akseli,29,9,12,21,128,6,-30
+fliiga,finland,2025-2026,LASB,Laasonen Roni,29,12,8,20,115,14,-26
+fliiga,finland,2025-2026,INDIANS,Harjula Eero,30,11,8,19,64,26,8
+fliiga,finland,2025-2026,HAWKS,Laakso Kalle,29,10,9,19,80,10,-31
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Tenhonen Daniel,32,10,9,19,139,16,-3
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Telkki Axel,19,9,10,19,66,6,-1
+fliiga,finland,2025-2026,INDIANS,Harjula Tuomas,32,5,14,19,53,4,22
+fliiga,finland,2025-2026,CLASSIC,Leino Ilmo,31,12,6,18,72,2,46
+fliiga,finland,2025-2026,LASB,Sulander Jere,21,10,8,18,93,2,-16
+fliiga,finland,2025-2026,CLASSIC,Kilpi Otto,28,10,8,18,54,10,25
+fliiga,finland,2025-2026,FBC TURKU,Lindroos Yannick,22,6,12,18,64,18,-32
+fliiga,finland,2025-2026,OLS,Ijäs Eetu,27,5,13,18,61,0,1
+fliiga,finland,2025-2026,FBC TURKU,Suominen Marius,18,16,1,17,82,2,-18
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Tenhonen Benjamin,32,14,3,17,72,20,-6
+fliiga,finland,2025-2026,INDIANS,Lindholm Joonatan,32,11,6,17,68,8,20
+fliiga,finland,2025-2026,OILERS,Wikstedt Olli,27,9,8,17,77,0,37
+fliiga,finland,2025-2026,HAWKS,Huolman Luukas,31,8,9,17,116,20,-14
+fliiga,finland,2025-2026,SPV,Latvala Miika,30,6,11,17,39,36,33
+fliiga,finland,2025-2026,CLASSIC,Tykkyläinen Konsta,32,10,6,16,80,2,34
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Heiska Ville,29,9,7,16,83,6,-17
+fliiga,finland,2025-2026,NOKIAN KRP,Kilpeläinen Aapo,32,9,7,16,78,4,10
+fliiga,finland,2025-2026,OLS,Okkonen Roope,29,6,10,16,58,0,-11
+fliiga,finland,2025-2026,OILERS,Lindfors Jesperi,27,5,11,16,55,0,31
+fliiga,finland,2025-2026,OILERS,Järvinen Perttu,32,3,13,16,50,0,27
+fliiga,finland,2025-2026,HAWKS,Kataja-Rahko Sakari,30,12,3,15,110,8,-19
+fliiga,finland,2025-2026,SPV,Autio Janne,32,11,4,15,46,0,15
+fliiga,finland,2025-2026,SPV,Kotilainen Peter,19,10,5,15,94,2,2
+fliiga,finland,2025-2026,INDIANS,Auranen Leevi,25,10,5,15,82,8,8
+fliiga,finland,2025-2026,OLS,Koivisto Veeti,27,10,5,15,80,2,0
+fliiga,finland,2025-2026,TPS,Koivisto Aatu,29,8,7,15,107,8,-17
+fliiga,finland,2025-2026,INDIANS,Rauhala Jani,32,6,9,15,93,14,9
+fliiga,finland,2025-2026,HAWKS,Pilloud Samuli,31,9,5,14,89,6,-1
+fliiga,finland,2025-2026,HAWKS,Kuronen Joona,13,9,5,14,51,6,2
+fliiga,finland,2025-2026,SPV,Karjanlahti Eero,32,9,5,14,63,6,13
+fliiga,finland,2025-2026,OILERS,Sillanpää Oliver,16,8,6,14,63,8,23
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Aarela Ilmari,32,6,8,14,56,0,-8
+fliiga,finland,2025-2026,TPS,Molkka Valtteri,32,5,9,14,80,16,-5
+fliiga,finland,2025-2026,HAWKS,Vanhala Rasmus,24,5,9,14,64,2,-3
+fliiga,finland,2025-2026,OILERS,Jokela Olli,21,5,9,14,26,0,32
+fliiga,finland,2025-2026,JYMY,Mäenpää Matias,29,9,4,13,122,20,-28
+fliiga,finland,2025-2026,FBC TURKU,Forsman Juuso,31,9,4,13,158,10,-54
+fliiga,finland,2025-2026,OILERS,Haapala Arttu,24,8,5,13,61,6,0
+fliiga,finland,2025-2026,NOKIAN KRP,Karvonen Valte,27,6,7,13,41,2,18
+fliiga,finland,2025-2026,LASB,Kuisma Niklas,31,5,8,13,99,2,-32
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Vuoristo Santtu,31,4,9,13,64,18,-4
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Kärkkäinen Topias,30,3,10,13,39,4,-6
+fliiga,finland,2025-2026,FBC TURKU,Kallio Matias,29,10,2,12,73,0,-45
+fliiga,finland,2025-2026,LASB,Salminen Sami,29,7,5,12,60,6,-25
+fliiga,finland,2025-2026,NOKIAN KRP,Arkkila Olli,22,7,5,12,51,8,19
+fliiga,finland,2025-2026,SPV,Repo Juho,24,7,5,12,68,4,31
+fliiga,finland,2025-2026,HAWKS,Pohjanmaa Aaro,24,6,6,12,36,6,-1
+fliiga,finland,2025-2026,NOKIAN KRP,Ukkonen Eemil,32,5,7,12,27,6,53
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Ukskoski Otto,26,5,7,12,59,8,-15
+fliiga,finland,2025-2026,TPS,Koskinen Juho,32,4,8,12,78,6,-28
+fliiga,finland,2025-2026,LASB,Koljonen Perttu,21,3,9,12,105,10,-23
+fliiga,finland,2025-2026,CLASSIC,Helin Vilho,31,9,2,11,42,0,26
+fliiga,finland,2025-2026,INDIANS,Roth Anton,30,8,3,11,48,4,8
+fliiga,finland,2025-2026,OLS,Hanski Petteri,18,6,5,11,21,2,10
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Koivisto Lassi,28,6,5,11,73,0,-1
+fliiga,finland,2025-2026,SPV,Uusi-Laitila Santeri,24,6,5,11,42,2,18
+fliiga,finland,2025-2026,CLASSIC,Vettensaari Joonas,19,5,6,11,30,0,16
+fliiga,finland,2025-2026,INDIANS,Lehkosuo Otto,22,4,7,11,43,6,6
+fliiga,finland,2025-2026,TPS,Viitikka Oskari,25,3,8,11,29,4,-4
+fliiga,finland,2025-2026,JYMY,Rautio Petro,32,0,11,11,23,4,-23
+fliiga,finland,2025-2026,OLS,Kakko Tuomas,29,7,3,10,56,2,-6
+fliiga,finland,2025-2026,NOKIAN KRP,Mattila Jere,30,6,4,10,44,0,18
+fliiga,finland,2025-2026,NOKIAN KRP,Kinnunen Olli,24,6,4,10,46,2,11
+fliiga,finland,2025-2026,FBC TURKU,Fredriksson Mikael,32,6,4,10,51,2,-38
+fliiga,finland,2025-2026,JYMY,Vaarala Kalle,21,5,5,10,88,8,-34
+fliiga,finland,2025-2026,CLASSIC,Lamminen Janne,31,5,5,10,31,20,22
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Huppunen Julius-Emil,17,4,6,10,45,2,5
+fliiga,finland,2025-2026,FBC TURKU,Huhtakallio Eemeli,19,3,7,10,20,14,-12
+fliiga,finland,2025-2026,SPV,Lokasaari Aapo,31,3,7,10,49,4,28
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Wiander Tommi,25,1,9,10,28,18,-13
+fliiga,finland,2025-2026,SPV,Salin Luukas,32,7,2,9,60,0,5
+fliiga,finland,2025-2026,JYMY,Kauppila Oskari,21,7,2,9,36,4,-20
+fliiga,finland,2025-2026,HAWKS,Kallio Emil,8,6,3,9,23,0,2
+fliiga,finland,2025-2026,OLS,Lukkari Eerik,27,6,3,9,84,4,0
+fliiga,finland,2025-2026,CLASSIC,Vainionpää Markus,32,5,4,9,42,0,7
+fliiga,finland,2025-2026,INDIANS,Rautakoura Ville,29,4,5,9,50,6,2
+fliiga,finland,2025-2026,FBC TURKU,Kuutsa Eero,26,2,7,9,95,2,-42
+fliiga,finland,2025-2026,INDIANS,Alatalo Pieti,30,2,7,9,32,6,11
+fliiga,finland,2025-2026,TPS,Lehtonen Eetu,32,5,3,8,17,4,-12
+fliiga,finland,2025-2026,INDIANS,Remes Christian,30,4,4,8,66,4,-1
+fliiga,finland,2025-2026,OILERS,Seppälä Juho,26,3,5,8,43,6,6
+fliiga,finland,2025-2026,OILERS,Mustonen Justus,31,1,7,8,30,4,14
+fliiga,finland,2025-2026,LASB,Dillström Samu,21,6,1,7,19,0,-7
+fliiga,finland,2025-2026,LASB,Raappana Atte,25,5,2,7,63,2,-24
+fliiga,finland,2025-2026,TPS,Tuononen verneri,27,5,2,7,63,12,-22
+fliiga,finland,2025-2026,JYMY,Mäntyniemi Jimi,26,4,3,7,23,2,-23
+fliiga,finland,2025-2026,INDIANS,Roimela Setti,26,4,3,7,47,2,1
+fliiga,finland,2025-2026,HAWKS,Tuunanen Jasse,23,4,3,7,61,2,-19
+fliiga,finland,2025-2026,HAWKS,Sorjonen Aake,28,4,3,7,70,0,-31
+fliiga,finland,2025-2026,LASB,Hämäläinen Aapo,32,3,4,7,37,0,-33
+fliiga,finland,2025-2026,FBC TURKU,Koskinen Valtteri,20,2,5,7,28,28,-36
+fliiga,finland,2025-2026,LASB,Kotka Timi,19,5,1,6,78,0,-26
+fliiga,finland,2025-2026,JYMY,Luhtala Aatu,31,5,1,6,49,6,-30
+fliiga,finland,2025-2026,JYMY,Koitto Julius,12,4,2,6,35,28,-8
+fliiga,finland,2025-2026,JYMY,Saari Arttu,31,4,2,6,46,12,-20
+fliiga,finland,2025-2026,OLS,Niemelä Petri,26,4,2,6,26,2,-11
+fliiga,finland,2025-2026,JYMY,Puntanen Eetu,31,4,2,6,32,2,-6
+fliiga,finland,2025-2026,SPV,Honkonen Arttu,31,3,3,6,30,4,8
+fliiga,finland,2025-2026,NOKIAN KRP,Vänttinen Oliver,24,3,3,6,23,0,1
+fliiga,finland,2025-2026,HAWKS,Junnilainen Lassi,8,3,3,6,38,2,-11
+fliiga,finland,2025-2026,FBC TURKU,Dias Lino,20,3,3,6,25,0,-22
+fliiga,finland,2025-2026,HAWKS,Ailio Tuure,12,3,3,6,25,2,-1
+fliiga,finland,2025-2026,TPS,Koski Matias,22,3,3,6,56,6,-11
+fliiga,finland,2025-2026,HAWKS,Repo Rasmus,26,2,4,6,34,2,-26
+fliiga,finland,2025-2026,LASB,Kakko Santeri,31,2,4,6,60,6,-30
+fliiga,finland,2025-2026,LASB,Wikström Roope,20,2,4,6,18,4,-9
+fliiga,finland,2025-2026,OLS,Hänninen Arttu,32,2,4,6,37,2,1
+fliiga,finland,2025-2026,TPS,Koskinen Joonas,29,1,5,6,57,8,2
+fliiga,finland,2025-2026,LASB,Tyrkäs Lauri,7,5,0,5,9,0,1
+fliiga,finland,2025-2026,FBC TURKU,Tuominen Sami,25,4,1,5,50,12,-28
+fliiga,finland,2025-2026,JYMY,Turigin Teemu,20,4,1,5,23,8,-7
+fliiga,finland,2025-2026,LASB,Rantala Peetu,29,3,2,5,45,2,-28
+fliiga,finland,2025-2026,OLS,Rehu Santtu,30,2,3,5,39,8,-13
+fliiga,finland,2025-2026,OLS,Haudanlampi Tuukka,14,2,3,5,30,6,-3
+fliiga,finland,2025-2026,JYMY,Saarela Miko,32,1,4,5,14,4,-22
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Kokko Aaro,21,1,4,5,17,0,-8
+fliiga,finland,2025-2026,TPS,Jauria Alvar,31,4,0,4,31,0,-9
+fliiga,finland,2025-2026,OLS,Ylitalo Eemil,25,4,0,4,47,2,-2
+fliiga,finland,2025-2026,TPS,Saarinen Nikolas,25,4,0,4,23,0,-13
+fliiga,finland,2025-2026,LASB,Kainulainen Jesperi,7,3,1,4,17,4,-5
+fliiga,finland,2025-2026,FBC TURKU,Jurvainen Iiro,10,3,1,4,16,0,-14
+fliiga,finland,2025-2026,OILERS,Suhanto Eppu,9,3,1,4,12,0,10
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Salminen Olli,20,3,1,4,7,2,0
+fliiga,finland,2025-2026,HAWKS,Jarva Max,27,2,2,4,30,8,-10
+fliiga,finland,2025-2026,FBC TURKU,Ollikainen Aaro,18,2,2,4,27,8,-30
+fliiga,finland,2025-2026,NOKIAN KRP,Simonen Topias,21,2,2,4,30,4,13
+fliiga,finland,2025-2026,CLASSIC,Laine Olli-Akseli,21,2,2,4,45,8,16
+fliiga,finland,2025-2026,OLS,Rantaniemi Aapo,17,2,2,4,26,12,-8
+fliiga,finland,2025-2026,NOKIAN KRP,kallio Heikki,19,1,3,4,19,4,10
+fliiga,finland,2025-2026,INDIANS,Junkkari Jonatan,20,1,3,4,8,0,1
+fliiga,finland,2025-2026,HAWKS,Arkkila Teemu,26,1,3,4,34,2,-14
+fliiga,finland,2025-2026,NOKIAN KRP,Alkki Lauri,14,1,3,4,11,4,12
+fliiga,finland,2025-2026,HAWKS,Stirkkinen Anton,24,1,3,4,37,0,-15
+fliiga,finland,2025-2026,LASB,Karkulowski Emil,13,0,4,4,10,8,-17
+fliiga,finland,2025-2026,SPV,Haavisto Aapo,30,0,4,4,7,4,1
+fliiga,finland,2025-2026,LASB,Sihvonen Matias,22,2,1,3,21,2,-12
+fliiga,finland,2025-2026,HAWKS,Savolainen Justus,25,2,1,3,34,4,-19
+fliiga,finland,2025-2026,FBC TURKU,Hiltunen Veeti,30,2,1,3,25,4,-33
+fliiga,finland,2025-2026,LASB,Jaanus Janne,30,2,1,3,42,20,-26
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Tiittala Leo,16,2,1,3,11,0,5
+fliiga,finland,2025-2026,NOKIAN KRP,Laukkanen Jarno,16,2,1,3,9,0,2
+fliiga,finland,2025-2026,OILERS,Mattila Tuomas,10,1,2,3,16,4,12
+fliiga,finland,2025-2026,NOKIAN KRP,Halmela Teemu,4,1,2,3,4,0,4
+fliiga,finland,2025-2026,HAWKS,Salmela Matias,26,0,3,3,40,2,-31
+fliiga,finland,2025-2026,FBC TURKU,Dias Daniel,28,0,3,3,19,4,-31
+fliiga,finland,2025-2026,INDIANS,Nykänen Eetu,10,0,3,3,8,2,3
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Juha Josef,6,0,3,3,13,0,1
+fliiga,finland,2025-2026,TPS,Loponen Eetu,29,0,3,3,26,2,-17
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Mertanen Miro,22,2,0,2,17,2,-2
+fliiga,finland,2025-2026,OLS,Virolainen Luukas,6,2,0,2,10,0,-3
+fliiga,finland,2025-2026,LASB,Ryytty Valtteri,30,2,0,2,17,2,-19
+fliiga,finland,2025-2026,JYMY,Bystedt Anton,7,1,1,2,28,0,0
+fliiga,finland,2025-2026,HAWKS,Roponen Eetu,7,1,1,2,16,0,-5
+fliiga,finland,2025-2026,FBC TURKU,Honkanen Tobias,25,1,1,2,19,0,-29
+fliiga,finland,2025-2026,LASB,Harinen Simo,17,1,1,2,6,0,-4
+fliiga,finland,2025-2026,OILERS,Laatikainen Aleksi,19,1,1,2,28,4,8
+fliiga,finland,2025-2026,JYMY,Manninen Eetu,26,1,1,2,11,4,-10
+fliiga,finland,2025-2026,LASB,Tähkä Kasper,5,1,1,2,8,0,-14
+fliiga,finland,2025-2026,JYMY,Tuhkanen Lassi,3,0,2,2,8,0,1
+fliiga,finland,2025-2026,LASB,Karetjoki Eemil,5,0,2,2,6,2,-3
+fliiga,finland,2025-2026,TPS,Juuti Jasper,8,0,2,2,18,0,-2
+fliiga,finland,2025-2026,OLS,Lintala Kalle,4,0,2,2,3,0,1
+fliiga,finland,2025-2026,OLS,Savela Nuutti,17,0,2,2,20,2,-22
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Palojoki Jooa,22,0,2,2,25,4,-9
+fliiga,finland,2025-2026,INDIANS,Maronen Markus,16,0,2,2,16,0,-3
+fliiga,finland,2025-2026,LASB,Salokangas Julius,12,0,2,2,11,0,-7
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Pirhonen Elias,30,0,2,2,13,0,-11
+fliiga,finland,2025-2026,FBC TURKU,Sillanpää Miko,30,0,2,2,21,6,-29
+fliiga,finland,2025-2026,NOKIAN KRP,Ristimäki Rasmus,3,1,0,1,1,0,-1
+fliiga,finland,2025-2026,OILERS #,Pursio Rasmus,3,1,0,1,1,0,0
+fliiga,finland,2025-2026,TPS,Höglund Jooa,16,1,0,1,12,0,-13
+fliiga,finland,2025-2026,SPV,Kuoppala Iisakki,13,1,0,1,6,0,0
+fliiga,finland,2025-2026,INDIANS,Heikkilä Roope,19,1,0,1,25,8,-1
+fliiga,finland,2025-2026,OLS,Mertaniemi Väinö,21,1,0,1,13,0,-19
+fliiga,finland,2025-2026,JYMY,Leskinen Jonatan,15,1,0,1,22,6,-10
+fliiga,finland,2025-2026,LASB,Kosonen Miika,4,1,0,1,2,0,-1
+fliiga,finland,2025-2026,HAWKS,Martikainen Miikka,6,1,0,1,8,2,5
+fliiga,finland,2025-2026,FBC TURKU,Kurkikangas Atte,13,1,0,1,15,0,-10
+fliiga,finland,2025-2026,HAWKS,Rehn Nico,10,1,0,1,5,2,-6
+fliiga,finland,2025-2026,HAWKS,Räsänen Juho,10,0,1,1,7,4,-11
+fliiga,finland,2025-2026,NOKIAN KRP,Stukans Karlis,21,0,1,1,8,2,4
+fliiga,finland,2025-2026,TPS,Alanne Alvar,21,0,1,1,3,0,-5
+fliiga,finland,2025-2026,JYMY,Nyman Elias,13,0,1,1,3,6,-2
+fliiga,finland,2025-2026,LASB,Mertsalmi Henri,29,0,1,1,22,2,-16
+fliiga,finland,2025-2026,NOKIAN KRP,Tirkkonen Aleksanteri,5,0,1,1,2,4,-1
+fliiga,finland,2025-2026,KARHUT,Johima Jasper,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,KARHUT,Aallonen Henri,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,LASB,Mäkelä Kaapo,1,0,0,0,2,0,-1
+fliiga,finland,2025-2026,ERÄVIIKINGIT #,hurme joose,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,TPS,Kauha Mikael,1,0,0,0,1,0,0
+fliiga,finland,2025-2026,LASB,Saarinen Ilmari,3,0,0,0,1,0,-1
+fliiga,finland,2025-2026,LASB,Ranki Lauri,2,0,0,0,0,0,-2
+fliiga,finland,2025-2026,JYMY,Bystedt Melvin,6,0,0,0,0,0,-2
+fliiga,finland,2025-2026,FBC TURKU,Knaapi Oskari,5,0,0,0,2,2,-4
+fliiga,finland,2025-2026,OILERS #,Ruusuvuori Roni,4,0,0,0,2,0,-1
+fliiga,finland,2025-2026,TPS,Nieminen Veeti,9,0,0,0,9,0,-3
+fliiga,finland,2025-2026,TPS,Saivosalmi Sampo,2,0,0,0,0,0,-2
+fliiga,finland,2025-2026,SPV,Haanpää Matias,1,0,0,0,0,0,0
+fliiga,finland,2025-2026,INDIANS,Björklund Oskar,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,FBC TURKU,Salonen Arttu,14,0,0,0,14,2,-14
+fliiga,finland,2025-2026,FBC TURKU,Ahvenkoski Aleksi,8,0,0,0,0,0,-4
+fliiga,finland,2025-2026,OLS #,Gebremedhin Elias,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,OILERS #,Hettula Aatu,9,0,0,0,1,0,0
+fliiga,finland,2025-2026,OILERS #,Karvonen Elmo,8,0,0,0,1,0,-1
+fliiga,finland,2025-2026,SPV,Smirnovs Artemijs,10,0,0,0,0,0,-1
+fliiga,finland,2025-2026,OLS #,Miettinen Arttu,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,TPS,Vuoristo Daniel,16,0,0,0,0,0,-1
+fliiga,finland,2025-2026,INDIANS,Jäppinen Amos,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Rantala Luukas,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Aho Tuomas,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,JYMY,Liikka Saku,25,0,0,0,9,4,-15
+fliiga,finland,2025-2026,OLS,Jaurakkajärvi Esa,2,0,0,0,0,0,-1
+fliiga,finland,2025-2026,SPV,Halmesmäki Daniel,5,0,0,0,0,0,0
+fliiga,finland,2025-2026,SPV #,Hakonen Petri,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,INDIANS,Pasanen Rasmus,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,CLASSIC,Leppäniemi Samuli,5,0,0,0,3,0,-2
+fliiga,finland,2025-2026,SPV,Mustonen Tuomas,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,JYMY #,Tarpio Venni,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,OILERS,Ojala Tuomas,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,OLS,Välitalo Anssi,9,0,0,0,2,0,-5
+fliiga,finland,2025-2026,OLS #,Määttä Henrik,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,LASB,Suutari Samuel,4,0,0,0,6,0,1
+fliiga,finland,2025-2026,FBC TURKU,Hiltunen Aleksi,9,0,0,0,14,0,-7
+fliiga,finland,2025-2026,FBC TURKU,Varjokumpu Juuso,19,0,0,0,23,10,-14
+fliiga,finland,2025-2026,NOKIAN KRP,Aro Konsta,11,0,0,0,8,4,4
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Koistinen Eero,7,0,0,0,3,0,1
+fliiga,finland,2025-2026,JYMY,Ranta Justus,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,OILERS,Niemelä Eetu,7,0,0,0,3,0,3
+fliiga,finland,2025-2026,INDIANS,Pylkäs Mikael,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,TPS,Rannanjärvi Jaakko,32,0,0,0,25,22,-21
+fliiga,finland,2025-2026,NOKIAN KRP,Santala Aaro,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,KARHUT,rautava vertti,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,NOKIAN KRP,Koskinen Joni,9,0,0,0,2,0,-1
+fliiga,finland,2025-2026,INDIANS,Forss Onni,12,0,0,0,1,0,-1
+fliiga,finland,2025-2026,JYMY,Luukko Joona,10,0,0,0,0,0,0
+fliiga,finland,2025-2026,CLASSIC,Hannula Eino,3,0,0,0,3,0,7
+fliiga,finland,2025-2026,OLS #,Karjalainen Joona,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,SPV,Jyrkiäinen Matti,9,0,0,0,2,0,-3
+fliiga,finland,2025-2026,KARHUT,Halminen Joni,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,KARHUT,Ranne Eero,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,SPV,Ek Santtu,8,0,0,0,0,0,4
+fliiga,finland,2025-2026,OLS #,Ihala Onni,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,HAWKS,Rusila Pyry,12,0,0,0,14,0,-16
+fliiga,finland,2025-2026,LASB,Lundén Rasmus,4,0,0,0,1,0,0
+fliiga,finland,2025-2026,OLS,Nissilä Juuso,3,0,0,0,1,0,0
+fliiga,finland,2025-2026,HAWKS,Aarnio Aku,3,0,0,0,3,0,-3
+fliiga,finland,2025-2026,CLASSIC,Nyström Rasmus,5,0,0,0,3,0,-1
+fliiga,finland,2025-2026,OLS #,Vehmas Veikka,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,JYMY,Kanniainen Ville,12,0,0,0,4,0,-14
+fliiga,finland,2025-2026,LASB,Karjalainen Joona,15,0,0,0,15,4,-9
+fliiga,finland,2025-2026,ERÄVIIKINGIT #,Auroila Jukkapekka,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,JYMY,Niemelä Niilo,13,0,0,0,3,0,-2
+fliiga,finland,2025-2026,HAWKS,Kurtti Juho,19,0,0,0,6,0,-5
+fliiga,finland,2025-2026,KARHUT,Tamminen Aapo,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,SPV,Santanen Mikko,6,0,0,0,0,0,0
+fliiga,finland,2025-2026,CLASSIC,Engman Viljami,2,0,0,0,0,0,0
+fliiga,finland,2025-2026,ERÄVIIKINGIT #,Ojala Touko,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,LASB,Kantola Karo,0,0,0,0,0,0,0
+fliiga,finland,2025-2026,ERÄVIIKINGIT,Lahti Jere,1,0,0,0,0,0,0
+fliiga,finland,2025-2026,OLS,Haikola Kai,4,0,0,0,2,2,-1
+fliiga,finland,2025-2026,NOKIAN KRP,Inkinen Joonatan,15,0,0,0,13,2,1

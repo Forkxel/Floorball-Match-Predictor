@@ -117,14 +117,12 @@ def guess_table(page):
 def extract_headers(table) -> list[str]:
     headers = []
 
-    # klasická thead hlavička
     ths = table.locator("thead tr th")
     if ths.count() > 0:
         for i in range(ths.count()):
             headers.append(clean_text(ths.nth(i).inner_text()))
         return headers
 
-    # fallback: první řádek může být header-like
     first_row_cells = table.locator("tr").first.locator("th, td")
     for i in range(first_row_cells.count()):
         headers.append(clean_text(first_row_cells.nth(i).inner_text()))

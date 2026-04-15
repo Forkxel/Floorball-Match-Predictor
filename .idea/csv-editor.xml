@@ -24,13 +24,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\floorball_dataset_processed_3leagues_finland_enriched.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data\floorball_dataset_raw.csv">
           <value>
             <Attribute>
@@ -73,28 +66,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\raw\floorball_dataset_raw.csv">
+        <entry key="\data\raw\players\ceskyflorbal_players_2025_2026.csv">
           <value>
             <Attribute>
-              <option name="separator" value=":" />
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\raw\players\fliiga_players_2025_2026.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
         <entry key="\data\raw\players\ssl_players_2025_2026.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\collection\player_match_stats_finland_one_match.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\src\data\raw\players\ssl_players_2025_2026.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
