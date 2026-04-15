@@ -73,6 +73,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\raw\players\extraliga_players_2025_2026.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\raw\players\fliiga_players_2025_2026.csv">
           <value>
             <Attribute>
