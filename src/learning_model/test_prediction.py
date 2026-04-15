@@ -1,213 +1,99 @@
-﻿import os
+﻿from pathlib import Path
 import pandas as pd
 import joblib
 
-base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-data_dir = os.path.join(base_dir, "data")
-models_dir = os.path.join(base_dir, "models")
-
-dataset_path = os.path.join(data_dir, "floorball_dataset_processed.csv")
-model_path = os.path.join(models_dir, "floorball_model.pkl")
-
-df = pd.read_csv(dataset_path)
-model = joblib.load(model_path)
-
-df["start_time"] = pd.to_datetime(df["start_time"], utc=True, errors="coerce")
-df = df.sort_values("start_time").reset_index(drop=True)
+from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix, classification_report
 
 
-def compute_team_stats(team_id: str, matches: pd.DataFrame, home_context: bool) -> dict:
-    team_matches = matches[
-        (matches["home_team_id"] == team_id) |
-        (matches["away_team_id"] == team_id)
-    ].copy()
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+DATASET_PATH = BASE_DIR / "data" / "processed" / "floorball_dataset_ml_with_roster.csv"
+MODEL_PATH = BASE_DIR / "models" / "floorball_model_2.pkl"
 
-    if team_matches.empty:
-        return {
-            "points": 0,
-            "played": 0,
-            "goal_diff": 0,
-            "form_last5": 0.0,
-            "goals_for_avg_last5": 0.0,
-            "goals_against_avg_last5": 0.0,
-            "context_form_last5": 0.0,
-        }
-
-    team_matches = team_matches.sort_values("start_time")
-
-    points = 0
-    goals_for = 0
-    goals_against = 0
-
-    for _, row in team_matches.iterrows():
-        if row["home_team_id"] == team_id:
-            gf = row["home_score_final"]
-            ga = row["away_score_final"]
-        else:
-            gf = row["away_score_final"]
-            ga = row["home_score_final"]
-
-        if gf > ga:
-            points += 3
-        elif gf == ga:
-            points += 1
-
-        goals_for += gf
-        goals_against += ga
-
-    last5 = team_matches.tail(5)
-
-    form_points = 0
-    gf_last5 = 0
-    ga_last5 = 0
-
-    for _, row in last5.iterrows():
-        if row["home_team_id"] == team_id:
-            gf = row["home_score_final"]
-            ga = row["away_score_final"]
-        else:
-            gf = row["away_score_final"]
-            ga = row["home_score_final"]
-
-        if gf > ga:
-            form_points += 3
-        elif gf == ga:
-            form_points += 1
-
-        gf_last5 += gf
-        ga_last5 += ga
-
-    if home_context:
-        context_matches = team_matches[team_matches["home_team_id"] == team_id].tail(5)
-    else:
-        context_matches = team_matches[team_matches["away_team_id"] == team_id].tail(5)
-
-    context_points = 0
-    for _, row in context_matches.iterrows():
-        if row["home_team_id"] == team_id:
-            gf = row["home_score_final"]
-            ga = row["away_score_final"]
-        else:
-            gf = row["away_score_final"]
-            ga = row["home_score_final"]
-
-        if gf > ga:
-            context_points += 3
-        elif gf == ga:
-            context_points += 1
-
-    return {
-        "points": points,
-        "played": len(team_matches),
-        "goal_diff": goals_for - goals_against,
-        "form_last5": form_points / max(len(last5), 1),
-        "goals_for_avg_last5": gf_last5 / max(len(last5), 1),
-        "goals_against_avg_last5": ga_last5 / max(len(last5), 1),
-        "context_form_last5": context_points / max(len(context_matches), 1) if len(context_matches) > 0 else 0.0,
-    }
+TEST_SIZE_RATIO = 0.2
+TARGET_COLUMN = "target_home_win"
 
 
-def make_rank_map(matches_before: pd.DataFrame, season_id: str) -> dict:
-    season_matches = matches_before[matches_before["season_id"] == season_id].copy()
+def main():
+    df = pd.read_csv(DATASET_PATH)
+    model = joblib.load(MODEL_PATH)
 
-    team_ids = set(season_matches["home_team_id"]).union(set(season_matches["away_team_id"]))
-    table_rows = []
+    print("Loaded dataset:", DATASET_PATH)
+    print("Loaded model:", MODEL_PATH)
+    print("Dataset shape:", df.shape)
 
-    for team_id in team_ids:
-        stats = compute_team_stats(team_id, season_matches, home_context=True)
+    df = df.dropna(subset=["home_roster_strength", "away_roster_strength"]).copy()
+    print("Shape after dropping missing roster rows:", df.shape)
 
-        goals_for = (
-            season_matches.loc[season_matches["home_team_id"] == team_id, "home_score_final"].sum()
-            + season_matches.loc[season_matches["away_team_id"] == team_id, "away_score_final"].sum()
-        )
+    extra_drop_columns = [
+        "season",
+        "season_norm",
+        "roster_prev_season",
+        "home_roster_missing",
+        "away_roster_missing",
+    ]
+    drop_columns = [col for col in extra_drop_columns if col in df.columns]
 
-        table_rows.append((
-            team_id,
-            stats["points"],
-            stats["goal_diff"],
-            goals_for,
-        ))
+    X = df.drop(columns=[TARGET_COLUMN] + drop_columns).copy()
+    y = df[TARGET_COLUMN].copy()
 
-    table_rows.sort(key=lambda x: (-x[1], -x[2], -x[3], x[0]))
-    return {team_id: idx + 1 for idx, (team_id, *_rest) in enumerate(table_rows)}
+    split_index = int(len(df) * (1 - TEST_SIZE_RATIO))
+
+    X_test = X.iloc[split_index:].copy()
+    y_test = y.iloc[split_index:].copy()
+    df_test = df.iloc[split_index:].copy()
+
+    y_pred = model.predict(X_test)
+    y_prob = model.predict_proba(X_test)[:, 1]
+
+    acc = accuracy_score(y_test, y_pred)
+    auc = roc_auc_score(y_test, y_prob)
+
+    print("\n===== SAVED MODEL EVALUATION =====")
+    print(f"Accuracy: {acc:.4f}")
+    print(f"ROC AUC:  {auc:.4f}")
+
+    print("\nConfusion matrix:")
+    print(confusion_matrix(y_test, y_pred))
+
+    print("\nClassification report:")
+    print(classification_report(y_test, y_pred))
+
+    df_test = df_test.copy()
+    df_test["pred_home_win_prob"] = y_prob
+    df_test["pred_class"] = y_pred
+    df_test["correct"] = (df_test[TARGET_COLUMN] == df_test["pred_class"]).astype(int)
+    df_test["confidence"] = (df_test["pred_home_win_prob"] - 0.5).abs()
+
+    print("\nTop 15 most confident predictions:")
+    cols_to_show = [
+        "competition_id",
+        "league",
+        "pred_home_win_prob",
+        "pred_class",
+        "target_home_win",
+        "correct",
+        "confidence",
+        "home_roster_strength",
+        "away_roster_strength",
+        "roster_strength_diff",
+    ]
+    print(
+        df_test.sort_values("confidence", ascending=False)[cols_to_show]
+        .head(15)
+        .to_string(index=False)
+    )
+
+    high_conf = df_test[df_test["confidence"] >= 0.20].copy()
+    very_high_conf = df_test[df_test["confidence"] >= 0.30].copy()
+
+    if len(high_conf) > 0:
+        print(f"\nHigh confidence picks (|p-0.5| >= 0.20): {len(high_conf)}")
+        print(f"Accuracy: {high_conf['correct'].mean():.4f}")
+
+    if len(very_high_conf) > 0:
+        print(f"\nVery high confidence picks (|p-0.5| >= 0.30): {len(very_high_conf)}")
+        print(f"Accuracy: {very_high_conf['correct'].mean():.4f}")
 
 
-test_index = int(len(df) * 0.9)
-match_row = df.iloc[test_index]
-
-competition_id = match_row["competition_id"]
-season_id = match_row["season_id"]
-match_time = match_row["start_time"]
-
-home_team_id = match_row["home_team_id"]
-away_team_id = match_row["away_team_id"]
-home_team_name = match_row["home_team_name"]
-away_team_name = match_row["away_team_name"]
-
-matches_before = df[
-    (df["competition_id"] == competition_id) &
-    (df["season_id"] == season_id) &
-    (df["start_time"] < match_time)
-].copy()
-
-home_stats = compute_team_stats(home_team_id, matches_before, home_context=True)
-away_stats = compute_team_stats(away_team_id, matches_before, home_context=False)
-
-rank_map = make_rank_map(matches_before, season_id)
-
-home_rank = 0 if home_stats["played"] == 0 else rank_map.get(home_team_id, 0)
-away_rank = 0 if away_stats["played"] == 0 else rank_map.get(away_team_id, 0)
-
-X_input = pd.DataFrame([{
-    "competition_id": competition_id,
-
-    "home_rank": home_rank,
-    "away_rank": away_rank,
-    "rank_diff": away_rank - home_rank,
-
-    "home_table_points": home_stats["points"],
-    "away_table_points": away_stats["points"],
-    "table_points_diff": home_stats["points"] - away_stats["points"],
-
-    "home_played": home_stats["played"],
-    "away_played": away_stats["played"],
-
-    "home_goal_diff": home_stats["goal_diff"],
-    "away_goal_diff": away_stats["goal_diff"],
-    "goal_diff_diff": home_stats["goal_diff"] - away_stats["goal_diff"],
-
-    "home_form_last5": home_stats["form_last5"],
-    "away_form_last5": away_stats["form_last5"],
-    "form_diff_last5": home_stats["form_last5"] - away_stats["form_last5"],
-
-    "home_goals_for_avg_last5": home_stats["goals_for_avg_last5"],
-    "home_goals_against_avg_last5": home_stats["goals_against_avg_last5"],
-    "away_goals_for_avg_last5": away_stats["goals_for_avg_last5"],
-    "away_goals_against_avg_last5": away_stats["goals_against_avg_last5"],
-
-    "home_home_form_last5": home_stats["context_form_last5"],
-    "away_away_form_last5": away_stats["context_form_last5"],
-}])
-
-prob = model.predict_proba(X_input)[0]
-pred = model.predict(X_input)[0]
-
-actual = int(match_row["home_score_final"] > match_row["away_score_final"])
-
-print("Competition:", competition_id)
-print("Season:", season_id)
-print("Match date:", match_time)
-print("Home team:", home_team_name)
-print("Away team:", away_team_name)
-print()
-
-print("Model input:")
-print(X_input.to_string(index=False))
-print()
-
-print("Prediction:")
-print(f"Home win probability: {prob[1]:.4f}")
-print(f"Away / not-home-win probability: {prob[0]:.4f}")
-print(f"Predicted class: {pred}")
-print(f"Actual class: {actual}")
-print(f"Actual score: {match_row['home_score_final']}:{match_row['away_score_final']}")
+if __name__ == "__main__":
+    main()

@@ -12,7 +12,6 @@ from src.collection.config import (
     COMPETITION_IDS,
     RAW_DATASET_PATH,
     PROCESSED_DATASET_PATH,
-    ML_DATASET_PATH,
     OFFICIAL_STANDINGS_PATH,
 )
 
@@ -78,7 +77,6 @@ def normalize_season_name(value: str) -> Optional[str]:
 
     text = str(value).strip()
 
-    # najde třeba 2025/2026 nebo 2025-2026
     import re
     m = re.search(r"(20\d{2})[/-](20\d{2})", text)
     if m:
@@ -521,11 +519,6 @@ def main() -> None:
     print(f"Saved processed dataset: {PROCESSED_DATASET_PATH}")
     print("Processed rows:", len(processed_df))
 
-    ml_df = build_ml_dataset(processed_df, drop_draws=True)
-    ml_df.to_csv(ML_DATASET_PATH, index=False)
-    print(f"Saved ML dataset: {ML_DATASET_PATH}")
-    print("ML rows:", len(ml_df))
-
     official_standings_df = build_official_regular_standings(collected_seasons)
     official_standings_df.to_csv(OFFICIAL_STANDINGS_PATH, index=False)
     print(f"Saved official standings: {OFFICIAL_STANDINGS_PATH}")
@@ -536,9 +529,6 @@ def main() -> None:
 
     print("\nProcessed preview:")
     print(processed_df.head(5).to_string())
-
-    print("\nML preview:")
-    print(ml_df.head(5).to_string())
 
     print("\nOfficial standings preview:")
     print(official_standings_df.head(5).to_string())
