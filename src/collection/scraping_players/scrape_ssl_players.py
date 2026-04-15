@@ -4,7 +4,7 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "players"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
