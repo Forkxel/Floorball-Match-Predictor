@@ -1,2011 +1,344 @@
 source,league,season,team_name,player_name,gp,goals,assists,points,shots,pim,plus_minus
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,ACEMA Sparta Praha,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,FbŠ Bohemians,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,FBC Liberec,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,FBC Liberec,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,FBC Liberec,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,FBC Liberec,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,FBC Liberec,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC Liberec,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC Liberec,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,FBC Liberec,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Žiška,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Beneš,10,18,15,33,55,,26
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tom Ondrušek,10,9,12,21,44,,8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Rostislav Gattnar,13,14,6,20,39,,4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Hanák,9,14,6,20,31,,18
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Vávra,10,12,7,19,49,,12
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Delong,12,8,9,17,37,,6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Tokoš,12,12,4,16,24,,11
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Zubek,12,8,8,16,28,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Gattnar,13,9,6,15,38,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Matejčík,13,8,7,15,22,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Mikuláš Komárek,10,7,8,15,36,,15
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Kopecký,7,9,5,14,30,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matyáš Šindler,13,6,8,14,21,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Milan Tomašík,12,5,8,13,31,,7
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Kisugite,10,6,6,12,15,,16
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michal Sládek,12,6,6,12,24,,6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Milan Meliš,10,5,7,12,29,,26
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Smutný,7,2,10,12,14,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Wiener,7,7,4,11,20,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Fukala,13,5,6,11,22,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ronald Gašparík,12,5,6,11,24,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Patrik Suchánek,11,5,6,11,23,,10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Vařecha,12,7,3,10,25,,10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Havlas,8,5,5,10,24,,16
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Šindelář,10,3,7,10,23,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Dominik Beneš,12,7,2,9,19,,4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jonáš Kreysa,10,5,4,9,24,,15
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michal Pažák,13,2,7,9,11,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Radek Krajcigr,7,6,2,8,22,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Matoušek,10,6,2,8,15,,11
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Čermák,5,5,3,8,15,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jiří Besta,12,3,5,8,22,,7
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Buršík,6,3,5,8,14,,4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Bína,12,3,5,8,14,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Robert Košir,5,5,2,7,20,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Zakonov,12,5,2,7,14,,8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Zoufalý,12,5,2,7,14,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Kawulok,6,4,3,7,11,,7
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Karel Petrák,6,4,3,7,9,,4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ladislav Pekárek,7,2,5,7,14,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Václav Vavruška,7,5,1,6,23,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Boček,8,4,2,6,8,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Korych,7,3,3,6,14,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Antonín Stárek,7,2,4,6,15,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Prokop Ferdan,7,2,3,5,16,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Mikuláš Krbec,5,2,3,5,10,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Jankovský,13,1,4,5,5,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Šebesta,13,1,4,5,5,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Faksa,7,3,1,4,16,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Hájek,13,3,1,4,18,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Pruner,5,3,1,4,9,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Skřivánek,8,3,1,4,12,,10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vladimír Trčka,7,3,1,4,7,,4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matyáš Krebner,6,2,2,4,9,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Petráň,10,2,2,4,18,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Peška,5,2,2,4,15,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Punčochář,12,2,2,4,15,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Sidunov,13,2,2,4,9,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Sýkora,10,2,2,4,8,,12
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Šmíd,10,2,2,4,6,,-10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Čermák,10,1,3,4,11,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Šebek,12,1,3,4,17,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Štěrba,3,1,3,4,6,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Kvasnica,6,0,4,4,11,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Šimon Batkovič,4,3,0,3,9,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Vošta,10,3,0,3,19,,-10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Klāvs Araks,3,2,1,3,6,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jiří Bauer,7,2,1,3,12,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Hubálek,8,2,1,3,8,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Janeček,5,2,1,3,12,,9
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Šimon Kuczera,3,2,1,3,4,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Mikoláš,3,2,1,3,6,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Pšenička,7,2,1,3,9,,-7
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Ujhelyi,5,2,1,3,10,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Antonín Votava,10,2,1,3,18,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Patrik Šebek,6,2,1,3,9,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Šmíd,11,2,1,3,12,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Daniš,3,1,2,3,3,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Gärtner,3,1,2,3,6,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Pražan,5,1,2,3,15,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Patrik Rozkovec,7,1,2,3,6,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matúš Gajdoš,6,0,3,3,5,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Kellermann,2,2,0,2,2,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Kolísko,6,2,0,2,7,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michal Antonín Malhocký,7,2,0,2,3,,8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Malič,6,2,0,2,9,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Palčinský,9,2,0,2,9,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ivan Pergler,3,2,0,2,6,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jaroslav Petrák,2,2,0,2,3,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Sádlo,10,2,0,2,12,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Bergman,11,1,1,2,4,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Bräuer,3,1,1,2,5,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jiří Curney,5,1,1,2,3,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Rudolf Dobisík,6,1,1,2,4,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michal Kareš,5,1,1,2,4,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Keller,3,1,1,2,9,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Albert Kouba,7,1,1,2,6,,-8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Kučera,7,1,1,2,5,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Kárník,7,1,1,2,2,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Radim Křenek,6,1,1,2,5,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Patrik Němec,3,1,1,2,2,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Plíhal,3,1,1,2,4,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Milan Tichý,10,1,1,2,11,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Tlapák,9,1,1,2,10,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Samuel Virga,6,1,1,2,3,,6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Šedivý,7,1,1,2,4,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Šimon Hatala,13,0,2,2,5,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Pavel Hájek,3,0,2,2,2,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Kučera,8,0,2,2,1,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Marvánek,5,0,2,2,3,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Slaný,6,0,2,2,8,,-8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Radim Slunečko,10,0,2,2,5,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,David Šimek,8,0,2,2,9,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Brynda,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Chatrný,2,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Eliáš,10,1,0,1,7,,5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Gärtner,2,1,0,1,3,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Klápa,9,1,0,1,3,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Kopič,2,1,0,1,5,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Mádlo,7,1,0,1,10,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Pařízek,7,1,0,1,4,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Pešat,3,1,0,1,6,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Prašivka,3,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Antonín Pražák,3,1,0,1,1,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,David Slončík,11,1,0,1,6,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Stýblo,5,1,0,1,3,,-9
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Trnka,6,1,0,1,1,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Šimon Vavroušek,10,1,0,1,7,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Zouzal,5,1,0,1,9,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Čelakovský,7,1,0,1,5,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Šourek,11,1,0,1,1,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Švejda,2,1,0,1,1,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Bílek,6,0,1,1,6,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Dolejš,7,0,1,1,4,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Grézl,6,0,1,1,2,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Herblich,3,0,1,1,3,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Horák,3,0,1,1,2,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Jirsa,7,0,1,1,4,,-8
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Josef Juha,5,0,1,1,3,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Kafka,10,0,1,1,8,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Mlejnek,7,0,1,1,1,,-7
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Mühlfait,5,0,1,1,2,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Pobořil,3,0,1,1,5,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Seibert,4,0,1,1,2,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Řehoř,3,0,1,1,2,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Šulc,3,0,1,1,4,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Václav Bajko,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Bitman,7,0,0,0,2,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Matyáš Borek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Bureš,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Oliver Bäcksbacka,4,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Cobl,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Duben,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Dufek,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marek Dzierža,7,0,0,0,3,,-6
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jáchym Eliáš,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Eremiáš,10,0,0,0,7,,-10
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Feigl,11,0,0,0,0,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Fišer,5,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michal Fišera,7,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,David Friedel,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Galia,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Gruber,12,0,0,0,8,,3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Hodulík,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,David Horký,10,0,0,0,5,,-11
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Marcel Jakubec,3,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Kaleta,2,0,0,0,2,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Kos,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Kovářík,6,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Košarišťan,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Krupička,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Kučera,1,0,0,0,1,,1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Adam Václav Kyselka,5,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Kryštof Loubek,1,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Petr Martan,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Mervart,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Murín,3,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Mühlfait,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Pinkas,1,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Procházka,3,0,0,0,6,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jiří Procházka,3,0,0,0,4,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Richard Pum,3,0,0,0,1,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Pužman,3,0,0,0,3,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Josef Sedláček,5,0,0,0,0,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Pavel Sládeček,10,0,0,0,3,,2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Petr Slánský,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Bartoloměj Smolka,4,0,0,0,3,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Zbyněk Stuchlík,3,0,0,0,4,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Martin Tomek,2,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Trojáček,3,0,0,0,2,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,František Urbánek,1,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Vít,8,0,0,0,1,,-4
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Vítovec,12,0,0,0,0,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Michael Wertheim,5,0,0,0,4,,-5
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Zezulka,6,0,0,0,0,,-1
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Čuda,3,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Šoltys,7,0,0,0,1,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Štefek,4,0,0,0,0,,-2
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Filip Šubert,2,0,0,0,1,,0
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Šváb,5,0,0,0,1,,-3
-ceskyflorbal,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Žiška,1,0,0,0,0,,0
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Gärtner,25,14,14,28,57,,-21
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Daniel Keller,25,19,7,26,60,,-11
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Ivan Pergler,25,21,4,25,85,,-21
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Gärtner,24,14,7,21,59,,-33
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Procházka,26,5,14,19,40,,-10
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Plíhal,18,10,8,18,35,,4
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Zbyněk Stuchlík,25,1,13,14,30,,-7
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Pavel Hájek,24,4,8,12,25,,-9
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Horák,25,2,10,12,20,,-25
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Trojáček,25,6,2,8,26,,-18
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Jiří Procházka,25,1,5,6,18,,-6
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Klāvs Araks,26,3,2,5,18,,-36
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Vojtěch Krupička,17,3,2,5,11,,-5
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Ondřej Pužman,25,3,2,5,19,,-28
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,František Urbánek,10,2,2,4,7,,-11
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Antonín Pražák,23,1,2,3,16,,-31
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Švejda,9,2,0,2,8,,1
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Jakub Žiška,19,1,0,1,7,,-18
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Václav Bajko,6,0,1,1,4,,-5
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Štěpán Čuda,16,0,1,1,9,,-9
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Tomáš Petr Martan,12,0,0,0,2,,-11
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Lukáš Mervart,15,0,0,0,7,,-9
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Pinkas,14,0,0,0,3,,-14
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Jan Svoboda,1,0,0,0,1,,0
+extraliga,czech,2023/2024,TJ Sokol Královské Vinohrady,Matěj Víšek,2,0,0,0,0,,-1
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jiří Curney,26,37,41,78,104,,60
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Mikuláš Krbec,22,28,30,58,66,,42
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Robert Košir,26,36,18,54,99,,54
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Marek Zouzal,26,14,21,35,46,,57
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Martin Pražan,26,14,16,30,47,,50
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Matěj Čermák,26,12,10,22,59,,4
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jan Peška,26,14,3,17,61,,-11
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Matěj Pruner,24,9,8,17,24,,3
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Josef Juha,26,10,4,14,49,,-3
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Daniel Fišer,26,6,6,12,30,,6
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jan Marvánek,25,4,7,11,26,,-1
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Michael Wertheim,26,3,5,8,30,,-9
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Michal Kareš,24,2,3,5,7,,-6
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Josef Sedláček,22,3,1,4,9,,-7
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jakub Šváb,14,2,2,4,5,,6
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jakub Bohuslávek,19,1,3,4,11,,-1
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Adam Kos,14,0,3,3,2,,-6
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Robin Havlina,5,1,1,2,1,,0
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Lukáš Ujhelyi,22,0,2,2,10,,-5
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Matyáš Bláha,2,0,0,0,0,,0
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Jakub Mühlfait,4,0,0,0,0,,1
+extraliga,czech,2023/2024,ACEMA Sparta Praha,Michael Petráň,7,0,0,0,0,,-6
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Marek Beneš,24,27,27,54,97,,55
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Hanák,25,25,29,54,70,,58
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Havlas,25,30,22,52,79,,53
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Šindelář,23,22,14,36,88,,35
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Boček,24,15,12,27,48,,28
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,David Šimek,23,16,8,24,60,,23
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Milan Meliš,25,11,10,21,38,,55
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Matěj Čelakovský,22,13,5,18,37,,11
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Šimon Vavroušek,24,4,12,16,18,,32
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Kučera,26,9,6,15,24,,23
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Kolísko,18,10,4,14,26,,13
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Jonáš Kreysa,17,9,4,13,52,,10
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Tlapák,24,3,10,13,22,,11
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Vojtěch Kún,13,5,6,11,14,,12
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Mühlfait,24,5,5,10,14,,25
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Ondřej Sádlo,24,5,4,9,24,,15
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Filip Eliáš,23,3,6,9,16,,27
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Pavel Sládeček,24,2,7,9,12,,30
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Kisugite,11,2,3,5,11,,17
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Martin Čermák,12,2,2,4,11,,10
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Adam Bureš,7,0,1,1,3,,2
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Kryštof Klement,4,0,0,0,1,,1
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Jakub Klápa,2,0,0,0,0,,0
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Tomáš Macháček,4,0,0,0,0,,-1
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Michal Antonín Malhocký,3,0,0,0,1,,3
+extraliga,czech,2023/2024,ESA logistika Tatran Střešovice,Daniel Péc,4,0,0,0,0,,-1
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Radek Krajcigr,26,28,12,40,90,,12
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ladislav Pekárek,26,18,17,35,76,,8
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Radim Křenek,25,6,27,33,31,,5
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Štěrba,26,12,20,32,47,,-1
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Václav Vavruška,26,20,9,29,88,,-20
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Tomáš Pšenička,25,18,7,25,50,,-19
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Vladimír Trčka,24,7,15,22,31,,-19
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Seibert,19,12,6,18,47,,3
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Ondřej Kopič,26,8,9,17,44,,-2
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Štěpán Slaný,25,12,4,16,29,,-12
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Antonín Stárek,25,1,3,4,8,,-20
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Šedivý,24,1,3,4,7,,-24
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Marek Dzierža,24,2,1,3,9,,-14
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Albert Kouba,19,2,1,3,8,,-16
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Lukáš Mlejnek,26,1,1,2,16,,-29
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Jirsa,26,0,2,2,6,,-28
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Filip Cobl,6,0,0,0,0,,-2
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Daniel Kellermann,14,0,0,0,3,,-21
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jakub Knespl,1,0,0,0,0,,0
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Kryštof Loubek,3,0,0,0,1,,0
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Petr Slánský,3,0,0,0,0,,-3
+extraliga,czech,2023/2024,FBC 4CLEAN Česká Lípa,Jiří Vlček,3,0,0,0,0,,-3
+extraliga,czech,2023/2024,SOKOLI Pardubice,Radek Drba,26,17,9,26,82,,-40
+extraliga,czech,2023/2024,SOKOLI Pardubice,Ralfs Polis,24,14,12,26,48,,-48
+extraliga,czech,2023/2024,SOKOLI Pardubice,David Žáček,26,9,11,20,46,,-34
+extraliga,czech,2023/2024,SOKOLI Pardubice,Přemek Pakosta,22,8,6,14,45,,-44
+extraliga,czech,2023/2024,SOKOLI Pardubice,Ondřej Hurt,26,8,4,12,37,,-47
+extraliga,czech,2023/2024,SOKOLI Pardubice,Petr Křinka,26,8,4,12,39,,-39
+extraliga,czech,2023/2024,SOKOLI Pardubice,Vojtěch Kaluža,25,6,5,11,31,,-31
+extraliga,czech,2023/2024,SOKOLI Pardubice,Milan Bína,18,5,5,10,23,,-20
+extraliga,czech,2023/2024,SOKOLI Pardubice,Lukáš Prix,26,4,6,10,29,,-56
+extraliga,czech,2023/2024,SOKOLI Pardubice,Petr Zajíček,14,5,4,9,15,,-9
+extraliga,czech,2023/2024,SOKOLI Pardubice,Marek Viterna,21,3,6,9,6,,-17
+extraliga,czech,2023/2024,SOKOLI Pardubice,Maxmilián Škoda,26,4,3,7,13,,-35
+extraliga,czech,2023/2024,SOKOLI Pardubice,Jan Nezval,25,1,5,6,11,,-37
+extraliga,czech,2023/2024,SOKOLI Pardubice,Marek Ďopan,18,2,3,5,4,,-19
+extraliga,czech,2023/2024,SOKOLI Pardubice,Jakub Šimák,24,2,1,3,13,,-44
+extraliga,czech,2023/2024,SOKOLI Pardubice,Ondřej Machatý,18,2,0,2,16,,-18
+extraliga,czech,2023/2024,SOKOLI Pardubice,Jan Savický,5,1,1,2,6,,-2
+extraliga,czech,2023/2024,SOKOLI Pardubice,Vojtěch Král,5,1,0,1,2,,1
+extraliga,czech,2023/2024,SOKOLI Pardubice,Vojtěch Klein,12,0,1,1,4,,-10
+extraliga,czech,2023/2024,SOKOLI Pardubice,Michal Puchner,13,0,1,1,4,,-18
+extraliga,czech,2023/2024,SOKOLI Pardubice,Michael Smola,10,0,1,1,5,,-16
+extraliga,czech,2023/2024,SOKOLI Pardubice,Lukáš Drahný,12,0,0,0,4,,-7
+extraliga,czech,2023/2024,SOKOLI Pardubice,Matyáš Vašíček,3,0,0,0,0,,-4
+extraliga,czech,2023/2024,SOKOLI Pardubice,Petr Černý,10,0,0,0,9,,-9
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Michal Klápa,26,22,21,43,98,,-20
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Michal Strachota,23,11,22,33,58,,-18
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Daniel Péc,20,17,7,24,52,,-14
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Marek Hozman,20,16,7,23,65,,-17
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Jiří Lebeda,24,16,6,22,41,,-11
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Lukáš Macháček,25,5,13,18,42,,-28
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Vít Hrbáček,26,9,6,15,31,,-13
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Matěj Korbel,26,8,7,15,22,,-16
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Adam Zahraj,25,6,5,11,21,,-13
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Vojtěch Kún,13,3,7,10,25,,-12
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Tomáš Rosa,22,2,6,8,9,,-9
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Miloš Tyl,6,5,2,7,21,,7
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Matěj Švarc,22,4,3,7,16,,-26
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Šimon Šmajda,24,3,4,7,11,,-18
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Martin Fenik,7,3,3,6,14,,-7
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Jan Pícha,24,4,1,5,17,,-10
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Matěj Svatek,24,1,3,4,11,,-14
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Tomáš Smolka,22,2,0,2,4,,-15
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Lukáš Staněk,21,1,1,2,6,,-7
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Jiří Šťovíček,19,1,0,1,5,,-13
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Petr Brautferger,3,0,0,0,2,,0
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Luděk Lejba,11,0,0,0,0,,0
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Josef Terla,4,0,0,0,3,,-2
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Martin Tvrdek,3,0,0,0,0,,0
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Karel Urban,2,0,0,0,0,,0
+extraliga,czech,2023/2024,FB Hurrican Karlovy Vary,Michal Zeman,11,0,0,0,5,,-7
+extraliga,czech,2023/2024,FBC Liberec,Vojtěch Wiener,26,26,31,57,84,,-10
+extraliga,czech,2023/2024,FBC Liberec,Jakub Faksa,24,25,17,42,82,,1
+extraliga,czech,2023/2024,FBC Liberec,Jakub Kopecký,26,25,17,42,105,,-4
+extraliga,czech,2023/2024,FBC Liberec,Filip Smutný,25,17,23,40,68,,-1
+extraliga,czech,2023/2024,FBC Liberec,Prokop Ferdan,26,19,17,36,58,,4
+extraliga,czech,2023/2024,FBC Liberec,Jakub Mádlo,24,10,6,16,37,,-5
+extraliga,czech,2023/2024,FBC Liberec,Vojtěch Janeček,23,7,9,16,41,,4
+extraliga,czech,2023/2024,FBC Liberec,Patrik Rozkovec,26,11,4,15,33,,-9
+extraliga,czech,2023/2024,FBC Liberec,Marek Korych,24,9,6,15,45,,2
+extraliga,czech,2023/2024,FBC Liberec,Lukáš Dolejš,24,8,5,13,29,,-10
+extraliga,czech,2023/2024,FBC Liberec,Matyáš Velc,16,6,7,13,30,,-9
+extraliga,czech,2023/2024,FBC Liberec,Filip Kučera,25,5,7,12,19,,-8
+extraliga,czech,2023/2024,FBC Liberec,Jan Šoltys,25,5,2,7,20,,-7
+extraliga,czech,2023/2024,FBC Liberec,Michal Fišera,26,0,5,5,7,,-1
+extraliga,czech,2023/2024,FBC Liberec,Radek Valeš,9,1,2,3,14,,-6
+extraliga,czech,2023/2024,FBC Liberec,Jakub Pařízek,10,2,0,2,4,,-7
+extraliga,czech,2023/2024,FBC Liberec,Jakub Kárník,25,1,1,2,12,,-5
+extraliga,czech,2023/2024,FBC Liberec,Lukáš Macháč,21,1,1,2,13,,-6
+extraliga,czech,2023/2024,FBC Liberec,Bartoloměj Smolka,9,1,1,2,4,,1
+extraliga,czech,2023/2024,FBC Liberec,Adam Stýblo,5,1,1,2,2,,1
+extraliga,czech,2023/2024,FBC Liberec,Jan Bitman,22,0,0,0,3,,-5
+extraliga,czech,2023/2024,FBC Liberec,Oliver Bäcksbacka,2,0,0,0,1,,-3
+extraliga,czech,2023/2024,FBC Liberec,Ondřej Cejnar,1,0,0,0,0,,0
+extraliga,czech,2023/2024,FBC Liberec,Tomáš Čermák,4,0,0,0,0,,0
+extraliga,czech,2023/2024,FBC Liberec,Ondřej Čumpelík,7,0,0,0,2,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tom Ondrušek,26,30,23,53,92,,26
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Vávra,26,32,19,51,79,,42
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Mikuláš Komárek,25,26,21,47,80,,43
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Antonín Votava,26,10,15,25,57,,11
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Klápa,26,13,8,21,46,,4
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,David Horký,26,9,12,21,27,,30
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Matoušek,26,9,11,20,45,,33
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jiří Bauer,24,6,12,18,50,,27
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Vošta,24,12,5,17,46,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Tomáš Sýkora,23,3,13,16,19,,2
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Lukáš Kafka,21,10,4,14,30,,15
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Marek Šmíd,22,6,8,14,16,,4
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Daniel Eremiáš,26,9,3,12,46,,10
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Vojtěch Petráň,12,8,4,12,20,,16
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Milan Tichý,20,4,5,9,12,,14
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Radim Slunečko,24,3,5,8,17,,11
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Martin Skřivánek,20,1,7,8,20,,2
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Filip Kovářík,4,2,0,2,9,,0
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Netrefa,8,2,0,2,6,,1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Jakub Dufek,19,1,1,2,8,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Jambor,11,1,0,1,6,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matěj Kolář,2,0,1,1,1,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Matyáš Borek,2,0,0,0,0,,0
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Adam Sláma,5,0,0,0,5,,-1
+extraliga,czech,2023/2024,FAT PIPE FLORBAL CHODOV,Ondřej Štefek,3,0,0,0,1,,0
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Adam Delong,26,31,40,71,130,,67
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Milan Tomašík,24,32,26,58,105,,35
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Michal Sládek,26,25,32,57,76,,69
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Ronald Gašparík,26,25,25,50,72,,61
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Bína,26,23,24,47,53,,57
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Vařecha,25,26,17,43,74,,64
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Zoufalý,25,19,10,29,48,,52
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Patrik Suchánek,26,10,18,28,38,,33
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Lukáš Punčochář,25,18,9,27,43,,52
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jan Natov,14,15,11,26,45,,24
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Dominik Beneš,26,11,14,25,45,,61
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Daniel Šebek,26,12,11,23,39,,24
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jiří Besta,19,11,10,21,34,,40
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Tokoš,25,11,9,20,41,,20
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Gruber,26,9,10,19,34,,51
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Zakonov,26,7,9,16,27,,37
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Petr Koláčný,13,8,1,9,22,,10
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Filip Bergman,19,4,3,7,15,,11
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Martin Feigl,16,4,2,6,11,,21
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jáchym Eliáš,14,1,2,3,3,,15
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Šourek,3,2,0,2,4,,2
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Ondřej Duben,3,0,0,0,2,,1
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Miroslav Fořt,2,0,0,0,0,,0
+extraliga,czech,2023/2024,Předvýběr.CZ Florbal MB,Jakub Seibert,2,0,0,0,1,,-1
+extraliga,czech,2023/2024,BUTCHIS,Jakub Černý,25,17,24,41,93,,-31
+extraliga,czech,2023/2024,BUTCHIS,Matyáš Kalina,23,12,19,31,59,,-28
+extraliga,czech,2023/2024,BUTCHIS,Štěpán Novák,25,14,12,26,66,,-22
+extraliga,czech,2023/2024,BUTCHIS,Jan Waldhauser,26,10,5,15,41,,-27
+extraliga,czech,2023/2024,BUTCHIS,Tomáš Vondruška,23,10,4,14,40,,-25
+extraliga,czech,2023/2024,BUTCHIS,Petr Novotný,26,9,5,14,30,,-16
+extraliga,czech,2023/2024,BUTCHIS,Šimon Pavlíček,19,9,4,13,27,,-7
+extraliga,czech,2023/2024,BUTCHIS,Erik Papež,26,7,6,13,57,,-24
+extraliga,czech,2023/2024,BUTCHIS,Jakub Pecha,8,8,2,10,20,,-13
+extraliga,czech,2023/2024,BUTCHIS,Štěpán Čejka,24,0,10,10,20,,-23
+extraliga,czech,2023/2024,BUTCHIS,Jan Novotný,25,6,3,9,27,,-20
+extraliga,czech,2023/2024,BUTCHIS,David Veleba,19,6,1,7,23,,-13
+extraliga,czech,2023/2024,BUTCHIS,Kryštof Maňour,24,4,2,6,20,,-24
+extraliga,czech,2023/2024,BUTCHIS,Michael Petráň,13,4,1,5,14,,-22
+extraliga,czech,2023/2024,BUTCHIS,Adam Drastich,23,2,3,5,13,,-29
+extraliga,czech,2023/2024,BUTCHIS,Antonín Šubrt,26,0,4,4,10,,-23
+extraliga,czech,2023/2024,BUTCHIS,Michal Václavík,22,2,1,3,4,,-23
+extraliga,czech,2023/2024,BUTCHIS,Jakub Švelbl,15,0,3,3,10,,-7
+extraliga,czech,2023/2024,BUTCHIS,Michal Svoboda,21,1,1,2,3,,-20
+extraliga,czech,2023/2024,BUTCHIS,Jan Wald,25,0,1,1,10,,-20
+extraliga,czech,2023/2024,BUTCHIS,Matyáš Bóday,2,0,0,0,0,,0
+extraliga,czech,2023/2024,BUTCHIS,Dominik Regner,14,0,0,0,2,,-2
+extraliga,czech,2023/2024,BUTCHIS,Filip Černý,2,0,0,0,0,,-2
+extraliga,czech,2023/2024,BUTCHIS,Matěj Štrobach,8,0,0,0,0,,-3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Pešat,26,14,15,29,56,,-17
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Chatrný,24,19,8,27,61,,-7
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marek Bräuer,26,14,9,23,79,,-37
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Herblich,26,12,8,20,34,,-6
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Šimon Kuczera,23,7,10,17,34,,-5
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Kučera,23,10,4,14,36,,-18
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Lukáš Pobořil,21,5,7,12,35,,-11
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jan Daniš,26,2,10,12,12,,-23
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Adam Mikoláš,24,4,5,9,18,,-12
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Šulc,24,6,2,8,28,,-23
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Patrik Němec,26,3,5,8,22,,3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Jakub Košarišťan,26,4,3,7,24,,-10
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Richard Pum,22,3,2,5,7,,-3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Šubert,25,3,2,5,29,,-29
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Marcel Jakubec,26,1,3,4,19,,-22
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,David Friedel,25,2,1,3,8,,-7
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Matěj Sedláček,11,1,1,2,4,,-3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Vojtěch Murín,12,0,2,2,4,,-4
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Tomáš Hodulík,8,0,0,0,0,,-1
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Daniel Prašivka,5,0,0,0,3,,-3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Martin Tomek,9,0,0,0,0,,-3
+extraliga,czech,2023/2024,FBC ČPP Bystroň Group Ostrava,Filip Turoň,10,0,0,0,2,,-5
+extraliga,czech,2023/2024,BLACK ANGELS,Matouš Burian,25,17,11,28,64,,-30
+extraliga,czech,2023/2024,BLACK ANGELS,Jakub Renčín,23,9,19,28,43,,2
+extraliga,czech,2023/2024,BLACK ANGELS,Jakub Hromada,24,17,10,27,58,,-9
+extraliga,czech,2023/2024,BLACK ANGELS,Vilém Doležal,24,14,11,25,48,,-13
+extraliga,czech,2023/2024,BLACK ANGELS,Radek Hanák,25,11,10,21,61,,-19
+extraliga,czech,2023/2024,BLACK ANGELS,Daniel Ludvík,24,10,9,19,45,,0
+extraliga,czech,2023/2024,BLACK ANGELS,Marek Fryš,26,5,11,16,31,,-32
+extraliga,czech,2023/2024,BLACK ANGELS,Martin Obuškevič,25,8,5,13,29,,-28
+extraliga,czech,2023/2024,BLACK ANGELS,Tomáš Čáslava,24,8,5,13,23,,-16
+extraliga,czech,2023/2024,BLACK ANGELS,Matěj Boček,26,3,3,6,18,,-27
+extraliga,czech,2023/2024,BLACK ANGELS,Lukáš Procházka,7,3,3,6,13,,-6
+extraliga,czech,2023/2024,BLACK ANGELS,Filip Neklan,15,0,5,5,8,,-4
+extraliga,czech,2023/2024,BLACK ANGELS,Teodor Beriac,17,4,0,4,15,,-23
+extraliga,czech,2023/2024,BLACK ANGELS,Kristián Kozák,25,2,2,4,15,,-8
+extraliga,czech,2023/2024,BLACK ANGELS,Jan Bauman,24,1,3,4,6,,-10
+extraliga,czech,2023/2024,BLACK ANGELS,Vladimír Bačinský,15,2,1,3,6,,-17
+extraliga,czech,2023/2024,BLACK ANGELS,Adam Bouček,12,2,1,3,4,,12
+extraliga,czech,2023/2024,BLACK ANGELS,Jan Kopecký,1,2,1,3,4,,3
+extraliga,czech,2023/2024,BLACK ANGELS,Matyáš Sirotek,17,2,1,3,13,,-6
+extraliga,czech,2023/2024,BLACK ANGELS,Adam Štyler,15,2,1,3,11,,-21
+extraliga,czech,2023/2024,BLACK ANGELS,Vojtěch Novotný,24,2,0,2,9,,-34
+extraliga,czech,2023/2024,BLACK ANGELS,Matěj Hodač,3,0,1,1,0,,2
+extraliga,czech,2023/2024,BLACK ANGELS,Ondřej Kroužek,6,0,1,1,3,,6
+extraliga,czech,2023/2024,BLACK ANGELS,Matěj Budínský,3,0,0,0,0,,-5
+extraliga,czech,2023/2024,BLACK ANGELS,Tobiáš Hejda,4,0,0,0,0,,-5
+extraliga,czech,2023/2024,BLACK ANGELS,Tomáš Horák,1,0,0,0,0,,0
+extraliga,czech,2023/2024,BLACK ANGELS,Vít Kašpárek,1,0,0,0,0,,0
+extraliga,czech,2023/2024,BLACK ANGELS,Matyáš Metoděj Krahulec,10,0,0,0,4,,-14
+extraliga,czech,2023/2024,BLACK ANGELS,Matěj Lubas,2,0,0,0,2,,-4
+extraliga,czech,2023/2024,BLACK ANGELS,Jan Slosiarik,2,0,0,0,0,,-1
+extraliga,czech,2023/2024,BLACK ANGELS,Tomáš Straka,1,0,0,0,0,,-1
+extraliga,czech,2023/2024,BLACK ANGELS,Tomáš Vinkler,7,0,0,0,4,,-3
+extraliga,czech,2023/2024,BLACK ANGELS,Jakub Votruba,1,0,0,0,1,,3
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Martin Gattnar,26,23,19,42,66,,31
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Fukala,26,18,19,37,51,,26
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Zubek,26,20,15,35,79,,13
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Šmíd,26,22,12,34,49,,28
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Marek Matejčík,24,16,18,34,49,,23
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Lukáš Hájek,25,17,15,32,79,,22
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Rostislav Gattnar,25,22,8,30,79,,33
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Matyáš Šindler,26,5,21,26,26,,40
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Adam Palčinský,25,11,12,23,32,,22
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Štěpán Kaleta,26,15,6,21,41,,34
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Hubálek,24,9,12,21,46,,16
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Jan Šebesta,26,11,8,19,45,,25
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Sidunov,26,7,12,19,27,,34
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Michal Pažák,22,8,5,13,31,,9
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Šimon Hatala,25,3,5,8,15,,23
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Galia,25,1,3,4,3,,2
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Jankovský,18,3,0,3,8,,19
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,David Slončík,14,0,3,3,2,,5
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Jakub Vít,2,1,0,1,3,,3
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Filip Szemla,3,0,0,0,0,,0
+extraliga,czech,2023/2024,1. SC TEMPISH Vítkovice,Ondřej Vítovec,3,0,0,0,0,,0
+extraliga,czech,2023/2024,FbŠ Bohemians,Jaroslav Petrák,26,41,22,63,108,,42
+extraliga,czech,2023/2024,FbŠ Bohemians,Tomáš Kvasnica,26,33,22,55,113,,29
+extraliga,czech,2023/2024,FbŠ Bohemians,Jakub Buršík,26,22,25,47,109,,31
+extraliga,czech,2023/2024,FbŠ Bohemians,Patrik Šebek,23,17,25,42,69,,36
+extraliga,czech,2023/2024,FbŠ Bohemians,Karel Petrák,23,21,17,38,85,,40
+extraliga,czech,2023/2024,FbŠ Bohemians,Ondřej Kawulok,26,18,14,32,54,,17
+extraliga,czech,2023/2024,FbŠ Bohemians,Jan Řehoř,24,13,13,26,40,,13
+extraliga,czech,2023/2024,FbŠ Bohemians,Matúš Gajdoš,26,14,11,25,40,,21
+extraliga,czech,2023/2024,FbŠ Bohemians,Jan Malič,25,7,13,20,34,,36
+extraliga,czech,2023/2024,FbŠ Bohemians,Matyáš Krebner,17,6,5,11,33,,14
+extraliga,czech,2023/2024,FbŠ Bohemians,Tomáš Trnka,24,6,5,11,22,,5
+extraliga,czech,2023/2024,FbŠ Bohemians,Vojtěch Bílek,20,5,6,11,31,,1
+extraliga,czech,2023/2024,FbŠ Bohemians,Samuel Virga,25,0,11,11,14,,-5
+extraliga,czech,2023/2024,FbŠ Bohemians,Šimon Batkovič,22,8,1,9,40,,-12
+extraliga,czech,2023/2024,FbŠ Bohemians,Jan Rudolf Dobisík,24,4,3,7,22,,-4
+extraliga,czech,2023/2024,FbŠ Bohemians,Vojtěch Zezulka,22,2,3,5,9,,-1
+extraliga,czech,2023/2024,FbŠ Bohemians,Adam Václav Kyselka,10,1,2,3,3,,-4
+extraliga,czech,2023/2024,FbŠ Bohemians,Daniel Grézl,20,0,3,3,3,,1
+extraliga,czech,2023/2024,FbŠ Bohemians,Šimon Hronek,12,2,0,2,10,,-1
+extraliga,czech,2023/2024,FbŠ Bohemians,Filip Brynda,12,1,0,1,9,,2
+extraliga,czech,2023/2024,FbŠ Bohemians,David Veleba,4,1,0,1,2,,-6
+extraliga,czech,2023/2024,FbŠ Bohemians,Lukáš Trnka,4,0,1,1,2,,3
+extraliga,czech,2023/2024,FbŠ Bohemians,Matyáš Borek,3,0,0,0,0,,0
+extraliga,czech,2023/2024,FbŠ Bohemians,Tomáš Fryš,4,0,0,0,0,,-1

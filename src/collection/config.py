@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
 RAW_MATCHES_DIR = DATA_DIR / "raw" / "matches"
 RAW_PLAYERS_DIR = DATA_DIR / "raw" / "players"
@@ -31,10 +31,6 @@ OFFICIAL_STANDINGS_PATH = RAW_MATCHES_DIR / "floorball_official_standings.csv"
 
 PROCESSED_DATASET_PATH = PROCESSED_DIR / "floorball_dataset_processed.csv"
 ML_DATASET_PATH = PROCESSED_DIR / "floorball_dataset_ml.csv"
-
-FLIIGA_PLAYERS_PATH = RAW_PLAYERS_DIR / "fliiga_players_2025_2026.csv"
-CESKY_PLAYERS_PATH = RAW_PLAYERS_DIR / "extraliga_players_2025_2026.csv"
-SSL_PLAYERS_PATH = RAW_PLAYERS_DIR / "ssl_players_2025_2026.csv"
 
 UNIFIED_PLAYERS_PATH = PROCESSED_DIR / "player_season_stats_unified.csv"
 ROSTER_STRENGTH_PATH = PROCESSED_DIR / "team_roster_strength.csv"
