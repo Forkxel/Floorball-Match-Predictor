@@ -1,25 +1,31 @@
 ﻿from pathlib import Path
 import re
-import time
 import pandas as pd
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import sync_playwright
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "players"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-SSL_URL = "https://ssl.se/game-stats/players/summary?count=25"
-TARGET_SEASON = "2025/2026"
-TARGET_LEAGUE = "SSL Men"
-TARGET_MATCH_TYPE = "Series Match"
-TARGET_TEAM = "All Teams"
+SSL_URL = "https://ssl.se/game-stats/players/summary?count=350"
+
+TARGET_SEASONS = [
+    "2025/2026",
+    "2024/2025",
+    "2023/2024",
+]
+
+DEFAULT_VISIBLE_SEASON = "2025/2026"
+TARGET_LEAGUE = "SSL Herr"
+TARGET_MATCH_TYPE = "Seriematch"
+TARGET_TEAM = "Alla Lag"
 
 
 def clean_text(value: str) -> str:
     if value is None:
         return ""
-    return re.sub(r"\s+", " ", value).strip()
+    return re.sub(r"\s+", " ", str(value)).strip()
 
 
 def safe_inner_text(locator) -> str:
@@ -39,33 +45,33 @@ def try_click_cookie_buttons(page) -> None:
     for sel in candidates:
         try:
             if page.locator(sel).count() > 0:
-                page.locator(sel).first.click(timeout=1500)
-                page.wait_for_timeout(500)
+                page.locator(sel).first.click(timeout=2000)
+                page.wait_for_timeout(700)
                 return
         except Exception:
             pass
 
 
-def open_select_and_choose(page, expected_value: str) -> bool:
+def open_select_by_visible_text(page, visible_text: str) -> bool:
     candidates = [
-        page.get_by_text(expected_value, exact=True),
-        page.get_by_role("button", name=expected_value),
-        page.get_by_role("link", name=expected_value),
-        page.locator(f"text='{expected_value}'"),
+        page.get_by_text(visible_text, exact=True),
+        page.get_by_role("button", name=visible_text),
+        page.locator(f"text='{visible_text}'"),
     ]
 
     for candidate in candidates:
         try:
             if candidate.count() > 0:
-                candidate.first.click(timeout=2000)
-                page.wait_for_timeout(800)
+                candidate.first.click(timeout=3000)
+                page.wait_for_timeout(1000)
                 return True
         except Exception:
             pass
+
     return False
 
 
-def select_visible_option(page, option_text: str) -> bool:
+def choose_option_from_open_menu(page, option_text: str) -> bool:
     candidates = [
         page.get_by_role("option", name=option_text),
         page.get_by_text(option_text, exact=True),
@@ -80,23 +86,24 @@ def select_visible_option(page, option_text: str) -> bool:
                 return True
         except Exception:
             pass
+
     return False
 
 
-def set_filter(page, current_or_button_text: str, target_option_text: str) -> None:
-    opened = open_select_and_choose(page, current_or_button_text)
+def set_filter(page, currently_visible_text: str, target_option_text: str) -> bool:
+    opened = open_select_by_visible_text(page, currently_visible_text)
     if not opened:
-        return
-    select_visible_option(page, target_option_text)
+        return False
+    return choose_option_from_open_menu(page, target_option_text)
 
 
 def guess_table(page):
-    table_candidates = [
+    candidates = [
         page.locator("table"),
         page.locator("[role='table']"),
     ]
 
-    for group in table_candidates:
+    for group in candidates:
         try:
             count = group.count()
         except Exception:
@@ -116,7 +123,6 @@ def guess_table(page):
 
 def extract_headers(table) -> list[str]:
     headers = []
-
     ths = table.locator("thead tr th")
     if ths.count() > 0:
         for i in range(ths.count()):
@@ -135,15 +141,17 @@ def parse_row(cells_text: list[str], season: str) -> dict | None:
     if len(values) < 7:
         return None
 
+    # odstranění ranku
     if re.fullmatch(r"\d+\.", values[0]) or re.fullmatch(r"\d+", values[0]):
         values = values[1:]
 
     if len(values) < 7:
         return None
 
+    # očekávané pořadí:
+    # player, team, gp, g, a, tp, pim
     player_name = values[0]
     team_name = values[1]
-
     numeric_tail = values[2:]
 
     if len(numeric_tail) < 5:
@@ -203,16 +211,14 @@ def click_next_page(page) -> bool:
     candidates = [
         page.get_by_role("button", name="Next"),
         page.get_by_role("link", name="Next"),
-        page.get_by_text("Next", exact=True),
         page.locator("button[aria-label*='Next']"),
         page.locator("a[aria-label*='Next']"),
-        page.locator("button:has(svg)"),
     ]
 
     for candidate in candidates:
         try:
             if candidate.count() > 0 and candidate.first.is_enabled():
-                candidate.first.click(timeout=2000)
+                candidate.first.click(timeout=2500)
                 page.wait_for_timeout(2000)
                 return True
         except Exception:
@@ -221,7 +227,7 @@ def click_next_page(page) -> bool:
     return False
 
 
-def scrape_ssl_players(season: str = TARGET_SEASON) -> pd.DataFrame:
+def scrape_ssl_players(season: str) -> pd.DataFrame:
     all_rows = []
     seen_keys = set()
 
@@ -236,25 +242,19 @@ def scrape_ssl_players(season: str = TARGET_SEASON) -> pd.DataFrame:
         try_click_cookie_buttons(page)
 
         print("Setting filters...")
-        set_filter(page, TARGET_SEASON, season)
+        set_filter(page, DEFAULT_VISIBLE_SEASON, season)
         set_filter(page, TARGET_LEAGUE, TARGET_LEAGUE)
         set_filter(page, TARGET_MATCH_TYPE, TARGET_MATCH_TYPE)
         set_filter(page, TARGET_TEAM, TARGET_TEAM)
 
-        try:
-            page.goto("https://ssl.se/game-stats/players/summary?count=500", wait_until="networkidle", timeout=60000)
-            page.wait_for_timeout(3000)
-            try_click_cookie_buttons(page)
-            set_filter(page, season, season)
-        except Exception:
-            pass
+        page.wait_for_timeout(2000)
 
         visited_pages = 0
         max_pages = 20
 
         while visited_pages < max_pages:
             visited_pages += 1
-            print(f"Reading page {visited_pages}...")
+            print(f"Reading page {visited_pages} for season {season}...")
 
             try:
                 table = guess_table(page)
@@ -269,7 +269,13 @@ def scrape_ssl_players(season: str = TARGET_SEASON) -> pd.DataFrame:
 
             new_count = 0
             for row in rows:
-                key = (row["season"], row["team_name"], row["player_name"], row["gp"], row["points"])
+                key = (
+                    row["season"],
+                    row["team_name"],
+                    row["player_name"],
+                    row["gp"],
+                    row["points"],
+                )
                 if key not in seen_keys:
                     seen_keys.add(key)
                     all_rows.append(row)
@@ -298,18 +304,21 @@ def scrape_ssl_players(season: str = TARGET_SEASON) -> pd.DataFrame:
 
 
 def main():
-    df = scrape_ssl_players(TARGET_SEASON)
+    for season in TARGET_SEASONS:
+        print(f"\n=== SCRAPING SEASON {season} ===")
+        df = scrape_ssl_players(season)
 
-    if df.empty:
-        raise RuntimeError("No data find for SSL player stats.")
+        if df.empty:
+            print(f"[WARN] No data for season {season}")
+            continue
 
-    season_slug = TARGET_SEASON.replace("/", "_")
-    output_path = OUTPUT_DIR / f"ssl_players_{season_slug}.csv"
-    df.to_csv(output_path, index=False)
+        season_slug = season.replace("/", "_")
+        output_path = OUTPUT_DIR / f"ssl_players_{season_slug}.csv"
+        df.to_csv(output_path, index=False)
 
-    print(f"Saved: {output_path}")
-    print(f"Rows: {len(df)}")
-    print(df.head(10).to_string())
+        print(f"Saved: {output_path}")
+        print(f"Rows: {len(df)}")
+        print(df.head(5).to_string())
 
 
 if __name__ == "__main__":

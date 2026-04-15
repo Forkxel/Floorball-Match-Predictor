@@ -8,16 +8,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 OUTPUT_DIR = BASE_DIR / "data" / "raw" / "players"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-BASE_URL = (
-    "https://www.ceskyflorbal.cz/competition/detail/statistics/8XM1"
-    "?playerStatisticsFilter%5Bpart%5D=division-5397"
-    "&playerStatisticsFilter%5Btype%5D=stats_all"
-)
+SEASON_CONFIG = {
+    "2025/2026": {
+        "base_url": "https://www.ceskyflorbal.cz/competition/detail/statistics/8XM1?competitionFisId=4487&divisionAlias=8XM1-A",
+        "part_value": "division-5397",
+    },
+    "2024/2025": {
+        "base_url": "https://www.ceskyflorbal.cz/competition/detail/statistics/8XM1?competitionFisId=4169&divisionAlias=8XM1-A",
+        "part_value": "division-5000",
+    },
+    "2023/2024": {
+        "base_url": "https://www.ceskyflorbal.cz/competition/detail/statistics/8XM1?competitionFisId=3843&divisionAlias=8XM1-A",
+        "part_value": "division-4603",
+    },
+}
 
-TARGET_SEASON = "2025/2026"
-PART_VALUE = "division-5397"
 TYPE_VALUE = "stats_all"
-OUTPUT_PATH = OUTPUT_DIR / "extraliga_players_2025_2026.csv"
 
 
 def clean_text(value: str) -> str:
@@ -65,8 +71,8 @@ def set_hidden_select_value(page, selector: str, value: str) -> None:
     page.wait_for_timeout(1200)
 
 
-def set_player_filters(page, team_value: str | None = None) -> None:
-    set_hidden_select_value(page, "#frm-playerStatisticsFilter-part", PART_VALUE)
+def set_player_filters(page, part_value: str, team_value: str | None = None) -> None:
+    set_hidden_select_value(page, "#frm-playerStatisticsFilter-part", part_value)
     set_hidden_select_value(page, "#frm-playerStatisticsFilter-type", TYPE_VALUE)
 
     if team_value is not None:
@@ -96,6 +102,7 @@ def set_page_size(page, page_size: str = "100") -> None:
                 return
         except Exception:
             pass
+
 
 def get_team_options(page) -> list[tuple[str, str]]:
     options = page.locator("#frm-playerStatisticsFilter-team option")
@@ -160,7 +167,7 @@ def extract_headers(table) -> list[str]:
     return headers
 
 
-def parse_player_row(tds, team_name: str) -> dict | None:
+def parse_player_row(tds, season: str, team_name: str) -> dict | None:
     values = [clean_text(tds.nth(j).inner_text()) for j in range(tds.count())]
 
     if len(values) < 29:
@@ -170,17 +177,17 @@ def parse_player_row(tds, team_name: str) -> dict | None:
     if not player_name:
         return None
 
-    gp = parse_numeric(values[4])           # Z
-    goals = parse_numeric(values[5])        # B
-    assists = parse_numeric(values[8])      # A
-    points = parse_numeric(values[9])       # KB
-    plus_minus = parse_numeric(values[18])  # +/-
-    shots = parse_numeric(values[23])       # S
+    gp = parse_numeric(values[4])
+    goals = parse_numeric(values[5])
+    assists = parse_numeric(values[8])
+    points = parse_numeric(values[9])
+    plus_minus = parse_numeric(values[18])
+    shots = parse_numeric(values[23])
 
     return {
         "source": "ceskyflorbal",
         "league": "czech",
-        "season": TARGET_SEASON,
+        "season": season,
         "team_name": team_name,
         "player_name": player_name,
         "gp": gp,
@@ -193,20 +200,20 @@ def parse_player_row(tds, team_name: str) -> dict | None:
     }
 
 
-def scrape_one_team(page, team_value: str, team_name: str) -> list[dict]:
+def scrape_one_team(page, base_url: str, season: str, part_value: str, team_value: str, team_name: str) -> list[dict]:
     rows = []
     seen = set()
 
-    page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
+    page.goto(base_url, wait_until="networkidle", timeout=60000)
     page.wait_for_timeout(2000)
     try_accept_cookies(page)
     wait_for_player_statistics_ready(page)
 
-    set_player_filters(page, team_value=team_value)
+    set_player_filters(page, part_value=part_value, team_value=team_value)
     set_page_size(page, "100")
 
     total_pages = get_total_pages(page)
-    print(f"\n=== TEAM: {team_name} | pages: {total_pages} ===")
+    print(f"\n=== TEAM: {team_name} | SEASON: {season} | pages: {total_pages} ===")
 
     for page_num in range(1, total_pages + 1):
         if page_num > 1:
@@ -220,18 +227,19 @@ def scrape_one_team(page, team_value: str, team_name: str) -> list[dict]:
 
         trs = table.locator("tbody tr")
         row_count = trs.count()
-        print(f"{team_name} | page {page_num} | rows: {row_count}")
+        print(f"{team_name} | {season} | page {page_num} | rows: {row_count}")
 
         before = len(rows)
 
         for i in range(row_count):
             tr = trs.nth(i)
             tds = tr.locator("td")
-            parsed = parse_player_row(tds, team_name)
+            parsed = parse_player_row(tds, season, team_name)
             if not parsed:
                 continue
 
             key = (
+                parsed["season"],
                 parsed["team_name"],
                 parsed["player_name"],
                 parsed["gp"],
@@ -246,7 +254,7 @@ def scrape_one_team(page, team_value: str, team_name: str) -> list[dict]:
             rows.append(parsed)
 
         added = len(rows) - before
-        print(f"{team_name} | added rows: {added}")
+        print(f"{team_name} | {season} | added rows: {added}")
 
         if row_count == 0:
             break
@@ -254,42 +262,66 @@ def scrape_one_team(page, team_value: str, team_name: str) -> list[dict]:
     return rows
 
 
-def scrape_ceskyflorbal_players() -> pd.DataFrame:
+def scrape_one_season(page, season: str, base_url: str, part_value: str) -> pd.DataFrame:
     all_rows = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(viewport={"width": 1800, "height": 1300})
+    page.goto(base_url, wait_until="networkidle", timeout=60000)
+    page.wait_for_timeout(2500)
+    try_accept_cookies(page)
+    wait_for_player_statistics_ready(page)
 
-        page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(2500)
-        try_accept_cookies(page)
-        wait_for_player_statistics_ready(page)
+    set_player_filters(page, part_value=part_value)
 
-        set_player_filters(page)
+    team_options = get_team_options(page)
+    print(f"\nSeason {season} team options found:", team_options)
 
-        team_options = get_team_options(page)
-        print("Team options found:", team_options)
-
-        for team_value, team_name in team_options:
-            team_rows = scrape_one_team(page, team_value, team_name)
-            all_rows.extend(team_rows)
-
-        browser.close()
+    for team_value, team_name in team_options:
+        team_rows = scrape_one_team(
+            page=page,
+            base_url=base_url,
+            season=season,
+            part_value=part_value,
+            team_value=team_value,
+            team_name=team_name,
+        )
+        all_rows.extend(team_rows)
 
     df = pd.DataFrame(all_rows).drop_duplicates().reset_index(drop=True)
     return df
 
 
 def main():
-    df = scrape_ceskyflorbal_players()
-    if df.empty:
-        raise RuntimeError("Couldnt get any data from Cesky florbal.")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(viewport={"width": 1800, "height": 1300})
 
-    df.to_csv(OUTPUT_PATH, index=False)
-    print(f"\nSaved: {OUTPUT_PATH}")
-    print(f"Rows: {len(df)}")
-    print(df.head(10).to_string())
+        for season, cfg in SEASON_CONFIG.items():
+            print(f"\n==============================")
+            print(f"SEASON: {season}")
+            print(f"URL: {cfg['base_url']}")
+            print(f"PART: {cfg['part_value']}")
+            print(f"==============================")
+
+            df = scrape_one_season(
+                page=page,
+                season=season,
+                base_url=cfg["base_url"],
+                part_value=cfg["part_value"],
+            )
+
+            if df.empty:
+                print(f"[WARN] No data for season {season}")
+                continue
+
+            season_slug = season.replace("/", "_")
+            output_path = OUTPUT_DIR / f"extraliga_players_{season_slug}.csv"
+            df.to_csv(output_path, index=False)
+
+            print(f"Saved: {output_path}")
+            print(f"Rows: {len(df)}")
+            print(df.head(5).to_string())
+
+        browser.close()
 
 
 if __name__ == "__main__":

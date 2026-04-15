@@ -1,0 +1,230 @@
+source,league,season,team_name,player_name,gp,goals,assists,points,shots,pim,plus_minus
+fliiga,finland,2023-2024,CLASSIC,Lastikka Ville,33,55,36,91,241,6,64
+fliiga,finland,2023-2024,NOKIAN KRP,Rantala Joona,33,43,23,66,217,20,34
+fliiga,finland,2023-2024,CLASSIC,Salin Eemeli,28,34,29,63,184,10,51
+fliiga,finland,2023-2024,OLS,Hyvärinen Luukas,33,33,30,63,198,12,7
+fliiga,finland,2023-2024,CLASSIC,Heikkilä Oskari,32,37,25,62,226,8,59
+fliiga,finland,2023-2024,NOKIAN KRP,Kovanen Joonatan,32,29,30,59,184,0,28
+fliiga,finland,2023-2024,NOKIAN KRP,Laakso Mikko,33,40,18,58,181,6,21
+fliiga,finland,2023-2024,SPV,Hakanen Riku,33,25,31,56,227,18,15
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Stransky Simon,33,27,28,55,163,32,-37
+fliiga,finland,2023-2024,CLASSIC,Helin Aaro,33,39,11,50,184,6,46
+fliiga,finland,2023-2024,OILERS,Iiskola Tuomas,29,30,20,50,136,12,49
+fliiga,finland,2023-2024,JYMY,Äijälä Eemil,33,25,25,50,265,14,-21
+fliiga,finland,2023-2024,HAPPEE,Manninen Jami,33,23,27,50,230,12,8
+fliiga,finland,2023-2024,CLASSIC,Salo Nico,27,11,39,50,70,4,53
+fliiga,finland,2023-2024,SPV,Keskinen Juuso,27,29,19,48,166,8,16
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Penicka Matej,33,26,19,45,249,12,-46
+fliiga,finland,2023-2024,TPS,Trekse Peteris,33,21,24,45,135,14,33
+fliiga,finland,2023-2024,HAPPEE,Salmi Markus,31,26,18,44,234,12,3
+fliiga,finland,2023-2024,NOKIAN KRP,Viitakoski Valtteri,32,26,18,44,123,2,33
+fliiga,finland,2023-2024,SPV,Haukkala Konsta,32,27,15,42,263,22,14
+fliiga,finland,2023-2024,INDIANS,Auvinen Jasper,33,25,17,42,206,12,29
+fliiga,finland,2023-2024,OLS,Kinnunen Olli,31,18,24,42,141,6,9
+fliiga,finland,2023-2024,NOKIAN KRP,Ahola Juuso,26,17,24,41,111,8,26
+fliiga,finland,2023-2024,INDIANS,Junnila Samuli,31,27,13,40,212,14,17
+fliiga,finland,2023-2024,NOKIAN KRP,Jonaeson Nico,33,11,29,40,93,6,26
+fliiga,finland,2023-2024,TPS,Eloluoto Lauri,32,25,14,39,141,8,16
+fliiga,finland,2023-2024,TPS,Vesterinen Waltteri,33,21,18,39,179,12,9
+fliiga,finland,2023-2024,HAPPEE,Laiti Niko,33,25,11,36,147,36,5
+fliiga,finland,2023-2024,TPS,Niemelä Jere,31,15,19,34,190,32,26
+fliiga,finland,2023-2024,LASB,Havula Tatu,33,12,21,33,108,2,-15
+fliiga,finland,2023-2024,OLS,Savela Iiro,31,17,14,31,133,12,4
+fliiga,finland,2023-2024,LASB,Salokangas Tiitus,32,16,15,31,169,4,-19
+fliiga,finland,2023-2024,TPS,Ojala Tuomas,33,12,19,31,105,16,8
+fliiga,finland,2023-2024,INDIANS,Auranen Leevi,33,13,17,30,94,10,10
+fliiga,finland,2023-2024,INDIANS,Kekki Juuso,32,15,14,29,87,4,17
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Möttönen Juuso,33,20,8,28,125,6,-39
+fliiga,finland,2023-2024,HAPPEE,Minkkinen Matti,32,18,10,28,143,4,12
+fliiga,finland,2023-2024,JYMY,Äijälä Niklas,33,14,14,28,78,8,3
+fliiga,finland,2023-2024,SPV,Karjanlahti Eero,32,17,10,27,125,18,-5
+fliiga,finland,2023-2024,OLS,Karjula Joona,33,17,10,27,107,8,18
+fliiga,finland,2023-2024,FBC TURKU,Laaksonen Nikolas,33,12,15,27,109,24,-56
+fliiga,finland,2023-2024,OILERS,Lindfors Santeri,32,11,16,27,70,6,30
+fliiga,finland,2023-2024,INDIANS,Huppunen Jesse-Samuli,23,9,18,27,74,2,-1
+fliiga,finland,2023-2024,JYMY,Vaarala Karri,33,16,10,26,188,4,-6
+fliiga,finland,2023-2024,HAPPEE,Junkkarinen Jonne,32,10,16,26,79,38,8
+fliiga,finland,2023-2024,JYMY,Mäenpää Matias,33,20,5,25,210,16,-5
+fliiga,finland,2023-2024,SPV,Tammiranta Aaro,32,15,10,25,82,6,-1
+fliiga,finland,2023-2024,CLASSIC,Salminen Toni,30,10,14,24,57,2,42
+fliiga,finland,2023-2024,OILERS,Markkola Markus,20,8,16,24,58,8,21
+fliiga,finland,2023-2024,OILERS,Suomela Antti,32,8,16,24,82,6,28
+fliiga,finland,2023-2024,LASB,Einiö Niko,27,20,3,23,150,28,-20
+fliiga,finland,2023-2024,FBC TURKU,Kurkikangas Atte,29,17,6,23,85,4,-45
+fliiga,finland,2023-2024,HAPPEE,Heiska Ville,33,16,7,23,92,2,6
+fliiga,finland,2023-2024,TPS,Laine Olli-Akseli,26,12,11,23,121,24,-6
+fliiga,finland,2023-2024,CLASSIC,Laitila Alpo,33,8,15,23,46,4,51
+fliiga,finland,2023-2024,HAPPEE,Suhanto Eppu,33,9,13,22,105,4,7
+fliiga,finland,2023-2024,TPS,Eklund Alex,28,15,6,21,76,2,14
+fliiga,finland,2023-2024,LASB,Juuti Jasper,31,14,7,21,126,2,-28
+fliiga,finland,2023-2024,HAPPEE,Laasonen Roni,24,10,11,21,114,10,5
+fliiga,finland,2023-2024,NOKIAN KRP,Ukkonen Eemil,29,6,15,21,26,4,29
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Sillanpää Oliver,20,14,6,20,90,4,-36
+fliiga,finland,2023-2024,INDIANS,Lindholm Joonatan,33,11,9,20,85,8,20
+fliiga,finland,2023-2024,OLS,Wikstedt Olli,31,10,10,20,75,12,6
+fliiga,finland,2023-2024,SPV,Autio Janne,32,10,10,20,41,4,-2
+fliiga,finland,2023-2024,FBC TURKU,Ollikainen Aaro,31,6,14,20,83,8,-40
+fliiga,finland,2023-2024,OILERS,Sorvali Eetu,32,14,5,19,71,4,12
+fliiga,finland,2023-2024,CLASSIC,Tykkyläinen Konsta,32,10,9,19,120,6,54
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Tenhonen Daniel,33,13,5,18,99,12,-52
+fliiga,finland,2023-2024,OILERS,Lindfors Jesperi,25,6,12,18,37,0,39
+fliiga,finland,2023-2024,INDIANS,Pasanen Rasmus,24,11,6,17,83,8,8
+fliiga,finland,2023-2024,HAPPEE,Kinnunen Teuvo,28,11,6,17,77,4,0
+fliiga,finland,2023-2024,JYMY,Sariola Eetu,29,13,3,16,91,24,-22
+fliiga,finland,2023-2024,INDIANS,Roth Anton,31,10,6,16,34,8,29
+fliiga,finland,2023-2024,INDIANS,Rauhala Jani,24,8,8,16,77,18,6
+fliiga,finland,2023-2024,CLASSIC,Sikkinen Eetu,22,7,9,16,50,12,37
+fliiga,finland,2023-2024,INDIANS,Harjula Tuomas,33,1,15,16,50,0,15
+fliiga,finland,2023-2024,SPV,Järvikangas Viljami,31,11,4,15,39,24,20
+fliiga,finland,2023-2024,INDIANS,Rautakoura Ville,31,8,7,15,65,2,43
+fliiga,finland,2023-2024,JYMY,Vaarala Kalle,33,8,6,14,98,20,-18
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Wiander Tommi,33,4,10,14,66,20,-36
+fliiga,finland,2023-2024,JYMY,Rautio Petro,33,1,13,14,36,4,6
+fliiga,finland,2023-2024,CLASSIC,Hietaranta Ville,33,10,3,13,58,8,3
+fliiga,finland,2023-2024,OLS,Hakola Jesper,23,9,4,13,52,4,-2
+fliiga,finland,2023-2024,OLS,Vänttilä Kimi,33,9,4,13,65,4,-21
+fliiga,finland,2023-2024,LASB,Sulander Jere,33,7,6,13,82,6,-30
+fliiga,finland,2023-2024,OILERS,Nykänen Eetu,32,4,9,13,64,14,23
+fliiga,finland,2023-2024,CLASSIC,Kilpi Otto,30,7,5,12,47,38,7
+fliiga,finland,2023-2024,LASB,Raappana Atte,33,7,5,12,73,6,-11
+fliiga,finland,2023-2024,HAPPEE,Lahti Joel,33,6,6,12,55,6,-5
+fliiga,finland,2023-2024,OLS,Niemelä Petri,33,6,6,12,30,6,-4
+fliiga,finland,2023-2024,FBC TURKU,Forsman Juuso,31,6,6,12,136,6,-64
+fliiga,finland,2023-2024,INDIANS,Alatalo Pieti,33,6,6,12,63,30,31
+fliiga,finland,2023-2024,FBC TURKU,Tuominen Sami,25,5,7,12,56,6,-27
+fliiga,finland,2023-2024,SPV,Latvala Miika,32,4,8,12,34,2,-5
+fliiga,finland,2023-2024,JYMY,Lassila Jussi,20,9,2,11,45,2,4
+fliiga,finland,2023-2024,NOKIAN KRP,Mattila Jere,29,8,3,11,56,8,17
+fliiga,finland,2023-2024,TPS,Lindroos Yannick,22,7,4,11,50,4,-17
+fliiga,finland,2023-2024,JYMY,Puntanen Eetu,33,7,4,11,52,10,-11
+fliiga,finland,2023-2024,TPS,Koskinen Joonas,31,4,7,11,49,10,2
+fliiga,finland,2023-2024,SPV,Uusi-Laitila Santeri,33,4,7,11,47,8,15
+fliiga,finland,2023-2024,OLS,Välitalo Anssi,31,3,8,11,24,4,-6
+fliiga,finland,2023-2024,OLS,Ijäs Eetu,30,3,8,11,55,8,-20
+fliiga,finland,2023-2024,FBC TURKU,Kallio Matias,31,8,2,10,74,2,-32
+fliiga,finland,2023-2024,OLS,Pöyhtäri Akseli,20,7,3,10,73,4,-1
+fliiga,finland,2023-2024,NOKIAN KRP,Simonen Topias,32,5,5,10,37,8,11
+fliiga,finland,2023-2024,NOKIAN KRP,Paulaharju Simo,31,5,5,10,56,4,7
+fliiga,finland,2023-2024,NOKIAN KRP,Malkavs Jorens,28,4,6,10,26,4,3
+fliiga,finland,2023-2024,HAPPEE,Kotka Timi,32,4,6,10,42,6,2
+fliiga,finland,2023-2024,OLS,Ruonakangas Riku,32,4,6,10,72,10,-8
+fliiga,finland,2023-2024,HAPPEE,Pylväläinen Arttu,25,4,6,10,33,0,19
+fliiga,finland,2023-2024,SPV,Santanen Mikko,25,3,7,10,30,0,-15
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Tenhonen Benjamin,33,2,8,10,57,14,-47
+fliiga,finland,2023-2024,JYMY,Kauppila Oskari,33,6,3,9,48,8,-16
+fliiga,finland,2023-2024,TPS,Lehtonen Eetu,31,5,4,9,31,4,10
+fliiga,finland,2023-2024,OILERS,Jokela Olli,31,2,7,9,30,4,13
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Koivisto Lassi,32,6,2,8,51,8,-37
+fliiga,finland,2023-2024,CLASSIC,Lamminen Janne,28,6,2,8,32,10,1
+fliiga,finland,2023-2024,NOKIAN KRP,Arkkila Olli,32,5,3,8,51,10,5
+fliiga,finland,2023-2024,HAPPEE,Siekkinen Kaapo,12,4,4,8,56,0,-2
+fliiga,finland,2023-2024,SPV,Heikkilä Jeri,33,4,4,8,72,10,15
+fliiga,finland,2023-2024,NOKIAN KRP,Alkki Lauri,33,4,4,8,23,4,7
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Aarela Ilmari,32,2,6,8,42,6,-45
+fliiga,finland,2023-2024,OLS,Ylitalo Eemil,17,5,2,7,34,6,-5
+fliiga,finland,2023-2024,OILERS,Pekari Elias,26,4,3,7,40,2,8
+fliiga,finland,2023-2024,NOKIAN KRP,Hyrkkönen Kim,23,4,3,7,67,4,13
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Helin Vilho,17,4,3,7,41,0,-13
+fliiga,finland,2023-2024,OLS,Virrankari Olli-Matti,29,3,4,7,18,0,-13
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Kerola Jacob,33,3,4,7,33,6,-40
+fliiga,finland,2023-2024,OLS,Rantaniemi Aapo,19,2,5,7,26,6,-6
+fliiga,finland,2023-2024,LASB,Jaanus Janne,32,2,5,7,43,2,-23
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Piskacek Bohumil,33,1,6,7,72,8,-43
+fliiga,finland,2023-2024,INDIANS,Remes Christian,20,1,6,7,76,2,-4
+fliiga,finland,2023-2024,HAPPEE,Niemelä Marius,18,1,6,7,22,2,-7
+fliiga,finland,2023-2024,HAPPEE,Koljonen Perttu,24,5,1,6,49,4,-4
+fliiga,finland,2023-2024,JYMY,Saari Arttu,32,4,2,6,44,16,-12
+fliiga,finland,2023-2024,TPS,Haataja Elias,31,2,4,6,14,4,3
+fliiga,finland,2023-2024,JYMY,Nyman Elias,18,2,4,6,16,0,-4
+fliiga,finland,2023-2024,TPS,Koskinen Juho,28,1,5,6,10,6,6
+fliiga,finland,2023-2024,HAPPEE,Tähkä Kasper,25,1,5,6,18,2,0
+fliiga,finland,2023-2024,SPV,Lokasaari Aapo,32,4,1,5,39,6,4
+fliiga,finland,2023-2024,INDIANS,Forss Onni,22,3,2,5,13,0,22
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Tiainen Tuomas,33,3,2,5,28,10,-24
+fliiga,finland,2023-2024,OILERS,Järvinen Perttu,30,3,2,5,26,4,6
+fliiga,finland,2023-2024,JYMY,Saarela Miko,32,2,3,5,16,14,-19
+fliiga,finland,2023-2024,JYMY,Wikström Roope,31,2,3,5,29,4,-11
+fliiga,finland,2023-2024,HAPPEE,Hutzli Stefan,27,2,3,5,30,0,-1
+fliiga,finland,2023-2024,OLS,Mertaniemi Väinö,29,1,4,5,34,6,-16
+fliiga,finland,2023-2024,SPV,Repo Juho,25,1,4,5,26,0,-3
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Pirhonen Elias,33,0,5,5,55,0,-23
+fliiga,finland,2023-2024,LASB,Harmaala Aatu,12,1,3,4,29,0,-4
+fliiga,finland,2023-2024,LASB,Lindstedt Tino,23,1,3,4,10,0,-7
+fliiga,finland,2023-2024,LASB,Salokangas Julius,28,1,3,4,30,0,-19
+fliiga,finland,2023-2024,FBC TURKU,Varjokumpu Juuso,31,0,4,4,57,0,-49
+fliiga,finland,2023-2024,LASB,Karkulowski Emil,26,3,0,3,28,2,-20
+fliiga,finland,2023-2024,OLS,Virolainen Luukas,13,3,0,3,13,0,-14
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Salminen Olli,5,2,1,3,11,0,-7
+fliiga,finland,2023-2024,OILERS,Haapala Arttu,9,2,1,3,12,2,0
+fliiga,finland,2023-2024,CLASSIC,Virtanen Viljami,25,2,1,3,14,0,5
+fliiga,finland,2023-2024,OLS,Haudanlampi Tuukka,13,2,1,3,6,4,-9
+fliiga,finland,2023-2024,LASB,Rantala Peetu,31,2,1,3,21,6,-26
+fliiga,finland,2023-2024,FBC TURKU,Rannanjärvi Jaakko,30,1,2,3,58,2,-40
+fliiga,finland,2023-2024,LASB,Salminen Sami,26,1,2,3,16,0,-5
+fliiga,finland,2023-2024,HAPPEE,Kuisma Niklas,32,1,2,3,23,4,-5
+fliiga,finland,2023-2024,SPV,Honkonen Arttu,27,0,3,3,4,0,4
+fliiga,finland,2023-2024,LASB,Ahola Vili,30,0,3,3,28,0,-36
+fliiga,finland,2023-2024,OLS,Okkonen Roope,11,2,0,2,9,0,-3
+fliiga,finland,2023-2024,LASB,Rantala Juho,23,2,0,2,29,0,-26
+fliiga,finland,2023-2024,TPS,Koivisto Aatu,17,2,0,2,19,0,-4
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Aho Tuomas,7,1,1,2,9,6,-7
+fliiga,finland,2023-2024,FBC TURKU,Hiltunen Aleksi,33,1,1,2,20,8,-41
+fliiga,finland,2023-2024,RANGERS,Junkkari Jonatan,11,1,1,2,5,0,4
+fliiga,finland,2023-2024,SPV,Haavisto Aapo,13,1,1,2,1,2,2
+fliiga,finland,2023-2024,OILERS,Palvaila Lauri,29,1,1,2,18,6,12
+fliiga,finland,2023-2024,INDIANS,Harjula Eero,2,1,1,2,1,0,3
+fliiga,finland,2023-2024,NOKIAN KRP,Laukkanen Jarno,18,1,1,2,6,2,1
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Kärki Santeri,18,0,2,2,11,2,-9
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Koistinen Eero,19,0,2,2,11,2,-10
+fliiga,finland,2023-2024,JYMY,Ojanperä Aleksi,24,0,2,2,5,2,-6
+fliiga,finland,2023-2024,JYMY,Mäenpää Eero,14,0,2,2,7,4,-5
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Jäppinen Amos,33,1,0,1,27,14,-41
+fliiga,finland,2023-2024,NOKIAN KRP,Tenho Oskari,11,1,0,1,9,0,-2
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Rissanen Aarne,9,1,0,1,8,0,-5
+fliiga,finland,2023-2024,SPV,Kajaala Joona,8,1,0,1,2,0,0
+fliiga,finland,2023-2024,HAPPEE,Siekkinen Paavo,6,1,0,1,3,0,-1
+fliiga,finland,2023-2024,SPV,Karjanlahti Eemeli,13,1,0,1,11,2,-7
+fliiga,finland,2023-2024,OLS,Mustonen Juho,21,1,0,1,8,0,-4
+fliiga,finland,2023-2024,OLS,Holappa Niko-Petteri,31,1,0,1,12,0,-7
+fliiga,finland,2023-2024,HAPPEE,Markkanen Jami,7,1,0,1,5,2,-1
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Vaarimo Miko,32,1,0,1,26,4,-26
+fliiga,finland,2023-2024,CLASSIC,Salo Tuukka,23,0,1,1,11,2,1
+fliiga,finland,2023-2024,OILERS,Mustonen Justus,7,0,1,1,2,0,0
+fliiga,finland,2023-2024,JYMY,Ranta Justus,15,0,1,1,10,2,-3
+fliiga,finland,2023-2024,FBC TURKU,Fredriksson Mikael,20,0,1,1,11,4,-8
+fliiga,finland,2023-2024,OILERS,Kallio Emil,4,0,0,0,0,0,0
+fliiga,finland,2023-2024,CLASSIC,Molkka Valtteri,30,0,0,0,9,0,-4
+fliiga,finland,2023-2024,INDIANS,Piisilä Oskari,2,0,0,0,0,0,0
+fliiga,finland,2023-2024,FBC TURKU,Honkanen Tobias,2,0,0,0,0,0,0
+fliiga,finland,2023-2024,ERÄVIIKINGIT,Maksimainen Olli,14,0,0,0,5,0,-6
+fliiga,finland,2023-2024,OLS,Niemi Lauri,1,0,0,0,0,0,0
+fliiga,finland,2023-2024,SPV,Liukkonen Teppo,1,0,0,0,0,0,0
+fliiga,finland,2023-2024,OLS,Kakko Tuomas,2,0,0,0,0,0,0
+fliiga,finland,2023-2024,TPS,Koskinen Valtteri,3,0,0,0,0,0,2
+fliiga,finland,2023-2024,TPS,Paajanen Veikko,2,0,0,0,0,0,-1
+fliiga,finland,2023-2024,NOKIAN KRP,Aro Konsta,4,0,0,0,0,0,1
+fliiga,finland,2023-2024,OILERS,Niemelä Eetu,3,0,0,0,3,2,1
+fliiga,finland,2023-2024,OLS,Eskelinen Joni,2,0,0,0,0,0,0
+fliiga,finland,2023-2024,JYMY,Mäntyniemi Jimi,8,0,0,0,5,0,-6
+fliiga,finland,2023-2024,CLASSIC,Vänttinen Oliver,7,0,0,0,4,0,-1
+fliiga,finland,2023-2024,TPS,Kulmala Kasper,15,0,0,0,2,0,-4
+fliiga,finland,2023-2024,LASB,Sirola Aku,3,0,0,0,0,0,0
+fliiga,finland,2023-2024,JYMY,Luukko Joona,6,0,0,0,1,0,-1
+fliiga,finland,2023-2024,HAPPEE,Paananen Joel,5,0,0,0,0,0,3
+fliiga,finland,2023-2024,CLASSIC,Huhtakallio Eemeli,11,0,0,0,2,0,-1
+fliiga,finland,2023-2024,RANGERS,Roimela Setti,8,0,0,0,1,0,-2
+fliiga,finland,2023-2024,LASB,Mertsalmi Henri,11,0,0,0,1,0,-1
+fliiga,finland,2023-2024,OLS,Kivelä Ville,4,0,0,0,1,0,0
+fliiga,finland,2023-2024,JYMY,Manninen Eetu,4,0,0,0,0,0,0
+fliiga,finland,2023-2024,INDIANS,Huppunen Julius-Emil,3,0,0,0,0,0,1
+fliiga,finland,2023-2024,OILERS,Hakokorpi Pietu,1,0,0,0,0,0,0
+fliiga,finland,2023-2024,NOKIAN KRP,Mäkimarttunen Saku,8,0,0,0,3,0,-1
+fliiga,finland,2023-2024,INDIANS,Maronen Markus,5,0,0,0,1,0,-1
+fliiga,finland,2023-2024,HAPPEE,Grönfors Samuli,1,0,0,0,0,0,0
+fliiga,finland,2023-2024,OILERS,Zlesák Ondřej,2,0,0,0,0,0,0
+fliiga,finland,2023-2024,OLS,Kuoksa Antti,7,0,0,0,1,0,-3
+fliiga,finland,2023-2024,OLS,Siira Jami,4,0,0,0,0,0,0
+fliiga,finland,2023-2024,LASB,Ryytty Valtteri,1,0,0,0,0,0,0
+fliiga,finland,2023-2024,LASB,Kantola Karo,4,0,0,0,2,0,0
+fliiga,finland,2023-2024,SPV,Luhtala Aatu,3,0,0,0,0,0,0
+fliiga,finland,2023-2024,NOKIAN KRP,Halmela Teemu,4,0,0,0,4,0,0
