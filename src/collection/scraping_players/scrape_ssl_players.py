@@ -141,15 +141,12 @@ def parse_row(cells_text: list[str], season: str) -> dict | None:
     if len(values) < 7:
         return None
 
-    # odstranění ranku
     if re.fullmatch(r"\d+\.", values[0]) or re.fullmatch(r"\d+", values[0]):
         values = values[1:]
 
     if len(values) < 7:
         return None
 
-    # očekávané pořadí:
-    # player, team, gp, g, a, tp, pim
     player_name = values[0]
     team_name = values[1]
     numeric_tail = values[2:]

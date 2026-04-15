@@ -1,0 +1,352 @@
+source,league,season,team_name,player_name,gp,goals,assists,points,shots,pim,plus_minus
+extraliga,czech,2022/2023,FBC Liberec,Šimon Stránský,26,32,33,65,107,,12
+extraliga,czech,2022/2023,FBC Liberec,Prokop Ferdan,24,13,23,36,43,,-2
+extraliga,czech,2022/2023,FBC Liberec,Vojtěch Wiener,13,16,8,24,30,,11
+extraliga,czech,2022/2023,FBC Liberec,Filip Smutný,23,12,11,23,41,,-21
+extraliga,czech,2022/2023,FBC Liberec,Jakub Kárník,26,9,7,16,29,,-7
+extraliga,czech,2022/2023,FBC Liberec,Radek Valeš,19,7,9,16,25,,-23
+extraliga,czech,2022/2023,FBC Liberec,Jakub Mádlo,24,10,4,14,37,,-7
+extraliga,czech,2022/2023,FBC Liberec,Vojtěch Janeček,23,6,4,10,23,,-12
+extraliga,czech,2022/2023,FBC Liberec,Jan Světlík,26,6,4,10,26,,-21
+extraliga,czech,2022/2023,FBC Liberec,Tomáš Dlesk,24,4,5,9,15,,-27
+extraliga,czech,2022/2023,FBC Liberec,Jakub Pařízek,22,5,2,7,21,,-11
+extraliga,czech,2022/2023,FBC Liberec,Lukáš Macháč,20,4,2,6,16,,-32
+extraliga,czech,2022/2023,FBC Liberec,Michal Václavík,21,4,2,6,11,,0
+extraliga,czech,2022/2023,FBC Liberec,Jakub Faksa,12,1,5,6,11,,-8
+extraliga,czech,2022/2023,FBC Liberec,Adam Balatka,13,4,0,4,21,,-17
+extraliga,czech,2022/2023,FBC Liberec,Jan Baudisch,24,2,2,4,14,,-18
+extraliga,czech,2022/2023,FBC Liberec,Jan Bitman,22,1,3,4,7,,-5
+extraliga,czech,2022/2023,FBC Liberec,Jan Šoltys,26,1,2,3,15,,-22
+extraliga,czech,2022/2023,FBC Liberec,Jakub Kopecký,4,1,1,2,4,,-5
+extraliga,czech,2022/2023,FBC Liberec,Vladimír Trčka,6,1,0,1,2,,-12
+extraliga,czech,2022/2023,FBC Liberec,Daniel Martínek,2,0,1,1,0,,0
+extraliga,czech,2022/2023,FBC Liberec,Daniel Sedláček,7,0,1,1,4,,-8
+extraliga,czech,2022/2023,FBC Liberec,Lukáš Dolejš,9,0,0,0,0,,-5
+extraliga,czech,2022/2023,FBC Liberec,Jakub Horník,4,0,0,0,1,,0
+extraliga,czech,2022/2023,FBC Liberec,Petr Kukla,7,0,0,0,1,,-8
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Vojtěch Klápa,24,26,10,36,106,,-12
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Ondřej Plíhal,24,14,14,28,77,,4
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Ivan Pergler,26,17,8,25,81,,-5
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Tomáš Gärtner,23,10,10,20,35,,-8
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Ondřej Stuchlík,21,3,15,18,18,,8
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Petr Hartman,25,4,13,17,18,,-9
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Daniel Gärtner,20,10,6,16,40,,0
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Štěpán Švejda,22,10,4,14,41,,-20
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Jan Procházka,26,6,8,14,31,,-13
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Radek Kužel,24,6,5,11,26,,-7
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Matěj Horák,20,6,1,7,21,,-1
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Vojtěch Máca,22,4,3,7,23,,-15
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Erich Kellermann,25,1,5,6,12,,-13
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Jiří Procházka,25,1,3,4,16,,-3
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Lukáš Gregor,14,1,2,3,8,,-3
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Zbyněk Stuchlík,4,1,2,3,6,,0
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Lukáš Trojáček,22,1,2,3,8,,-9
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Pavel Hájek,20,1,1,2,13,,-9
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Jan Otta,11,1,1,2,6,,-8
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Jan Pinkas,19,1,1,2,7,,-7
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Tadeáš Melíšek,7,1,0,1,6,,-4
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Štěpán Čuda,10,1,0,1,2,,-7
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Petr Blažej,14,0,0,0,5,,-7
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Ben Kosterich,3,0,0,0,0,,3
+extraliga,czech,2022/2023,TJ Sokol Královské Vinohrady,Radovan Vnuk,1,0,0,0,0,,-2
+extraliga,czech,2022/2023,SOKOLI Pardubice,Adam Šmíd,25,20,17,37,83,,-22
+extraliga,czech,2022/2023,SOKOLI Pardubice,Martin Zozuĺák,22,18,16,34,78,,-6
+extraliga,czech,2022/2023,SOKOLI Pardubice,Lukáš Kučera,19,18,6,24,58,,-18
+extraliga,czech,2022/2023,SOKOLI Pardubice,Ivo Teichman,20,9,15,24,41,,-32
+extraliga,czech,2022/2023,SOKOLI Pardubice,David Žáček,25,12,7,19,47,,-36
+extraliga,czech,2022/2023,SOKOLI Pardubice,Lukáš Prix,22,5,8,13,27,,-15
+extraliga,czech,2022/2023,SOKOLI Pardubice,Marek Ďopan,26,5,5,10,15,,-38
+extraliga,czech,2022/2023,SOKOLI Pardubice,Přemek Pakosta,11,7,2,9,25,,10
+extraliga,czech,2022/2023,SOKOLI Pardubice,Milan Bína,12,4,4,8,13,,-24
+extraliga,czech,2022/2023,SOKOLI Pardubice,Jakub Burian,23,2,5,7,12,,-12
+extraliga,czech,2022/2023,SOKOLI Pardubice,Jiří Kohoutek,25,5,0,5,9,,-26
+extraliga,czech,2022/2023,SOKOLI Pardubice,Ondřej Machatý,21,2,3,5,7,,-22
+extraliga,czech,2022/2023,SOKOLI Pardubice,Petr Křinka,25,2,1,3,12,,-38
+extraliga,czech,2022/2023,SOKOLI Pardubice,Jan Nezval,22,0,3,3,7,,-21
+extraliga,czech,2022/2023,SOKOLI Pardubice,Vojtěch Kaluža,17,1,0,1,6,,-12
+extraliga,czech,2022/2023,SOKOLI Pardubice,Matouš Sákra,15,1,0,1,4,,-11
+extraliga,czech,2022/2023,SOKOLI Pardubice,Vojtěch Klein,15,0,1,1,1,,-15
+extraliga,czech,2022/2023,SOKOLI Pardubice,Petr Černý,23,0,1,1,15,,-22
+extraliga,czech,2022/2023,SOKOLI Pardubice,Jakub Šimák,21,0,1,1,5,,-34
+extraliga,czech,2022/2023,SOKOLI Pardubice,Tomáš Belej,2,0,0,0,1,,-2
+extraliga,czech,2022/2023,SOKOLI Pardubice,Lukáš Drahný,1,0,0,0,1,,-1
+extraliga,czech,2022/2023,SOKOLI Pardubice,Petr Kvasil,1,0,0,0,0,,0
+extraliga,czech,2022/2023,SOKOLI Pardubice,Michal Puchner,2,0,0,0,0,,0
+extraliga,czech,2022/2023,SOKOLI Pardubice,Jan Savický,1,0,0,0,0,,-1
+extraliga,czech,2022/2023,SOKOLI Pardubice,Lukáš Slabý,24,0,0,0,3,,-29
+extraliga,czech,2022/2023,SOKOLI Pardubice,Marek Viterna,23,0,0,0,3,,-21
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Michal Strachota,26,14,13,27,66,,-43
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Michal Klápa,25,16,10,26,61,,-44
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Matyáš Velc,25,13,11,24,59,,-35
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Daniel Nicklas,22,10,5,15,59,,-27
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Jan Zavadil,22,3,10,13,33,,-37
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Adam Zahraj,26,9,2,11,40,,-31
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Jiří Lebeda,20,8,1,9,41,,-25
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Michal Zeman,23,5,4,9,19,,-29
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Ivan Tomčo,25,4,5,9,27,,-39
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Lukáš Macháček,8,2,7,9,12,,-11
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Ondřej Hurt,19,2,6,8,28,,-13
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Matěj Korbel,25,1,5,6,15,,-29
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Tomáš Navrátil,23,4,1,5,18,,-30
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Daniel Kalaš,25,1,4,5,11,,-37
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Filip Eliáš,8,3,1,4,17,,-18
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Matěj Svatek,16,2,2,4,6,,-20
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Petr Torma,24,2,1,3,11,,-26
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Jan Lang,25,0,3,3,5,,-35
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Miloš Tyl,1,2,0,2,5,,1
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Tomáš Smolka,16,1,0,1,5,,-11
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Ondřej Šimeček,8,1,0,1,2,,1
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Martin Koubek,12,0,1,1,1,,-12
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Tomáš Nushart,2,0,1,1,2,,-2
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Jiří Šťovíček,4,0,1,1,0,,-1
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Kryštof Ernst,2,0,0,0,0,,0
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Petr Jedlička,5,0,0,0,0,,0
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Luděk Lejba,1,0,0,0,0,,0
+extraliga,czech,2022/2023,FB Hurrican Karlovy Vary,Marek Zapletal,7,0,0,0,4,,-3
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Peter Nehila,25,22,12,34,59,,-30
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,František Vykopal,24,22,9,31,99,,-22
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Jakub Grich,25,11,7,18,48,,-29
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Jiří Halama,25,9,7,16,35,,-44
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Filip Hrabal,26,6,10,16,37,,-39
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Martin Grlický,22,5,11,16,24,,-19
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Tomáš Sovják,25,5,10,15,32,,-27
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Ronald Gašparík,9,6,8,14,33,,5
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Samuel Kelemen,25,6,3,9,28,,-38
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Vlastimil Červenka,14,6,2,8,18,,-26
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Matěj Kostka,8,3,2,5,13,,-11
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Lukáš Kubíček,24,1,4,5,9,,-30
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Marek Zapletal,12,3,1,4,15,,-15
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Petr Kopecký,19,3,0,3,4,,-20
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Pavel Jurčík,21,1,2,3,11,,-34
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Daniel Minich,15,1,2,3,6,,-22
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Maxim Šefčík,25,0,3,3,4,,-27
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,David Medek,6,1,1,2,8,,0
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Dalimil Krčma,12,0,1,1,0,,-2
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Tomáš Brázdil,1,0,0,0,0,,0
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Filip Horák,15,0,0,0,2,,-19
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Michal Procházka,1,0,0,0,0,,0
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Matyáš Zouhar,7,0,0,0,5,,-9
+extraliga,czech,2022/2023,PSG PANTHERS OTROKOVICE,Adam Štourač,11,0,0,0,1,,-9
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Jiří Curney,22,30,14,44,88,,19
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Mikuláš Krbec,24,12,32,44,60,,17
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Robert Košir,25,22,17,39,76,,25
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Marek Zouzal,26,13,14,27,50,,13
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Matěj Čermák,25,13,10,23,60,,14
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Radim Křenek,26,13,7,20,47,,12
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Josef Juha,25,7,9,16,38,,-4
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Dominik Bartoš,26,7,4,11,26,,8
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Matěj Pruner,26,3,5,8,28,,-8
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Daniel Fišer,23,2,5,7,8,,-1
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Jakub Kolstrunk,23,4,2,6,30,,1
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Jakub Mühlfait,18,4,1,5,13,,-3
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Michal Kareš,23,0,5,5,9,,12
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Kristián Kozák,24,4,0,4,14,,-7
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Josef Sedláček,26,3,1,4,16,,5
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Charlie Jonsson,11,0,4,4,8,,0
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Jan Marvánek,13,1,2,3,7,,2
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Vojtěch Andrášek,13,1,0,1,4,,-6
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Matyáš Bláha,2,0,0,0,0,,0
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Adam Kuchynka,20,0,0,0,6,,-7
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Michael Petráň,6,0,0,0,0,,-1
+extraliga,czech,2022/2023,ACEMA Sparta Praha,Jakub Šváb,2,0,0,0,0,,0
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Marek Bräuer,23,34,14,48,88,,10
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Lukáš Pešat,25,15,27,42,55,,21
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Šimon Kuczera,24,14,16,30,39,,8
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Daniel Chatrný,26,16,8,24,66,,-4
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Lukáš Pobořil,21,8,14,22,33,,5
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Ladislav Gál,24,13,6,19,35,,-15
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Adam Choma,26,5,7,12,22,,30
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Lukáš Herblich,26,5,6,11,28,,-10
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Martin Šulc,24,6,4,10,17,,-2
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Matěj Sedláček,26,4,6,10,10,,-2
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Filip Šubert,25,4,5,9,25,,-8
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Pavel Barabáš,25,4,3,7,8,,-10
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Patrik Němec,23,4,3,7,10,,11
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Adam Mikoláš,20,2,4,6,22,,-9
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Marcel Jakubec,25,0,4,4,7,,-6
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Jan Daniš,13,2,1,3,14,,-12
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Zdeněk Marčon,13,2,0,2,3,,-1
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,David Friedel,16,1,1,2,14,,-7
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Šimon Soukup,24,1,1,2,9,,-14
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Ivo Dohnal,2,0,0,0,0,,-1
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Jakub Košarišťan,24,0,0,0,3,,-7
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Richard Pum,2,0,0,0,0,,1
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Martin Stibor,3,0,0,0,3,,-1
+extraliga,czech,2022/2023,FBC ČPP Bystroň Group Ostrava,Petr Vítovec,2,0,0,0,0,,0
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Marek Vávra,26,36,32,68,95,,33
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Tom Ondrušek,24,25,26,51,78,,26
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Mikuláš Komárek,21,23,13,36,61,,20
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Jiří Bauer,26,15,16,31,66,,45
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Ondřej Vošta,26,13,15,28,49,,28
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Antonín Votava,24,13,6,19,36,,18
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Daniel Maxa,19,11,7,18,29,,15
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Jakub Dufek,16,7,8,15,37,,9
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Martin Skřivánek,20,8,6,14,29,,3
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Lukáš Kafka,24,9,4,13,48,,-3
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Radim Slunečko,22,4,8,12,26,,28
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Tomáš Sýkora,12,3,8,11,12,,11
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Marek Matoušek,22,6,4,10,19,,15
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Matěj Netrefa,25,6,4,10,39,,10
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Michal Podhráský,15,3,7,10,10,,8
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Marek Šmíd,20,0,4,4,6,,4
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Matěj Jambor,11,2,1,3,8,,8
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Šimon Doubek,12,1,1,2,6,,3
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,David Horký,16,0,2,2,8,,7
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Ondřej Štefek,5,1,0,1,2,,3
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Matěj Kolář,16,0,0,0,0,,2
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Matyáš Kronovetr,2,0,0,0,0,,4
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Jan Novotný,7,0,0,0,0,,-2
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Jakub Čech,1,0,0,0,0,,-1
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Martin Škorpa,4,0,0,0,1,,5
+extraliga,czech,2022/2023,FAT PIPE FLORBAL CHODOV,Šimon Šmajda,8,0,0,0,4,,-1
+extraliga,czech,2022/2023,FbŠ Bohemians,Jakub Buršík,26,47,17,64,112,,34
+extraliga,czech,2022/2023,FbŠ Bohemians,Filip Forman,25,22,42,64,96,,32
+extraliga,czech,2022/2023,FbŠ Bohemians,Jaroslav Petrák,26,33,14,47,129,,4
+extraliga,czech,2022/2023,FbŠ Bohemians,Patrik Šebek,26,16,20,36,68,,15
+extraliga,czech,2022/2023,FbŠ Bohemians,Karel Petrák,25,20,13,33,58,,22
+extraliga,czech,2022/2023,FbŠ Bohemians,Jan Řehoř,26,19,12,31,56,,1
+extraliga,czech,2022/2023,FbŠ Bohemians,Jan Malič,25,10,21,31,47,,33
+extraliga,czech,2022/2023,FbŠ Bohemians,Martin Kisugite,22,9,15,24,34,,8
+extraliga,czech,2022/2023,FbŠ Bohemians,Ondřej Kawulok,26,11,12,23,45,,27
+extraliga,czech,2022/2023,FbŠ Bohemians,Matúš Gajdoš,26,9,5,14,38,,-2
+extraliga,czech,2022/2023,FbŠ Bohemians,Samuel Virga,24,3,11,14,23,,3
+extraliga,czech,2022/2023,FbŠ Bohemians,Patrik Rozkovec,26,8,4,12,28,,3
+extraliga,czech,2022/2023,FbŠ Bohemians,Pavel Čihák,26,4,5,9,22,,3
+extraliga,czech,2022/2023,FbŠ Bohemians,Šimon Hronek,20,2,6,8,16,,1
+extraliga,czech,2022/2023,FbŠ Bohemians,Vojtěch Zezulka,25,4,2,6,15,,10
+extraliga,czech,2022/2023,FbŠ Bohemians,Michal Strnad,19,2,1,3,9,,5
+extraliga,czech,2022/2023,FbŠ Bohemians,Vojtěch Bílek,21,1,2,3,20,,-3
+extraliga,czech,2022/2023,FbŠ Bohemians,David Veleba,8,2,0,2,6,,-1
+extraliga,czech,2022/2023,FbŠ Bohemians,Jan Rudolf Dobisík,11,1,1,2,6,,2
+extraliga,czech,2022/2023,FbŠ Bohemians,Tomáš Trnka,6,1,1,2,4,,1
+extraliga,czech,2022/2023,FbŠ Bohemians,Drahoslav Pastor,15,0,1,1,4,,5
+extraliga,czech,2022/2023,FbŠ Bohemians,Šimon Batkovič,2,0,0,0,1,,0
+extraliga,czech,2022/2023,FbŠ Bohemians,Mário Ozimý,2,0,0,0,3,,1
+extraliga,czech,2022/2023,FbŠ Bohemians,Sebastian Rod,1,0,0,0,0,,-1
+extraliga,czech,2022/2023,FbŠ Bohemians,Lukáš Trnka,1,0,0,0,0,,0
+extraliga,czech,2022/2023,Tatran Střešovice,Marek Beneš,25,30,46,76,104,,88
+extraliga,czech,2022/2023,Tatran Střešovice,Matěj Havlas,24,28,29,57,85,,89
+extraliga,czech,2022/2023,Tatran Střešovice,Tomáš Hanák,24,38,16,54,103,,75
+extraliga,czech,2022/2023,Tatran Střešovice,Ondřej Němeček,26,22,26,48,72,,93
+extraliga,czech,2022/2023,Tatran Střešovice,David Šimek,26,31,8,39,85,,45
+extraliga,czech,2022/2023,Tatran Střešovice,Martin Šindelář,24,17,18,35,57,,37
+extraliga,czech,2022/2023,Tatran Střešovice,Jonáš Kreysa,26,24,5,29,95,,24
+extraliga,czech,2022/2023,Tatran Střešovice,Milan Meliš,26,14,15,29,49,,43
+extraliga,czech,2022/2023,Tatran Střešovice,Martin Čermák,22,9,12,21,45,,27
+extraliga,czech,2022/2023,Tatran Střešovice,Adam Tlapák,24,6,15,21,25,,17
+extraliga,czech,2022/2023,Tatran Střešovice,Vojtěch Kún,19,8,2,10,30,,28
+extraliga,czech,2022/2023,Tatran Střešovice,Ondřej Sádlo,18,5,5,10,26,,21
+extraliga,czech,2022/2023,Tatran Střešovice,Pavel Sládeček,26,3,7,10,19,,41
+extraliga,czech,2022/2023,Tatran Střešovice,Šimon Vavroušek,25,2,8,10,27,,85
+extraliga,czech,2022/2023,Tatran Střešovice,Martin Mühlfait,25,2,6,8,21,,16
+extraliga,czech,2022/2023,Tatran Střešovice,Daniel Péc,19,5,1,6,19,,12
+extraliga,czech,2022/2023,Tatran Střešovice,Bohumil Piskáček,23,4,0,4,29,,3
+extraliga,czech,2022/2023,Tatran Střešovice,Petr Brautferger,4,1,2,3,10,,8
+extraliga,czech,2022/2023,Tatran Střešovice,Jakub Kolísko,2,2,0,2,5,,2
+extraliga,czech,2022/2023,Tatran Střešovice,Filip Eliáš,12,1,0,1,4,,11
+extraliga,czech,2022/2023,Tatran Střešovice,Marek Hozman,4,1,0,1,3,,1
+extraliga,czech,2022/2023,Tatran Střešovice,Vít Hrbáček,1,0,1,1,1,,-2
+extraliga,czech,2022/2023,Tatran Střešovice,Adam Kučera,9,0,1,1,2,,7
+extraliga,czech,2022/2023,Tatran Střešovice,Matěj Čelakovský,11,0,1,1,6,,-1
+extraliga,czech,2022/2023,Tatran Střešovice,Václav Bajko,1,0,0,0,0,,0
+extraliga,czech,2022/2023,Tatran Střešovice,Michal Antonín Malhocký,4,0,0,0,0,,1
+extraliga,czech,2022/2023,Tatran Střešovice,Lukáš Mühlfait,2,0,0,0,0,,0
+extraliga,czech,2022/2023,Tatran Střešovice,Jakub Pluhař,1,0,0,0,0,,-2
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jan Peška,26,31,16,47,102,,-10
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Radek Krajcigr,25,29,18,47,74,,-1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Štěpán Slaný,23,10,21,31,42,,-15
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Václav Vavruška,24,16,11,27,77,,-18
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Daniel Štěrba,25,10,17,27,54,,-7
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Milan Tichý,24,10,15,25,60,,-17
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Ondřej Kopič,24,12,5,17,52,,-17
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Ladislav Pekárek,26,8,9,17,29,,-18
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Albert Kouba,23,9,0,9,25,,-7
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Antonín Stárek,19,2,6,8,14,,-8
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jakub Jirsa,25,3,4,7,20,,-26
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jaromír Ekl,7,2,3,5,3,,-2
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Vladimír Trčka,8,1,4,5,7,,-2
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Lukáš Mlejnek,25,2,1,3,12,,-29
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Tomáš Kadlec,11,2,0,2,9,,-11
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Lukáš Staněk,23,1,0,1,2,,-7
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Marek Dzierža,26,0,1,1,7,,-10
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jiří Vlček,8,0,1,1,2,,-4
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Oliver Alexander Brodský,9,0,0,0,1,,-2
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Václav Drahoš,4,0,0,0,0,,-1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jakub Karel,1,0,0,0,0,,1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jiří Moravík,2,0,0,0,0,,-1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Lukáš Pokorný,9,0,0,0,4,,-1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Petr Vondráček,5,0,0,0,0,,-1
+extraliga,czech,2022/2023,FBC 4CLEAN Česká Lípa,Jan Zátka,6,0,0,0,0,,0
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Milan Tomašík,25,20,34,54,90,,35
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Jan Natov,26,32,16,48,118,,38
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Michal Sládek,26,20,17,37,70,,42
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Patrik Suchánek,26,16,16,32,64,,42
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Matěj Pěnička,23,16,8,24,55,,21
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Jakub Bína,26,11,10,21,61,,19
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Daniel Šebek,23,11,9,20,46,,29
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Jakub Gruber,26,13,6,19,52,,29
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Dominik Beneš,26,11,8,19,46,,22
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Martin Tokoš,23,11,8,19,42,,16
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Adam Hemerka,19,7,12,19,32,,14
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Matyáš Krebner,24,3,14,17,27,,26
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Filip Zakonov,25,6,7,13,24,,42
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Jan Zoufalý,23,4,6,10,14,,9
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Ronald Gašparík,9,4,5,9,21,,15
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Jakub Seibert,25,5,3,8,15,,21
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Lukáš Punčochář,23,4,4,8,32,,19
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Tadeáš Chroust,26,4,3,7,15,,5
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Marek Korych,22,1,3,4,19,,7
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Michal Fišera,6,0,0,0,3,,4
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Miroslav Fořt,1,0,0,0,0,,-1
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Petr Koláčný,4,0,0,0,1,,0
+extraliga,czech,2022/2023,Předvýběr.CZ Florbal MB,Ondřej Pužman,2,0,0,0,0,,-1
+extraliga,czech,2022/2023,BLACK ANGELS,Matouš Burian,25,29,13,42,67,,-4
+extraliga,czech,2022/2023,BLACK ANGELS,Jakub Boček,25,22,20,42,92,,0
+extraliga,czech,2022/2023,BLACK ANGELS,Jakub Renčín,24,26,14,40,60,,1
+extraliga,czech,2022/2023,BLACK ANGELS,Jakub Hromada,24,17,12,29,50,,3
+extraliga,czech,2022/2023,BLACK ANGELS,Marek Fryš,26,11,12,23,33,,-12
+extraliga,czech,2022/2023,BLACK ANGELS,Daniel Ludvík,23,4,17,21,23,,-4
+extraliga,czech,2022/2023,BLACK ANGELS,Radek Hanák,26,10,4,14,45,,-10
+extraliga,czech,2022/2023,BLACK ANGELS,Matěj Boček,25,8,6,14,34,,-8
+extraliga,czech,2022/2023,BLACK ANGELS,Tomáš Čáslava,17,8,6,14,32,,-4
+extraliga,czech,2022/2023,BLACK ANGELS,Filip Neklan,22,6,6,12,26,,-17
+extraliga,czech,2022/2023,BLACK ANGELS,Vilém Doležal,16,5,5,10,20,,-7
+extraliga,czech,2022/2023,BLACK ANGELS,Martin Obuškevič,26,4,6,10,19,,4
+extraliga,czech,2022/2023,BLACK ANGELS,Vojtěch Novotný,26,3,5,8,17,,-13
+extraliga,czech,2022/2023,BLACK ANGELS,Vladimír Bačinský,24,3,4,7,13,,-6
+extraliga,czech,2022/2023,BLACK ANGELS,Tomáš Straka,16,1,4,5,8,,9
+extraliga,czech,2022/2023,BLACK ANGELS,Josef Štourač,11,2,2,4,3,,-2
+extraliga,czech,2022/2023,BLACK ANGELS,Adam Bouček,17,1,2,3,3,,-1
+extraliga,czech,2022/2023,BLACK ANGELS,Jan Bauman,26,1,1,2,10,,-14
+extraliga,czech,2022/2023,BLACK ANGELS,Lukáš Sůva,6,1,1,2,5,,-5
+extraliga,czech,2022/2023,BLACK ANGELS,Marek Ludvík,1,1,0,1,2,,0
+extraliga,czech,2022/2023,BLACK ANGELS,Vojtěch Ježek,6,0,1,1,4,,-5
+extraliga,czech,2022/2023,BLACK ANGELS,Jakub Kocourek,4,0,1,1,0,,2
+extraliga,czech,2022/2023,BLACK ANGELS,Jan Pícha,20,0,1,1,12,,-8
+extraliga,czech,2022/2023,BLACK ANGELS,Lukáš Franče,1,0,0,0,0,,0
+extraliga,czech,2022/2023,BLACK ANGELS,Vojtěch Koštialik,2,0,0,0,0,,1
+extraliga,czech,2022/2023,BLACK ANGELS,Matěj Lubas,2,0,0,0,1,,1
+extraliga,czech,2022/2023,BLACK ANGELS,Andrej Svatoš,12,0,0,0,1,,-4
+extraliga,czech,2022/2023,BLACK ANGELS,Adam Štyler,8,0,0,0,1,,0
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Marek Matejčík,26,26,36,62,66,,48
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Adam Delong,24,31,24,55,105,,37
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Adam Zubek,25,22,20,42,74,,47
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Martin Gattnar,26,29,10,39,58,,43
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Rostislav Gattnar,26,23,10,33,78,,17
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Lukáš Fukala,25,10,18,28,28,,30
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Jiří Besta,24,15,11,26,42,,25
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Matyáš Šindler,26,7,17,24,27,,42
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Michal Pažák,26,11,10,21,27,,48
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Jan Šebesta,25,11,9,20,34,,44
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Adam Palčinský,22,11,8,19,24,,18
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Jakub Hubálek,16,10,3,13,28,,31
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Ondřej Sidunov,26,4,9,13,24,,16
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Štěpán Kaleta,25,9,2,11,26,,24
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Ondřej Jankovský,25,2,9,11,13,,33
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Šimon Hatala,25,3,3,6,11,,26
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Ondřej Vítovec,16,2,4,6,7,,9
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,David Slončík,18,2,2,4,4,,0
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Jakub Galia,13,0,0,0,4,,0
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Michal Hložanka,2,0,0,0,0,,0
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Filip Novotný,5,0,0,0,0,,-1
+extraliga,czech,2022/2023,1. SC TEMPISH Vítkovice,Dan Peterek,2,0,0,0,0,,0

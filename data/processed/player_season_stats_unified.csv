@@ -1,4 +1,355 @@
 source,league,season,team_name,player_name,gp,goals,assists,points,shots,pim,plus_minus
+extraliga,czech,2022-2023,FBC Liberec,Šimon Stránský,26,32,33,65,107.0,,12.0
+extraliga,czech,2022-2023,FBC Liberec,Prokop Ferdan,24,13,23,36,43.0,,-2.0
+extraliga,czech,2022-2023,FBC Liberec,Vojtěch Wiener,13,16,8,24,30.0,,11.0
+extraliga,czech,2022-2023,FBC Liberec,Filip Smutný,23,12,11,23,41.0,,-21.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Kárník,26,9,7,16,29.0,,-7.0
+extraliga,czech,2022-2023,FBC Liberec,Radek Valeš,19,7,9,16,25.0,,-23.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Mádlo,24,10,4,14,37.0,,-7.0
+extraliga,czech,2022-2023,FBC Liberec,Vojtěch Janeček,23,6,4,10,23.0,,-12.0
+extraliga,czech,2022-2023,FBC Liberec,Jan Světlík,26,6,4,10,26.0,,-21.0
+extraliga,czech,2022-2023,FBC Liberec,Tomáš Dlesk,24,4,5,9,15.0,,-27.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Pařízek,22,5,2,7,21.0,,-11.0
+extraliga,czech,2022-2023,FBC Liberec,Lukáš Macháč,20,4,2,6,16.0,,-32.0
+extraliga,czech,2022-2023,FBC Liberec,Michal Václavík,21,4,2,6,11.0,,0.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Faksa,12,1,5,6,11.0,,-8.0
+extraliga,czech,2022-2023,FBC Liberec,Adam Balatka,13,4,0,4,21.0,,-17.0
+extraliga,czech,2022-2023,FBC Liberec,Jan Baudisch,24,2,2,4,14.0,,-18.0
+extraliga,czech,2022-2023,FBC Liberec,Jan Bitman,22,1,3,4,7.0,,-5.0
+extraliga,czech,2022-2023,FBC Liberec,Jan Šoltys,26,1,2,3,15.0,,-22.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Kopecký,4,1,1,2,4.0,,-5.0
+extraliga,czech,2022-2023,FBC Liberec,Vladimír Trčka,6,1,0,1,2.0,,-12.0
+extraliga,czech,2022-2023,FBC Liberec,Daniel Martínek,2,0,1,1,0.0,,0.0
+extraliga,czech,2022-2023,FBC Liberec,Daniel Sedláček,7,0,1,1,4.0,,-8.0
+extraliga,czech,2022-2023,FBC Liberec,Lukáš Dolejš,9,0,0,0,0.0,,-5.0
+extraliga,czech,2022-2023,FBC Liberec,Jakub Horník,4,0,0,0,1.0,,0.0
+extraliga,czech,2022-2023,FBC Liberec,Petr Kukla,7,0,0,0,1.0,,-8.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Vojtěch Klápa,24,26,10,36,106.0,,-12.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Ondřej Plíhal,24,14,14,28,77.0,,4.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Ivan Pergler,26,17,8,25,81.0,,-5.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Tomáš Gärtner,23,10,10,20,35.0,,-8.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Ondřej Stuchlík,21,3,15,18,18.0,,8.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Petr Hartman,25,4,13,17,18.0,,-9.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Daniel Gärtner,20,10,6,16,40.0,,0.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Štěpán Švejda,22,10,4,14,41.0,,-20.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Jan Procházka,26,6,8,14,31.0,,-13.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Radek Kužel,24,6,5,11,26.0,,-7.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Matěj Horák,20,6,1,7,21.0,,-1.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Vojtěch Máca,22,4,3,7,23.0,,-15.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Erich Kellermann,25,1,5,6,12.0,,-13.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Jiří Procházka,25,1,3,4,16.0,,-3.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Lukáš Gregor,14,1,2,3,8.0,,-3.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Zbyněk Stuchlík,4,1,2,3,6.0,,0.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Lukáš Trojáček,22,1,2,3,8.0,,-9.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Pavel Hájek,20,1,1,2,13.0,,-9.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Jan Otta,11,1,1,2,6.0,,-8.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Jan Pinkas,19,1,1,2,7.0,,-7.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Tadeáš Melíšek,7,1,0,1,6.0,,-4.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Štěpán Čuda,10,1,0,1,2.0,,-7.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Petr Blažej,14,0,0,0,5.0,,-7.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Ben Kosterich,3,0,0,0,0.0,,3.0
+extraliga,czech,2022-2023,Sokol Kral Vinohrady,Radovan Vnuk,1,0,0,0,0.0,,-2.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Adam Šmíd,25,20,17,37,83.0,,-22.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Martin Zozuĺák,22,18,16,34,78.0,,-6.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Lukáš Kučera,19,18,6,24,58.0,,-18.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Ivo Teichman,20,9,15,24,41.0,,-32.0
+extraliga,czech,2022-2023,Sokoli Pardubice,David Žáček,25,12,7,19,47.0,,-36.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Lukáš Prix,22,5,8,13,27.0,,-15.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Marek Ďopan,26,5,5,10,15.0,,-38.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Přemek Pakosta,11,7,2,9,25.0,,10.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Milan Bína,12,4,4,8,13.0,,-24.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Jakub Burian,23,2,5,7,12.0,,-12.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Jiří Kohoutek,25,5,0,5,9.0,,-26.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Ondřej Machatý,21,2,3,5,7.0,,-22.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Petr Křinka,25,2,1,3,12.0,,-38.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Jan Nezval,22,0,3,3,7.0,,-21.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Vojtěch Kaluža,17,1,0,1,6.0,,-12.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Matouš Sákra,15,1,0,1,4.0,,-11.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Vojtěch Klein,15,0,1,1,1.0,,-15.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Petr Černý,23,0,1,1,15.0,,-22.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Jakub Šimák,21,0,1,1,5.0,,-34.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Tomáš Belej,2,0,0,0,1.0,,-2.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Lukáš Drahný,1,0,0,0,1.0,,-1.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Petr Kvasil,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Michal Puchner,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Jan Savický,1,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Lukáš Slabý,24,0,0,0,3.0,,-29.0
+extraliga,czech,2022-2023,Sokoli Pardubice,Marek Viterna,23,0,0,0,3.0,,-21.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Michal Strachota,26,14,13,27,66.0,,-43.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Michal Klápa,25,16,10,26,61.0,,-44.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Matyáš Velc,25,13,11,24,59.0,,-35.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Daniel Nicklas,22,10,5,15,59.0,,-27.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Jan Zavadil,22,3,10,13,33.0,,-37.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Adam Zahraj,26,9,2,11,40.0,,-31.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Jiří Lebeda,20,8,1,9,41.0,,-25.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Michal Zeman,23,5,4,9,19.0,,-29.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Ivan Tomčo,25,4,5,9,27.0,,-39.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Lukáš Macháček,8,2,7,9,12.0,,-11.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Ondřej Hurt,19,2,6,8,28.0,,-13.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Matěj Korbel,25,1,5,6,15.0,,-29.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Tomáš Navrátil,23,4,1,5,18.0,,-30.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Daniel Kalaš,25,1,4,5,11.0,,-37.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Filip Eliáš,8,3,1,4,17.0,,-18.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Matěj Svatek,16,2,2,4,6.0,,-20.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Petr Torma,24,2,1,3,11.0,,-26.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Jan Lang,25,0,3,3,5.0,,-35.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Miloš Tyl,1,2,0,2,5.0,,1.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Tomáš Smolka,16,1,0,1,5.0,,-11.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Ondřej Šimeček,8,1,0,1,2.0,,1.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Martin Koubek,12,0,1,1,1.0,,-12.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Tomáš Nushart,2,0,1,1,2.0,,-2.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Jiří Šťovíček,4,0,1,1,0.0,,-1.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Kryštof Ernst,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Petr Jedlička,5,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Luděk Lejba,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,FB Hurrican Karlovy Vary,Marek Zapletal,7,0,0,0,4.0,,-3.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Peter Nehila,25,22,12,34,59.0,,-30.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,František Vykopal,24,22,9,31,99.0,,-22.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Jakub Grich,25,11,7,18,48.0,,-29.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Jiří Halama,25,9,7,16,35.0,,-44.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Filip Hrabal,26,6,10,16,37.0,,-39.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Martin Grlický,22,5,11,16,24.0,,-19.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Tomáš Sovják,25,5,10,15,32.0,,-27.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Ronald Gašparík,9,6,8,14,33.0,,5.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Samuel Kelemen,25,6,3,9,28.0,,-38.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Vlastimil Červenka,14,6,2,8,18.0,,-26.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Matěj Kostka,8,3,2,5,13.0,,-11.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Lukáš Kubíček,24,1,4,5,9.0,,-30.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Marek Zapletal,12,3,1,4,15.0,,-15.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Petr Kopecký,19,3,0,3,4.0,,-20.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Pavel Jurčík,21,1,2,3,11.0,,-34.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Daniel Minich,15,1,2,3,6.0,,-22.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Maxim Šefčík,25,0,3,3,4.0,,-27.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,David Medek,6,1,1,2,8.0,,0.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Dalimil Krčma,12,0,1,1,0.0,,-2.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Tomáš Brázdil,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Filip Horák,15,0,0,0,2.0,,-19.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Michal Procházka,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Matyáš Zouhar,7,0,0,0,5.0,,-9.0
+extraliga,czech,2022-2023,PSG PANTHERS OTROKOVICE,Adam Štourač,11,0,0,0,1.0,,-9.0
+extraliga,czech,2022-2023,Sparta Prague,Jiří Curney,22,30,14,44,88.0,,19.0
+extraliga,czech,2022-2023,Sparta Prague,Mikuláš Krbec,24,12,32,44,60.0,,17.0
+extraliga,czech,2022-2023,Sparta Prague,Robert Košir,25,22,17,39,76.0,,25.0
+extraliga,czech,2022-2023,Sparta Prague,Marek Zouzal,26,13,14,27,50.0,,13.0
+extraliga,czech,2022-2023,Sparta Prague,Matěj Čermák,25,13,10,23,60.0,,14.0
+extraliga,czech,2022-2023,Sparta Prague,Radim Křenek,26,13,7,20,47.0,,12.0
+extraliga,czech,2022-2023,Sparta Prague,Josef Juha,25,7,9,16,38.0,,-4.0
+extraliga,czech,2022-2023,Sparta Prague,Dominik Bartoš,26,7,4,11,26.0,,8.0
+extraliga,czech,2022-2023,Sparta Prague,Matěj Pruner,26,3,5,8,28.0,,-8.0
+extraliga,czech,2022-2023,Sparta Prague,Daniel Fišer,23,2,5,7,8.0,,-1.0
+extraliga,czech,2022-2023,Sparta Prague,Jakub Kolstrunk,23,4,2,6,30.0,,1.0
+extraliga,czech,2022-2023,Sparta Prague,Jakub Mühlfait,18,4,1,5,13.0,,-3.0
+extraliga,czech,2022-2023,Sparta Prague,Michal Kareš,23,0,5,5,9.0,,12.0
+extraliga,czech,2022-2023,Sparta Prague,Kristián Kozák,24,4,0,4,14.0,,-7.0
+extraliga,czech,2022-2023,Sparta Prague,Josef Sedláček,26,3,1,4,16.0,,5.0
+extraliga,czech,2022-2023,Sparta Prague,Charlie Jonsson,11,0,4,4,8.0,,0.0
+extraliga,czech,2022-2023,Sparta Prague,Jan Marvánek,13,1,2,3,7.0,,2.0
+extraliga,czech,2022-2023,Sparta Prague,Vojtěch Andrášek,13,1,0,1,4.0,,-6.0
+extraliga,czech,2022-2023,Sparta Prague,Matyáš Bláha,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Sparta Prague,Adam Kuchynka,20,0,0,0,6.0,,-7.0
+extraliga,czech,2022-2023,Sparta Prague,Michael Petráň,6,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,Sparta Prague,Jakub Šváb,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,FBC Ostrava,Marek Bräuer,23,34,14,48,88.0,,10.0
+extraliga,czech,2022-2023,FBC Ostrava,Lukáš Pešat,25,15,27,42,55.0,,21.0
+extraliga,czech,2022-2023,FBC Ostrava,Šimon Kuczera,24,14,16,30,39.0,,8.0
+extraliga,czech,2022-2023,FBC Ostrava,Daniel Chatrný,26,16,8,24,66.0,,-4.0
+extraliga,czech,2022-2023,FBC Ostrava,Lukáš Pobořil,21,8,14,22,33.0,,5.0
+extraliga,czech,2022-2023,FBC Ostrava,Ladislav Gál,24,13,6,19,35.0,,-15.0
+extraliga,czech,2022-2023,FBC Ostrava,Adam Choma,26,5,7,12,22.0,,30.0
+extraliga,czech,2022-2023,FBC Ostrava,Lukáš Herblich,26,5,6,11,28.0,,-10.0
+extraliga,czech,2022-2023,FBC Ostrava,Martin Šulc,24,6,4,10,17.0,,-2.0
+extraliga,czech,2022-2023,FBC Ostrava,Matěj Sedláček,26,4,6,10,10.0,,-2.0
+extraliga,czech,2022-2023,FBC Ostrava,Filip Šubert,25,4,5,9,25.0,,-8.0
+extraliga,czech,2022-2023,FBC Ostrava,Pavel Barabáš,25,4,3,7,8.0,,-10.0
+extraliga,czech,2022-2023,FBC Ostrava,Patrik Němec,23,4,3,7,10.0,,11.0
+extraliga,czech,2022-2023,FBC Ostrava,Adam Mikoláš,20,2,4,6,22.0,,-9.0
+extraliga,czech,2022-2023,FBC Ostrava,Marcel Jakubec,25,0,4,4,7.0,,-6.0
+extraliga,czech,2022-2023,FBC Ostrava,Jan Daniš,13,2,1,3,14.0,,-12.0
+extraliga,czech,2022-2023,FBC Ostrava,Zdeněk Marčon,13,2,0,2,3.0,,-1.0
+extraliga,czech,2022-2023,FBC Ostrava,David Friedel,16,1,1,2,14.0,,-7.0
+extraliga,czech,2022-2023,FBC Ostrava,Šimon Soukup,24,1,1,2,9.0,,-14.0
+extraliga,czech,2022-2023,FBC Ostrava,Ivo Dohnal,2,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,FBC Ostrava,Jakub Košarišťan,24,0,0,0,3.0,,-7.0
+extraliga,czech,2022-2023,FBC Ostrava,Richard Pum,2,0,0,0,0.0,,1.0
+extraliga,czech,2022-2023,FBC Ostrava,Martin Stibor,3,0,0,0,3.0,,-1.0
+extraliga,czech,2022-2023,FBC Ostrava,Petr Vítovec,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Florbal Chodov,Marek Vávra,26,36,32,68,95.0,,33.0
+extraliga,czech,2022-2023,Florbal Chodov,Tom Ondrušek,24,25,26,51,78.0,,26.0
+extraliga,czech,2022-2023,Florbal Chodov,Mikuláš Komárek,21,23,13,36,61.0,,20.0
+extraliga,czech,2022-2023,Florbal Chodov,Jiří Bauer,26,15,16,31,66.0,,45.0
+extraliga,czech,2022-2023,Florbal Chodov,Ondřej Vošta,26,13,15,28,49.0,,28.0
+extraliga,czech,2022-2023,Florbal Chodov,Antonín Votava,24,13,6,19,36.0,,18.0
+extraliga,czech,2022-2023,Florbal Chodov,Daniel Maxa,19,11,7,18,29.0,,15.0
+extraliga,czech,2022-2023,Florbal Chodov,Jakub Dufek,16,7,8,15,37.0,,9.0
+extraliga,czech,2022-2023,Florbal Chodov,Martin Skřivánek,20,8,6,14,29.0,,3.0
+extraliga,czech,2022-2023,Florbal Chodov,Lukáš Kafka,24,9,4,13,48.0,,-3.0
+extraliga,czech,2022-2023,Florbal Chodov,Radim Slunečko,22,4,8,12,26.0,,28.0
+extraliga,czech,2022-2023,Florbal Chodov,Tomáš Sýkora,12,3,8,11,12.0,,11.0
+extraliga,czech,2022-2023,Florbal Chodov,Marek Matoušek,22,6,4,10,19.0,,15.0
+extraliga,czech,2022-2023,Florbal Chodov,Matěj Netrefa,25,6,4,10,39.0,,10.0
+extraliga,czech,2022-2023,Florbal Chodov,Michal Podhráský,15,3,7,10,10.0,,8.0
+extraliga,czech,2022-2023,Florbal Chodov,Marek Šmíd,20,0,4,4,6.0,,4.0
+extraliga,czech,2022-2023,Florbal Chodov,Matěj Jambor,11,2,1,3,8.0,,8.0
+extraliga,czech,2022-2023,Florbal Chodov,Šimon Doubek,12,1,1,2,6.0,,3.0
+extraliga,czech,2022-2023,Florbal Chodov,David Horký,16,0,2,2,8.0,,7.0
+extraliga,czech,2022-2023,Florbal Chodov,Ondřej Štefek,5,1,0,1,2.0,,3.0
+extraliga,czech,2022-2023,Florbal Chodov,Matěj Kolář,16,0,0,0,0.0,,2.0
+extraliga,czech,2022-2023,Florbal Chodov,Matyáš Kronovetr,2,0,0,0,0.0,,4.0
+extraliga,czech,2022-2023,Florbal Chodov,Jan Novotný,7,0,0,0,0.0,,-2.0
+extraliga,czech,2022-2023,Florbal Chodov,Jakub Čech,1,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,Florbal Chodov,Martin Škorpa,4,0,0,0,1.0,,5.0
+extraliga,czech,2022-2023,Florbal Chodov,Šimon Šmajda,8,0,0,0,4.0,,-1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Jakub Buršík,26,47,17,64,112.0,,34.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Filip Forman,25,22,42,64,96.0,,32.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Jaroslav Petrák,26,33,14,47,129.0,,4.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Patrik Šebek,26,16,20,36,68.0,,15.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Karel Petrák,25,20,13,33,58.0,,22.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Jan Řehoř,26,19,12,31,56.0,,1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Jan Malič,25,10,21,31,47.0,,33.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Martin Kisugite,22,9,15,24,34.0,,8.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Ondřej Kawulok,26,11,12,23,45.0,,27.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Matúš Gajdoš,26,9,5,14,38.0,,-2.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Samuel Virga,24,3,11,14,23.0,,3.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Patrik Rozkovec,26,8,4,12,28.0,,3.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Pavel Čihák,26,4,5,9,22.0,,3.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Šimon Hronek,20,2,6,8,16.0,,1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Vojtěch Zezulka,25,4,2,6,15.0,,10.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Michal Strnad,19,2,1,3,9.0,,5.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Vojtěch Bílek,21,1,2,3,20.0,,-3.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,David Veleba,8,2,0,2,6.0,,-1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Jan Rudolf Dobisík,11,1,1,2,6.0,,2.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Tomáš Trnka,6,1,1,2,4.0,,1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Drahoslav Pastor,15,0,1,1,4.0,,5.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Šimon Batkovič,2,0,0,0,1.0,,0.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Mário Ozimý,2,0,0,0,3.0,,1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Sebastian Rod,1,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,FbS Bohemians Prague,Lukáš Trnka,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Tatran Střešovice,Marek Beneš,25,30,46,76,104.0,,88.0
+extraliga,czech,2022-2023,Tatran Střešovice,Matěj Havlas,24,28,29,57,85.0,,89.0
+extraliga,czech,2022-2023,Tatran Střešovice,Tomáš Hanák,24,38,16,54,103.0,,75.0
+extraliga,czech,2022-2023,Tatran Střešovice,Ondřej Němeček,26,22,26,48,72.0,,93.0
+extraliga,czech,2022-2023,Tatran Střešovice,David Šimek,26,31,8,39,85.0,,45.0
+extraliga,czech,2022-2023,Tatran Střešovice,Martin Šindelář,24,17,18,35,57.0,,37.0
+extraliga,czech,2022-2023,Tatran Střešovice,Jonáš Kreysa,26,24,5,29,95.0,,24.0
+extraliga,czech,2022-2023,Tatran Střešovice,Milan Meliš,26,14,15,29,49.0,,43.0
+extraliga,czech,2022-2023,Tatran Střešovice,Martin Čermák,22,9,12,21,45.0,,27.0
+extraliga,czech,2022-2023,Tatran Střešovice,Adam Tlapák,24,6,15,21,25.0,,17.0
+extraliga,czech,2022-2023,Tatran Střešovice,Vojtěch Kún,19,8,2,10,30.0,,28.0
+extraliga,czech,2022-2023,Tatran Střešovice,Ondřej Sádlo,18,5,5,10,26.0,,21.0
+extraliga,czech,2022-2023,Tatran Střešovice,Pavel Sládeček,26,3,7,10,19.0,,41.0
+extraliga,czech,2022-2023,Tatran Střešovice,Šimon Vavroušek,25,2,8,10,27.0,,85.0
+extraliga,czech,2022-2023,Tatran Střešovice,Martin Mühlfait,25,2,6,8,21.0,,16.0
+extraliga,czech,2022-2023,Tatran Střešovice,Daniel Péc,19,5,1,6,19.0,,12.0
+extraliga,czech,2022-2023,Tatran Střešovice,Bohumil Piskáček,23,4,0,4,29.0,,3.0
+extraliga,czech,2022-2023,Tatran Střešovice,Petr Brautferger,4,1,2,3,10.0,,8.0
+extraliga,czech,2022-2023,Tatran Střešovice,Jakub Kolísko,2,2,0,2,5.0,,2.0
+extraliga,czech,2022-2023,Tatran Střešovice,Filip Eliáš,12,1,0,1,4.0,,11.0
+extraliga,czech,2022-2023,Tatran Střešovice,Marek Hozman,4,1,0,1,3.0,,1.0
+extraliga,czech,2022-2023,Tatran Střešovice,Vít Hrbáček,1,0,1,1,1.0,,-2.0
+extraliga,czech,2022-2023,Tatran Střešovice,Adam Kučera,9,0,1,1,2.0,,7.0
+extraliga,czech,2022-2023,Tatran Střešovice,Matěj Čelakovský,11,0,1,1,6.0,,-1.0
+extraliga,czech,2022-2023,Tatran Střešovice,Václav Bajko,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Tatran Střešovice,Michal Antonín Malhocký,4,0,0,0,0.0,,1.0
+extraliga,czech,2022-2023,Tatran Střešovice,Lukáš Mühlfait,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Tatran Střešovice,Jakub Pluhař,1,0,0,0,0.0,,-2.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jan Peška,26,31,16,47,102.0,,-10.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Radek Krajcigr,25,29,18,47,74.0,,-1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Štěpán Slaný,23,10,21,31,42.0,,-15.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Václav Vavruška,24,16,11,27,77.0,,-18.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Daniel Štěrba,25,10,17,27,54.0,,-7.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Milan Tichý,24,10,15,25,60.0,,-17.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Ondřej Kopič,24,12,5,17,52.0,,-17.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Ladislav Pekárek,26,8,9,17,29.0,,-18.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Albert Kouba,23,9,0,9,25.0,,-7.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Antonín Stárek,19,2,6,8,14.0,,-8.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jakub Jirsa,25,3,4,7,20.0,,-26.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jaromír Ekl,7,2,3,5,3.0,,-2.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Vladimír Trčka,8,1,4,5,7.0,,-2.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Lukáš Mlejnek,25,2,1,3,12.0,,-29.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Tomáš Kadlec,11,2,0,2,9.0,,-11.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Lukáš Staněk,23,1,0,1,2.0,,-7.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Marek Dzierža,26,0,1,1,7.0,,-10.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jiří Vlček,8,0,1,1,2.0,,-4.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Oliver Alexander Brodský,9,0,0,0,1.0,,-2.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Václav Drahoš,4,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jakub Karel,1,0,0,0,0.0,,1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jiří Moravík,2,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Lukáš Pokorný,9,0,0,0,4.0,,-1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Petr Vondráček,5,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,FBC Ceska Lipa,Jan Zátka,6,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Milan Tomašík,25,20,34,54,90.0,,35.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Jan Natov,26,32,16,48,118.0,,38.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Michal Sládek,26,20,17,37,70.0,,42.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Patrik Suchánek,26,16,16,32,64.0,,42.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Matěj Pěnička,23,16,8,24,55.0,,21.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Jakub Bína,26,11,10,21,61.0,,19.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Daniel Šebek,23,11,9,20,46.0,,29.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Jakub Gruber,26,13,6,19,52.0,,29.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Dominik Beneš,26,11,8,19,46.0,,22.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Martin Tokoš,23,11,8,19,42.0,,16.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Adam Hemerka,19,7,12,19,32.0,,14.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Matyáš Krebner,24,3,14,17,27.0,,26.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Filip Zakonov,25,6,7,13,24.0,,42.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Jan Zoufalý,23,4,6,10,14.0,,9.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Ronald Gašparík,9,4,5,9,21.0,,15.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Jakub Seibert,25,5,3,8,15.0,,21.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Lukáš Punčochář,23,4,4,8,32.0,,19.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Tadeáš Chroust,26,4,3,7,15.0,,5.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Marek Korych,22,1,3,4,19.0,,7.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Michal Fišera,6,0,0,0,3.0,,4.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Miroslav Fořt,1,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Petr Koláčný,4,0,0,0,1.0,,0.0
+extraliga,czech,2022-2023,Florbal Mlada Boleslav,Ondřej Pužman,2,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,Black Angels Prague,Matouš Burian,25,29,13,42,67.0,,-4.0
+extraliga,czech,2022-2023,Black Angels Prague,Jakub Boček,25,22,20,42,92.0,,0.0
+extraliga,czech,2022-2023,Black Angels Prague,Jakub Renčín,24,26,14,40,60.0,,1.0
+extraliga,czech,2022-2023,Black Angels Prague,Jakub Hromada,24,17,12,29,50.0,,3.0
+extraliga,czech,2022-2023,Black Angels Prague,Marek Fryš,26,11,12,23,33.0,,-12.0
+extraliga,czech,2022-2023,Black Angels Prague,Daniel Ludvík,23,4,17,21,23.0,,-4.0
+extraliga,czech,2022-2023,Black Angels Prague,Radek Hanák,26,10,4,14,45.0,,-10.0
+extraliga,czech,2022-2023,Black Angels Prague,Matěj Boček,25,8,6,14,34.0,,-8.0
+extraliga,czech,2022-2023,Black Angels Prague,Tomáš Čáslava,17,8,6,14,32.0,,-4.0
+extraliga,czech,2022-2023,Black Angels Prague,Filip Neklan,22,6,6,12,26.0,,-17.0
+extraliga,czech,2022-2023,Black Angels Prague,Vilém Doležal,16,5,5,10,20.0,,-7.0
+extraliga,czech,2022-2023,Black Angels Prague,Martin Obuškevič,26,4,6,10,19.0,,4.0
+extraliga,czech,2022-2023,Black Angels Prague,Vojtěch Novotný,26,3,5,8,17.0,,-13.0
+extraliga,czech,2022-2023,Black Angels Prague,Vladimír Bačinský,24,3,4,7,13.0,,-6.0
+extraliga,czech,2022-2023,Black Angels Prague,Tomáš Straka,16,1,4,5,8.0,,9.0
+extraliga,czech,2022-2023,Black Angels Prague,Josef Štourač,11,2,2,4,3.0,,-2.0
+extraliga,czech,2022-2023,Black Angels Prague,Adam Bouček,17,1,2,3,3.0,,-1.0
+extraliga,czech,2022-2023,Black Angels Prague,Jan Bauman,26,1,1,2,10.0,,-14.0
+extraliga,czech,2022-2023,Black Angels Prague,Lukáš Sůva,6,1,1,2,5.0,,-5.0
+extraliga,czech,2022-2023,Black Angels Prague,Marek Ludvík,1,1,0,1,2.0,,0.0
+extraliga,czech,2022-2023,Black Angels Prague,Vojtěch Ježek,6,0,1,1,4.0,,-5.0
+extraliga,czech,2022-2023,Black Angels Prague,Jakub Kocourek,4,0,1,1,0.0,,2.0
+extraliga,czech,2022-2023,Black Angels Prague,Jan Pícha,20,0,1,1,12.0,,-8.0
+extraliga,czech,2022-2023,Black Angels Prague,Lukáš Franče,1,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,Black Angels Prague,Vojtěch Koštialik,2,0,0,0,0.0,,1.0
+extraliga,czech,2022-2023,Black Angels Prague,Matěj Lubas,2,0,0,0,1.0,,1.0
+extraliga,czech,2022-2023,Black Angels Prague,Andrej Svatoš,12,0,0,0,1.0,,-4.0
+extraliga,czech,2022-2023,Black Angels Prague,Adam Štyler,8,0,0,0,1.0,,0.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Marek Matejčík,26,26,36,62,66.0,,48.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Adam Delong,24,31,24,55,105.0,,37.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Adam Zubek,25,22,20,42,74.0,,47.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Martin Gattnar,26,29,10,39,58.0,,43.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Rostislav Gattnar,26,23,10,33,78.0,,17.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Lukáš Fukala,25,10,18,28,28.0,,30.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Jiří Besta,24,15,11,26,42.0,,25.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Matyáš Šindler,26,7,17,24,27.0,,42.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Michal Pažák,26,11,10,21,27.0,,48.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Jan Šebesta,25,11,9,20,34.0,,44.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Adam Palčinský,22,11,8,19,24.0,,18.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Jakub Hubálek,16,10,3,13,28.0,,31.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Ondřej Sidunov,26,4,9,13,24.0,,16.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Štěpán Kaleta,25,9,2,11,26.0,,24.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Ondřej Jankovský,25,2,9,11,13.0,,33.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Šimon Hatala,25,3,3,6,11.0,,26.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Ondřej Vítovec,16,2,4,6,7.0,,9.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,David Slončík,18,2,2,4,4.0,,0.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Jakub Galia,13,0,0,0,4.0,,0.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Michal Hložanka,2,0,0,0,0.0,,0.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Filip Novotný,5,0,0,0,0.0,,-1.0
+extraliga,czech,2022-2023,1. SC Vitkovice Ostrava,Dan Peterek,2,0,0,0,0.0,,0.0
 extraliga,czech,2023-2024,Sokol Kral Vinohrady,Daniel Gärtner,25,14,14,28,57.0,,-21.0
 extraliga,czech,2023-2024,Sokol Kral Vinohrady,Daniel Keller,25,19,7,26,60.0,,-11.0
 extraliga,czech,2023-2024,Sokol Kral Vinohrady,Ivan Pergler,25,21,4,25,85.0,,-21.0
@@ -1063,6 +1414,208 @@ extraliga,czech,2025-2026,Sparta Prague,Jakub Mádlo,10,2,1,3,10.0,,6.0
 extraliga,czech,2025-2026,Sparta Prague,Adam Kos,4,0,0,0,0.0,,0.0
 extraliga,czech,2025-2026,Sparta Prague,Lukáš Mitera,1,0,0,0,1.0,,-1.0
 extraliga,czech,2025-2026,Sparta Prague,Kosťantyn Šlosar,1,0,0,0,0.0,,0.0
+fliiga,finland,2022-2023,SPV,Kotilainen Peter,32,29,44,73,354.0,16.0,55.0
+fliiga,finland,2022-2023,Nokian KRP,Laakso Mikko,33,32,31,63,154.0,8.0,50.0
+fliiga,finland,2022-2023,Nokian KRP,Rantala Joona,33,32,27,59,207.0,14.0,42.0
+fliiga,finland,2022-2023,Westend Indians,Remes Christian,33,26,24,50,190.0,2.0,21.0
+fliiga,finland,2022-2023,OLS Oulu,Hyvärinen Luukas,31,23,26,49,134.0,12.0,20.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Manninen Jami,33,23,25,48,196.0,14.0,20.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Siekkinen Kaapo,33,34,13,47,158.0,14.0,46.0
+fliiga,finland,2022-2023,Nurmon Jymy,Haveri Elmeri,33,32,14,46,255.0,10.0,-10.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Laiti Niko,33,24,21,45,151.0,0.0,40.0
+fliiga,finland,2022-2023,TPS Turku,Trekse Peteris,33,17,28,45,162.0,26.0,53.0
+fliiga,finland,2022-2023,SC Classic Tampere,Lastikka Ville,24,20,24,44,158.0,2.0,45.0
+fliiga,finland,2022-2023,SPV,Haukkala Konsta,33,31,12,43,215.0,24.0,42.0
+fliiga,finland,2022-2023,Nurmon Jymy,Hakanen Riku,24,23,17,40,172.0,6.0,6.0
+fliiga,finland,2022-2023,SC Classic Tampere,Heikkilä Oskari,33,15,23,38,136.0,6.0,29.0
+fliiga,finland,2022-2023,TPS Turku,Vesterinen Waltteri,29,14,24,38,117.0,10.0,44.0
+fliiga,finland,2022-2023,TPS Turku,Niemelä Jere,25,20,17,37,147.0,18.0,39.0
+fliiga,finland,2022-2023,Nokian KRP,Jonaeson Nico,31,17,20,37,104.0,8.0,48.0
+fliiga,finland,2022-2023,Nokian KRP,Ahola Juuso,30,19,14,33,112.0,6.0,32.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Kinnunen Teuvo,30,17,15,32,123.0,2.0,26.0
+fliiga,finland,2022-2023,OLS Oulu,Karvonen Valte,30,17,15,32,86.0,2.0,16.0
+fliiga,finland,2022-2023,OLS Oulu,Kinnunen Olli,31,22,9,31,127.0,8.0,3.0
+fliiga,finland,2022-2023,Nokian KRP,Viitakoski Valtteri,33,22,9,31,119.0,2.0,24.0
+fliiga,finland,2022-2023,LASB Lahti,Einiö Niko,33,25,5,30,236.0,12.0,-15.0
+fliiga,finland,2022-2023,TPS Turku,Laine Olli-Akseli,33,11,19,30,120.0,14.0,46.0
+fliiga,finland,2022-2023,SC Classic Tampere,Laitila Alpo,33,6,24,30,54.0,6.0,24.0
+fliiga,finland,2022-2023,FBC Turku,Ollikainen Aaro,32,20,9,29,140.0,16.0,-43.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Minkkinen Matti,28,18,11,29,144.0,2.0,25.0
+fliiga,finland,2022-2023,LASB Lahti,Havula Tatu,32,13,16,29,99.0,4.0,-30.0
+fliiga,finland,2022-2023,Westend Indians,Auvinen Jasper,23,17,10,27,131.0,6.0,16.0
+fliiga,finland,2022-2023,Westend Indians,Huppunen Jesse-Samuli,33,11,16,27,107.0,6.0,19.0
+fliiga,finland,2022-2023,Westend Indians,Junnila Samuli,29,8,19,27,130.0,10.0,12.0
+fliiga,finland,2022-2023,SC Classic Tampere,Tykkyläinen Konsta,33,19,7,26,129.0,8.0,26.0
+fliiga,finland,2022-2023,Oilers Espoo,Lindfors Santeri,33,15,11,26,103.0,10.0,3.0
+fliiga,finland,2022-2023,FBC Turku,Laaksonen Nikolas,33,10,16,26,109.0,10.0,-49.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Laasonen Roni,33,17,8,25,125.0,12.0,20.0
+fliiga,finland,2022-2023,Nurmon Jymy,Äijälä Niklas,33,13,12,25,68.0,2.0,1.0
+fliiga,finland,2022-2023,SPV,Keskinen Juuso,32,18,6,24,174.0,14.0,21.0
+fliiga,finland,2022-2023,LASB Lahti,Juuti Jasper,29,12,12,24,158.0,10.0,-15.0
+fliiga,finland,2022-2023,Westend Indians,Auranen Leevi,30,13,10,23,107.0,0.0,-2.0
+fliiga,finland,2022-2023,Nokian KRP,Paulaharju Simo,31,11,10,21,75.0,4.0,17.0
+fliiga,finland,2022-2023,SC Classic Tampere,Sikkinen Eetu,23,9,12,21,56.0,8.0,28.0
+fliiga,finland,2022-2023,Nokian KRP,Hyrkkönen Kim,32,13,7,20,71.0,12.0,11.0
+fliiga,finland,2022-2023,SC Classic Tampere,Salminen Toni,33,10,10,20,67.0,2.0,21.0
+fliiga,finland,2022-2023,Westend Indians,Harjula Tuomas,33,8,12,20,40.0,2.0,-3.0
+fliiga,finland,2022-2023,Nurmon Jymy,Mäenpää Matias,31,15,4,19,109.0,4.0,-6.0
+fliiga,finland,2022-2023,Westend Indians,Pasanen Rasmus,23,10,9,19,70.0,16.0,17.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Koljonen Perttu,32,10,9,19,128.0,2.0,11.0
+fliiga,finland,2022-2023,Nokian KRP,Arkkila Olli,31,9,10,19,58.0,14.0,23.0
+fliiga,finland,2022-2023,FBC Turku,Forsman Juuso,24,9,10,19,153.0,10.0,-24.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Suhanto Eppu,33,4,15,19,106.0,4.0,24.0
+fliiga,finland,2022-2023,EraViikingit,Tenhonen Daniel,33,14,4,18,83.0,10.0,-42.0
+fliiga,finland,2022-2023,OLS Oulu,Ijäs Eetu,31,6,11,17,75.0,18.0,-5.0
+fliiga,finland,2022-2023,LASB Lahti,Palvaila Lauri,33,6,10,16,64.0,2.0,-37.0
+fliiga,finland,2022-2023,Oilers Espoo,Lindfors Jesperi,33,5,11,16,58.0,10.0,16.0
+fliiga,finland,2022-2023,OLS Oulu,Vänttilä Kimi,20,3,13,16,32.0,4.0,4.0
+fliiga,finland,2022-2023,SPV,Autio Janne,33,8,7,15,44.0,2.0,-11.0
+fliiga,finland,2022-2023,SC Classic Tampere,Salo Nico,19,7,8,15,61.0,2.0,28.0
+fliiga,finland,2022-2023,Nurmon Jymy,Sariola Eetu,32,8,6,14,129.0,30.0,-1.0
+fliiga,finland,2022-2023,OLS Oulu,Wikstedt Olli,28,3,11,14,60.0,4.0,-19.0
+fliiga,finland,2022-2023,Westend Indians,Rauhala Jani,24,8,5,13,80.0,16.0,7.0
+fliiga,finland,2022-2023,Nurmon Jymy,Järvikangas Viljami,28,2,11,13,26.0,14.0,-11.0
+fliiga,finland,2022-2023,EraViikingit,Tenhonen Benjamin,33,5,7,12,45.0,4.0,-35.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Junkkarinen Jonne,32,3,9,12,44.0,6.0,28.0
+fliiga,finland,2022-2023,Nurmon Jymy,Karjanlahti Eemeli,16,5,6,11,36.0,0.0,1.0
+fliiga,finland,2022-2023,Westend Indians,Lindholm Joonatan,31,8,2,10,62.0,26.0,-11.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Pylväläinen Arttu,33,7,3,10,43.0,8.0,8.0
+fliiga,finland,2022-2023,OLS Oulu,Virrankari Olli-Matti,33,4,6,10,30.0,24.0,-15.0
+fliiga,finland,2022-2023,SPV,Latvala Miika,33,3,7,10,53.0,14.0,-11.0
+fliiga,finland,2022-2023,EraViikingit,Laitinen Patrik,33,2,7,9,42.0,4.0,-36.0
+fliiga,finland,2022-2023,LASB Lahti,Lindstedt Tino,33,1,7,8,16.0,6.0,-26.0
+fliiga,finland,2022-2023,EraViikingit,Turula Veli-Pekka,28,4,3,7,65.0,2.0,-23.0
+fliiga,finland,2022-2023,SC Classic Tampere,Pulkkinen Jere,20,2,5,7,13.0,0.0,4.0
+fliiga,finland,2022-2023,Oilers Espoo,Ailio Tuure,29,1,6,7,41.0,4.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Vaarala Kalle,26,4,2,6,65.0,10.0,-28.0
+fliiga,finland,2022-2023,OLS Oulu,Pöyhtäri Akseli,6,3,3,6,13.0,0.0,2.0
+fliiga,finland,2022-2023,LASB Lahti,Harmaala Aatu,14,3,3,6,29.0,26.0,-1.0
+fliiga,finland,2022-2023,SC Classic Tampere,Lamminen Janne,22,3,3,6,38.0,6.0,-3.0
+fliiga,finland,2022-2023,FBC Turku,Huppunen Julius-Emil,6,2,4,6,19.0,2.0,-6.0
+fliiga,finland,2022-2023,Nokian KRP,Mattila Jere,23,0,6,6,47.0,6.0,8.0
+fliiga,finland,2022-2023,EraViikingit,Liponen Saku,30,4,1,5,28.0,4.0,-20.0
+fliiga,finland,2022-2023,OLS Oulu,Hirsikorpi Mika,29,1,4,5,24.0,6.0,-24.0
+fliiga,finland,2022-2023,SPV,Lintula Matias,33,2,2,4,26.0,8.0,-13.0
+fliiga,finland,2022-2023,TPS Turku,Sokka Miikka,10,0,4,4,8.0,0.0,8.0
+fliiga,finland,2022-2023,OLS Oulu,Rantaniemi Aapo,16,2,1,3,23.0,4.0,-22.0
+fliiga,finland,2022-2023,EraViikingit,Maksimainen Olli,21,1,2,3,16.0,4.0,-16.0
+fliiga,finland,2022-2023,OLS Oulu,Kuoksa Antti,7,1,2,3,3.0,2.0,3.0
+fliiga,finland,2022-2023,FBC Turku,Rodas Joel,28,0,3,3,26.0,2.0,-24.0
+fliiga,finland,2022-2023,EraViikingit,Vaarimo Miko,5,0,3,3,11.0,0.0,-8.0
+fliiga,finland,2022-2023,Nurmon Jymy,Virtanen Jasper,25,2,0,2,15.0,10.0,-18.0
+fliiga,finland,2022-2023,SC Classic Tampere,Kimpanpää Miika,18,0,1,1,5.0,0.0,-3.0
+fliiga,finland,2022-2023,Oilers Espoo,Kallio Emil,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Salonen Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Jäppinen Amos,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Molkka Valtteri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Vuoristo Santtu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Tenho Oskari,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Saari Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Rautio Petro,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Aarela Ilmari,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Korhonen Teemu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Ukkonen Eemil,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Pekari Elias,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Niemi Lauri,4,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Salmi Markus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Sulander Jere,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Kauppila Oskari,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Malkavs Jorens,1,0,0,0,0.0,0.0,-1.0
+fliiga,finland,2022-2023,TPS Turku,Haataja Elias,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Tuominen Julius,2,0,0,0,1.0,0.0,-1.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Heiska Ville,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Kerola Jacob,19,0,0,0,15.0,0.0,-10.0
+fliiga,finland,2022-2023,EraViikingit,Huolman Luukas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Karkulowski Emil,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Ojala Tuomas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Virolainen Luukas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Iiskola Tuomas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Tuominen Sami,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Välitalo Anssi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Kuisma Olli,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Liukkonen Teppo,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Järvinen Pasi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Hietaranta Ville,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Markkola Markus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Heikkilä Jeri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Simonen Topias,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Niemelä Petri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Hiltunen Aleksi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Kilpi Otto,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Laakso Markus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Koskinen Valtteri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Varjokumpu Juuso,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Honkonen Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Koistinen Eero,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Niemelä Eetu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Kekki Juuso,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Wikström Roope,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Ruonakangas Riku,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Haapala Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Rannanjärvi Jaakko,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Kallio Matias,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Mankinen Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Vänttinen Oliver,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Vormisto Petteri,5,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Hänninen Arttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Kulmala Kasper,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Siekkinen Paavo,4,0,0,0,6.0,0.0,1.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Jääskeläinen Pietari,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Kortesluoma Jesse,12,0,0,0,4.0,0.0,-5.0
+fliiga,finland,2022-2023,Westend Indians,Forss Onni,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Salin Eemeli,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Kovanen Joonatan,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Virtanen Viljami,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Koskinen Juho,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Salokangas Tiitus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Junkkari Jonatan,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Karjanlahti Eero,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Roth Anton,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Karjula Joona,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Huhtakallio Eemeli,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Saarikko Sami,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Karjalainen Aki,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Jyrkiäinen Matti,1,0,0,0,4.0,0.0,-4.0
+fliiga,finland,2022-2023,SPV,Haavisto Aapo,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Mertaniemi Väinö,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Eklund Alex,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Tähkä Kasper,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Beijar Jens,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Suominen Marius,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Tiainen Tuomas,19,0,0,0,4.0,0.0,1.0
+fliiga,finland,2022-2023,Nokian KRP,Alkki Lauri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Sipilä Nemo,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Koivisto Lassi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Salokangas Julius,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Jokisalo Juuso,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Jaanus Janne,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Lokasaari Aapo,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Järvinen Perttu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Hellsten Rasmus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Möttönen Juuso,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Nykänen Eetu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Hakola Jesper,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Jokela Olli,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Toriseva Lassi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Santanen Mikko,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Repo Juho,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SC Classic Tampere,Helin Vilho,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Oilers Espoo,Suomela Antti,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,EraViikingit,Sillanpää Oliver,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,OLS Oulu,Panuma Riku,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Kuisma Niklas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Raappana Atte,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nurmon Jymy,Puntanen Eetu,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,TPS Turku,Koskinen Joonas,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Alatalo Pieti,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,FBC Turku,Tuononen verneri,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,LASB Lahti,Ahola Vili,7,0,0,0,5.0,2.0,-8.0
+fliiga,finland,2022-2023,SPV,Tammiranta Aaro,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Hasu Rasmus,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Happee Jyvaskyla,Wiander Tommi,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Westend Indians,Harjula Eero,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,Nokian KRP,Laukkanen Jarno,0,0,0,0,0.0,0.0,0.0
+fliiga,finland,2022-2023,SPV,Uusi-Laitila Santeri,0,0,0,0,0.0,0.0,0.0
 fliiga,finland,2023-2024,SC Classic Tampere,Lastikka Ville,33,55,36,91,241.0,6.0,64.0
 fliiga,finland,2023-2024,Nokian KRP,Rantala Joona,33,43,23,66,217.0,20.0,34.0
 fliiga,finland,2023-2024,SC Classic Tampere,Salin Eemeli,28,34,29,63,184.0,10.0,51.0
@@ -1910,6 +2463,355 @@ fliiga,finland,2025-2026,LASB Lahti,Kantola Karo,0,0,0,0,0.0,0.0,0.0
 fliiga,finland,2025-2026,EraViikingit,Lahti Jere,1,0,0,0,0.0,0.0,0.0
 fliiga,finland,2025-2026,OLS Oulu,Haikola Kai,4,0,0,0,2.0,2.0,-1.0
 fliiga,finland,2025-2026,Nokian KRP,Inkinen Joonatan,15,0,0,0,13.0,2.0,1.0
+ssl,sweden,2022-2023,Storvreta IBK,Albin Sjögren,26,27,49,76,,2.0,
+ssl,sweden,2022-2023,IBF Falun,Alexander Galante Carlström,25,52,18,70,,8.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Martin Östholm,21,29,33,62,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Max Wahlgren,24,35,25,60,,8.0,
+ssl,sweden,2022-2023,Linkoping IBK,Simon Palmén,26,22,34,56,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Linus Nordgren,26,25,28,53,,2.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Manuel Maurer,24,19,34,53,,8.0,
+ssl,sweden,2022-2023,IBF Falun,Malte Lundmark,24,32,20,52,,4.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Sebastian Palmqvist,26,20,31,51,,14.0,
+ssl,sweden,2022-2023,Storvreta IBK,Andreas Stefansson,25,40,9,49,,6.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Pelle Tarenius,26,34,14,48,,16.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Axel Hjälm,24,35,12,47,,4.0,
+ssl,sweden,2022-2023,Storvreta IBK,Filip Eriksson,25,27,20,47,,24.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Felix Lanver,25,29,17,46,,8.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Oskar Weissbach,22,19,26,45,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Felix Abrahamsson,26,23,21,44,,8.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Kim Nilsson,23,22,22,44,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Johansson,23,17,27,44,,10.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Jesper Sankell,25,17,27,44,,16.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Hampus Öhgren,26,16,28,44,,2.0,
+ssl,sweden,2022-2023,Jonkopings IK,Melker Hemmingberg,26,28,15,43,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Billy Nilsson,25,18,25,43,,12.0,
+ssl,sweden,2022-2023,IBK Dalen,Alexander Hedlund,24,26,16,42,,8.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Gustav Fritzell,25,24,18,42,,6.0,
+ssl,sweden,2022-2023,Linkoping IBK,Oskar Seth,26,21,20,41,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Ruud,25,15,26,41,,10.0,
+ssl,sweden,2022-2023,AIK Innebandy,Liam Åström,24,22,18,40,,32.0,
+ssl,sweden,2022-2023,FC Helsingborg,Linus Malmström,24,21,19,40,,8.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Joel Ingesson,26,29,10,39,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Martin Karlsson,26,28,11,39,,4.0,
+ssl,sweden,2022-2023,AIK Innebandy,Markus Eriksson,26,30,8,38,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Samuel Folkesson Algman,23,23,15,38,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Alexander Rudd,23,18,20,38,,4.0,
+ssl,sweden,2022-2023,Jonkopings IK,Oscar Rohlin,26,31,6,37,,2.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Kevin Haglund,25,22,14,36,,10.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Måns Höglin,26,14,22,36,,4.0,
+ssl,sweden,2022-2023,Storvreta IBK,Tobias Gustafsson,26,17,18,35,,2.0,
+ssl,sweden,2022-2023,Hagunda IF,Isak Bengtsson,26,16,19,35,,6.0,
+ssl,sweden,2022-2023,FC Helsingborg,Fredi Petersson,25,25,9,34,,6.0,
+ssl,sweden,2022-2023,Jonkopings IK,Hannes Nyström,25,13,21,34,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Joakim Alvinder,25,13,21,34,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Rasmus Enström,24,17,16,33,,4.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Tommy Bolin,26,28,4,32,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Omar Aldeeb,26,13,19,32,,10.0,
+ssl,sweden,2022-2023,Linkoping IBK,Kevin Söderling,25,17,14,31,,4.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Linus Nestorsson,26,14,17,31,,12.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Oskar Malmgren,26,11,20,31,,6.0,
+ssl,sweden,2022-2023,Gävle GIK,Simon Cederström,26,18,12,30,,6.0,
+ssl,sweden,2022-2023,FC Helsingborg,Christoffer Andersson,25,13,17,30,,2.0,
+ssl,sweden,2022-2023,Jonkopings IK,Emil Jacobsson,26,11,19,30,,16.0,
+ssl,sweden,2022-2023,AIK Innebandy,Oskar Hagberg,23,19,10,29,,8.0,
+ssl,sweden,2022-2023,FC Helsingborg,Linus Bergström,26,16,13,29,,6.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Ludwig Persson,25,14,15,29,,12.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Filip Langer,26,10,19,29,,8.0,
+ssl,sweden,2022-2023,AIK Innebandy,Alex Indriana Kjellbris,23,8,21,29,,4.0,
+ssl,sweden,2022-2023,Linkoping IBK,Matej Jendrisak,25,14,14,28,,2.0,
+ssl,sweden,2022-2023,Vaxjo IBK,André Andersson,23,22,5,27,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Kevin Björkström,25,15,12,27,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Oskar Hovlund,25,13,14,27,,26.0,
+ssl,sweden,2022-2023,IBK Dalen,Ketil Kronberg,26,19,7,26,,4.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Marcus Johansson,18,14,12,26,,6.0,
+ssl,sweden,2022-2023,Hagunda IF,Mattias Jansson,25,14,11,25,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Noah Johansson,26,12,12,24,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Markus Jonsson,21,7,17,24,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Alexander Larsson,25,7,17,24,,10.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Tobias Bergfors,24,17,6,23,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Felix Göthberg,24,14,9,23,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Lundmark,23,13,10,23,,4.0,
+ssl,sweden,2022-2023,Hagunda IF,Kevin Ahlholm,26,8,15,23,,6.0,
+ssl,sweden,2022-2023,AIK Innebandy,Kim Guilotte,25,12,10,22,,12.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Daniel Kalentun,24,11,11,22,,14.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Jim Johansson,23,13,8,21,,2.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Anton Willsund,25,12,9,21,,2.0,
+ssl,sweden,2022-2023,Jonkopings IK,Fredrik Bäckman,26,6,15,21,,4.0,
+ssl,sweden,2022-2023,Hagunda IF,Adam Nilbrink,25,15,5,20,,10.0,
+ssl,sweden,2022-2023,Hagunda IF,Markus Åkerfeldt,25,11,9,20,,4.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Anton Kidell,23,10,10,20,,2.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Filip Stjernberg,25,10,10,20,,4.0,
+ssl,sweden,2022-2023,IBK Dalen,Viktor Nystedt,22,2,18,20,,12.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Marcus Peil,24,17,2,19,,4.0,
+ssl,sweden,2022-2023,Gävle GIK,Alexander Lind,25,14,5,19,,6.0,
+ssl,sweden,2022-2023,Storvreta IBK,Otto Weidman,25,11,8,19,,8.0,
+ssl,sweden,2022-2023,Gävle GIK,Oskar Strand Söderholm,24,15,3,18,,18.0,
+ssl,sweden,2022-2023,Storvreta IBK,Rasmus Andersson,22,12,6,18,,2.0,
+ssl,sweden,2022-2023,IBK Dalen,Daniel Sonidsson,22,8,10,18,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Niclas Brohlin-Ljung,22,7,11,18,,2.0,
+ssl,sweden,2022-2023,Jonkopings IK,Joel Nyström,24,7,11,18,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Casper Backby,20,13,4,17,,10.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Jesper Lindström,20,12,5,17,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Simon Hult,23,12,5,17,,6.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Nilsen,26,12,5,17,,10.0,
+ssl,sweden,2022-2023,Storvreta IBK,Simon Götz,26,8,9,17,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Marcus Ekengren,17,8,9,17,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,William Lindh,24,7,10,17,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Victor Wettergren,26,10,6,16,,12.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Philip Fox,23,8,8,16,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Martin Glimberg,25,7,9,16,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Tim Nyander,25,7,9,16,,4.0,
+ssl,sweden,2022-2023,Linkoping IBK,Emil Lögdberg,25,7,9,16,,6.0,
+ssl,sweden,2022-2023,Hagunda IF,Jonathan Blomqvist,17,11,4,15,,8.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Martin Rönnklint,25,11,4,15,,10.0,
+ssl,sweden,2022-2023,IBK Dalen,Emil Wiklund,26,10,5,15,,6.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Niklas Ramirez,23,7,8,15,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Simon Karlsson,25,7,8,15,,4.0,
+ssl,sweden,2022-2023,Linkoping IBK,Lukas Eldholm,26,6,9,15,,6.0,
+ssl,sweden,2022-2023,IBK Dalen,Felix Forslund,24,11,3,14,,6.0,
+ssl,sweden,2022-2023,Jonkopings IK,Dennis Svensson,25,9,5,14,,4.0,
+ssl,sweden,2022-2023,IBK Dalen,Pär Forsman,25,8,6,14,,6.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Matteus Gavatin,20,7,7,14,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Daniel Ring,23,7,7,14,,2.0,
+ssl,sweden,2022-2023,IBF Falun,Ahmad Aldeeb,26,7,7,14,,2.0,
+ssl,sweden,2022-2023,Storvreta IBK,Filip Björk,21,7,7,14,,6.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Victor Hansson,25,8,5,13,,6.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Albin Hedstål,25,8,5,13,,22.0,
+ssl,sweden,2022-2023,Hagunda IF,Matyáš Bachmaier,25,6,7,13,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Noah Norlander,25,5,8,13,,8.0,
+ssl,sweden,2022-2023,IBF Falun,Linus Holmgren,22,3,10,13,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Daniel Gidske,25,3,10,13,,2.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Hugo Bertilsson,25,3,10,13,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Johan Samuelsson,19,4,8,12,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Filip Samuelsson,22,4,8,12,,4.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Joachim Trandum Terjesen,26,8,3,11,,2.0,
+ssl,sweden,2022-2023,FC Helsingborg,Daniel Johnsson,20,7,4,11,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Oskar Liberg,26,7,4,11,,12.0,
+ssl,sweden,2022-2023,AIK Innebandy,Jesper Andersson,25,6,5,11,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Carl Andersson,26,6,5,11,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Marcus Persson,25,5,6,11,,4.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Ludvig Öberg,26,5,6,11,,4.0,
+ssl,sweden,2022-2023,AIK Innebandy,Kevin Lieback Asp,19,5,6,11,,8.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Jonas Svahn,21,4,7,11,,4.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Mattias Ljunggren,24,8,2,10,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Olle Abrahamsson,26,8,2,10,,6.0,
+ssl,sweden,2022-2023,Hagunda IF,Jesper Lundkvist,25,7,3,10,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Filip Kalentun,24,6,4,10,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,William Almlöf,21,6,4,10,,18.0,
+ssl,sweden,2022-2023,Storvreta IBK,Carl Kostov Bredberg,20,5,5,10,,4.0,
+ssl,sweden,2022-2023,Gävle GIK,Nicklas Gustafsson,15,4,6,10,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Anton Hedin,24,4,6,10,,4.0,
+ssl,sweden,2022-2023,Storvreta IBK,Rasmus Sundstedt,16,3,7,10,,6.0,
+ssl,sweden,2022-2023,IBF Falun,Patrik Burman,25,2,8,10,,8.0,
+ssl,sweden,2022-2023,Storvreta IBK,Emil Helmrich,26,7,2,9,,8.0,
+ssl,sweden,2022-2023,Gävle GIK,Filip Lindberg,25,6,3,9,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Max Lindström,24,6,3,9,,4.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Gabriel Erol,26,6,3,9,,4.0,
+ssl,sweden,2022-2023,AIK Innebandy,Filip Wiklund,24,6,3,9,,4.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Alfred Sandström,26,5,4,9,,4.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Adam Vallin,23,5,4,9,,28.0,
+ssl,sweden,2022-2023,FC Helsingborg,Oscar Johansson,26,4,5,9,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Filip Wramdemark,24,4,5,9,,6.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Jan Bürki,25,3,6,9,,4.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Anton Fylke,22,3,6,9,,28.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Kalentun,23,2,7,9,,10.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Casper Karlsson,20,7,1,8,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Simon Nilsson,13,7,1,8,,2.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Emil Nyh,23,6,2,8,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Jonas Rosén,24,6,2,8,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Jesper Alm,13,6,2,8,,6.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Fabian Lindbäck,25,5,3,8,,0.0,
+ssl,sweden,2022-2023,IBF Falun,August Bergkvist,20,5,3,8,,8.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Sebastian Theorin,26,4,4,8,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Erik Oweling,25,3,5,8,,4.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Gustav Lindberg,23,2,6,8,,4.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Gustav Wadell,26,2,6,8,,4.0,
+ssl,sweden,2022-2023,IBF Falun,Simon Berg,20,2,6,8,,12.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Tobias Lindström,15,2,6,8,,20.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Albin Carlsten,25,1,7,8,,2.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Linus Pettersson,26,5,2,7,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Lucas Dahlström,25,4,3,7,,4.0,
+ssl,sweden,2022-2023,IBK Dalen,Jacob Mäkeläinen,22,4,3,7,,8.0,
+ssl,sweden,2022-2023,IBK Dalen,Oliver Bodén,21,4,3,7,,8.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Leo Olsson,26,4,3,7,,10.0,
+ssl,sweden,2022-2023,Hagunda IF,Emil Eriksson,21,3,4,7,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Josef Rypar,26,2,5,7,,8.0,
+ssl,sweden,2022-2023,IBK Dalen,Wilmer Entall,26,5,1,6,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Filip Norman,19,5,1,6,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Alfred Pettersson,26,4,2,6,,4.0,
+ssl,sweden,2022-2023,FC Helsingborg,Nicklas Lidholm,26,4,2,6,,8.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Emil Thorwid,25,2,4,6,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Jonas Grahn,24,2,4,6,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Robin Westergren,26,2,4,6,,2.0,
+ssl,sweden,2022-2023,IBK Dalen,Wilhelm Vihtari Hansson,19,2,4,6,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Erik Söderström,25,2,4,6,,4.0,
+ssl,sweden,2022-2023,IBK Dalen,Oliver Forslind,25,2,4,6,,10.0,
+ssl,sweden,2022-2023,AIK Innebandy,Rasmus Bolander,21,1,5,6,,6.0,
+ssl,sweden,2022-2023,Jonkopings IK,Oliver Lindén,23,0,6,6,,2.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Alexander Nyman,26,4,1,5,,4.0,
+ssl,sweden,2022-2023,Gävle GIK,Robin Johansson,16,3,2,5,,2.0,
+ssl,sweden,2022-2023,Hagunda IF,Alexander Dahlberg,22,2,3,5,,2.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Jonathan Karlberg,7,1,4,5,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Dennis Andersson,22,1,4,5,,2.0,
+ssl,sweden,2022-2023,FC Helsingborg,Oliver Hildingsson,21,1,4,5,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Adam Forslöv,21,1,4,5,,4.0,
+ssl,sweden,2022-2023,FC Helsingborg,Ebbe Nordbäck,26,4,0,4,,4.0,
+ssl,sweden,2022-2023,Gävle GIK,Viktor Karles-Karlsson,24,3,1,4,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Adrian Olsson,21,3,1,4,,2.0,
+ssl,sweden,2022-2023,Hagunda IF,Melvin Alm Mendoza,23,3,1,4,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Jakob Heins,17,3,1,4,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Benjamin Schill,13,3,1,4,,4.0,
+ssl,sweden,2022-2023,Jonkopings IK,Anton Gröön,23,2,2,4,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Anton Loklint,7,2,2,4,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Filip Stenmark,21,2,2,4,,2.0,
+ssl,sweden,2022-2023,IBF Falun,Magnus Jansson,23,2,2,4,,4.0,
+ssl,sweden,2022-2023,Linkoping IBK,David Carrington,21,2,2,4,,16.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Martin Bärbäck,26,0,4,4,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Niklas Winroth Nelin,25,0,4,4,,2.0,
+ssl,sweden,2022-2023,FC Helsingborg,Fabian Hansson,23,0,4,4,,4.0,
+ssl,sweden,2022-2023,Linkoping IBK,Samuel Dahlberg Demir,24,3,0,3,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Pascal Michel,12,3,0,3,,2.0,
+ssl,sweden,2022-2023,Storvreta IBK,Oskar Enquist,26,3,0,3,,4.0,
+ssl,sweden,2022-2023,FC Helsingborg,Victor Johansson,6,2,1,3,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Joel Wadsten,1,2,1,3,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Felix Andersson,22,2,1,3,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Albin Jakobsson,26,2,1,3,,4.0,
+ssl,sweden,2022-2023,Hagunda IF,Carl Wadsten,26,2,1,3,,6.0,
+ssl,sweden,2022-2023,Hagunda IF,Noah Tornberg,26,1,2,3,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Mattias Samuelsson,6,1,2,3,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Anton Arvidsson,6,1,2,3,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Anton Ahlbäck,23,1,2,3,,2.0,
+ssl,sweden,2022-2023,Storvreta IBK,Fredrik Lindholm,25,1,2,3,,4.0,
+ssl,sweden,2022-2023,IBK Dalen,Adam Strand,26,0,3,3,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Måns Parsjö,26,0,3,3,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Lucas Nordahl,9,0,3,3,,2.0,
+ssl,sweden,2022-2023,FC Helsingborg,Pontus Sölve,25,0,3,3,,4.0,
+ssl,sweden,2022-2023,Hagunda IF,Niclas Johansson Bräck,25,0,3,3,,6.0,
+ssl,sweden,2022-2023,Hagunda IF,Erik Roos,25,2,0,2,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Oscar Hammarqvist,16,1,1,2,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Calle Inglander,5,1,1,2,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Simon Möller,26,1,1,2,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Jakob Dahlberg,23,1,1,2,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Vincent Gomez,18,1,1,2,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,David Karlsson,18,1,1,2,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Hampus Andersson,25,1,1,2,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Josef Sankell,23,1,1,2,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Marcus Larsson,5,1,1,2,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Felix Andersson,26,0,2,2,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Ludvig Kjellman,14,0,2,2,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Jonathan Larsson,25,0,2,2,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Simon Sjöström,5,0,2,2,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Emrick Wiggur,26,0,2,2,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Jonathan Skoglösa,25,0,2,2,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Patrik Gustavsson,19,0,2,2,,6.0,
+ssl,sweden,2022-2023,Gävle GIK,Julian Olsson,19,1,0,1,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Linus Hallin,12,1,0,1,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Andreas Lennartsson,5,1,0,1,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Wille Malm,9,1,0,1,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Simon Boklund,7,1,0,1,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Alexander Janols,22,1,0,1,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Ola Hyltén,20,1,0,1,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Simon Vadsten,19,1,0,1,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Lukas Rosenklint,1,1,0,1,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Michel Wöcke,6,1,0,1,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Gustav Eurén,6,1,0,1,,2.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Jon Hedlund,19,0,1,1,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Christopher Dahl,5,0,1,1,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Tim Lindberg,3,0,1,1,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Vilmer Åsenstam,9,0,1,1,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Alexander Gustafsson,26,0,1,1,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Emil Lindblom,25,0,1,1,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Mattias Qvarfordt,26,0,1,1,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Simon Persson,25,0,1,1,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Jonathan Hjelm,12,0,1,1,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Viktor Hammarstedt,14,0,1,1,,2.0,
+ssl,sweden,2022-2023,Linkoping IBK,Gustav Jansson,18,0,1,1,,2.0,
+ssl,sweden,2022-2023,Hagunda IF,Hampus Bodin,23,0,1,1,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Linus Hellqvist,10,0,1,1,,2.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Simon Laraño,25,0,1,1,,4.0,
+ssl,sweden,2022-2023,Jonkopings IK,Jack Sundling,22,0,1,1,,4.0,
+ssl,sweden,2022-2023,AIK Innebandy,Edwin Perry,15,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Sebastian Svensson,11,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Edward Danielsson,3,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Kim Varga,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Emil Ödman,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Niclas Sundblad,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,David Henningsson,10,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Alvi Karonen,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Andreas Blom,24,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Fredrik Hörnkvist,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Simon Lööf,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Tobias Steineck,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Eddie Swärdh,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Santtu Strandberg,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Emil Mattsson,9,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Emil Lilja,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Rasmus Sörensson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,August Flod,7,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Amadeus Carlström,19,0,0,0,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Albin Flöjner,7,0,0,0,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Philip Axelsson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Marcus Burman,7,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Jakob Jonsson,11,0,0,0,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Adam Brodén,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Eric Sjöstrand,18,0,0,0,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Elias Niclasson,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Thomas Crona,23,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Jonathan Edling,24,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Emil Mattsson,13,0,0,0,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Adrian Karlsson,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Linus Sjögren,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Henrik Malmgren,23,0,0,0,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Viktor Klintsten,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Gustav Andersson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Anton Grönlund,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Benjamin Lundberg,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Hannes Christiansen,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Gustav Ringhagen,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Oliver Bellman,7,0,0,0,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Axel Nyström,4,0,0,0,,0.0,
+ssl,sweden,2022-2023,Storvreta IBK,Johannes Rönnmark,19,0,0,0,,0.0,
+ssl,sweden,2022-2023,Jonkopings IK,Ludvig Dahlin,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Pontus Rogö,9,0,0,0,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Victor Johansson-Steen,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Fredrik Hermodsson,9,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Lucas Helle,4,0,0,0,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Max Johansson,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Alexander Ljungström,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Christian Eddeborn,14,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Viktor Kastengren,24,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Markus Mikaelsson,9,0,0,0,,0.0,
+ssl,sweden,2022-2023,FBC Kalmarsund,Karl Bending,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Tim Lentenius,11,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Carl Svedare,3,0,0,0,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Vidar Mårtensson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Erik Svensson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Liam Ahlin,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,David Ransgart,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Max Lindborg,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Linkoping IBK,Jonathan Hallin,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Johan Rehn,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Viktor Lägdén,5,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Anton Österlund,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Simon Wedberg,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Erik Ställ,25,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBF Falun,Victor Frisch,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Tobias Sikström,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Albin Nilsson,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Adam Stensson,26,0,0,0,,0.0,
+ssl,sweden,2022-2023,Gävle GIK,Olle Gustafsson,1,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,Erik Oscarson,12,0,0,0,,0.0,
+ssl,sweden,2022-2023,Vaxjo IBK,Erik Bersbo,3,0,0,0,,0.0,
+ssl,sweden,2022-2023,FC Helsingborg,Zacharias Melin,2,0,0,0,,0.0,
+ssl,sweden,2022-2023,AIK Innebandy,Wille Jäderlund,8,0,0,0,,0.0,
+ssl,sweden,2022-2023,Hagunda IF,August Moberg,17,0,0,0,,0.0,
+ssl,sweden,2022-2023,IBK Dalen,Ludwig Svensson,14,0,0,0,,0.0,
+ssl,sweden,2022-2023,Pixbo Wallenstam,Charlie Jonsson,3,0,0,0,,2.0,
+ssl,sweden,2022-2023,Thorengruppen SK,Lucas Arvidsson,10,0,0,0,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Adam Piehl,17,0,0,0,,2.0,
+ssl,sweden,2022-2023,AIK Innebandy,Liam Perry,23,0,0,0,,2.0,
+ssl,sweden,2022-2023,Mullsjo AIS,Jonathan Heins,17,0,0,0,,2.0,
+ssl,sweden,2022-2023,Gävle GIK,Arvid Hansson,18,0,0,0,,4.0,
 ssl,sweden,2023-2024,Vaxjo IBK,Jesper Sankell,26,30,33,63,,8.0,
 ssl,sweden,2023-2024,IBF Falun,Malte Lundmark,26,39,21,60,,10.0,
 ssl,sweden,2023-2024,Mullsjo AIS,Pelle Tarenius,26,42,15,57,,8.0,

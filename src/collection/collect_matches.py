@@ -93,12 +93,14 @@ def infer_league_from_competition_name(name: str) -> Optional[str]:
 
     n = str(name).lower()
 
-    if "extraliga" in n or "superliga" in n:
-        return "czech"
-    if "f-liiga" in n or "liiga" in n:
-        return "finland"
     if "svenska superligan" in n or "ssl" in n:
         return "sweden"
+
+    if "f-liiga" in n or "liiga" in n:
+        return "finland"
+
+    if "extraliga" in n or "superliga" in n:
+        return "czech"
 
     return None
 
