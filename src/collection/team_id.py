@@ -2,7 +2,7 @@
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-DATA_PATH = os.path.join(BASE_DIR, "data", "floorball_dataset_processed.csv")
+DATA_PATH = os.path.join(BASE_DIR, "data/processed", "floorball_dataset_processed.csv")
 
 SELECTED_COMPETITIONS = [
     "sr:competition:255",

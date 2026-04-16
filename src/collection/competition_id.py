@@ -1,6 +1,6 @@
 ﻿import requests
+from src.collection.config import API_KEY
 
-API_KEY = "MY_API_KEY"
 ACCESS_LEVEL = "trial"
 LANGUAGE_CODE = "en"
 FORMAT = "json"
