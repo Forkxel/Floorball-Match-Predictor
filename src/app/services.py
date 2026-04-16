@@ -1,13 +1,23 @@
 ﻿import os
 import re
+import sys
 import unicodedata
 import customtkinter as ctk
 import joblib
 import pandas as pd
 from PIL import Image
 
+def get_base_dir() -> str:
+    """
+    Resolve base directory for both normal run and PyInstaller build.
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    :return: Base directory path.
+    """
+    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+        return sys._MEIPASS
+    return os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+
+BASE_DIR = get_base_dir()
 
 DATA_PATH = os.path.join(BASE_DIR, "data", "processed", "floorball_dataset_processed_with_roster.csv")
 ROSTER_PATH = os.path.join(BASE_DIR, "data", "processed", "team_roster_strength.csv")
