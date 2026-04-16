@@ -368,12 +368,7 @@ def main():
             print(f"URL: {cfg['base_url']}")
             print(f"PART: {cfg['part_value']}")
 
-            df = scrape_one_season(
-                page=page,
-                season=season,
-                base_url=cfg["base_url"],
-                part_value=cfg["part_value"],
-            )
+            df = scrape_one_season(page=page, season=season, base_url=cfg["base_url"], part_value=cfg["part_value"])
 
             if df.empty:
                 print(f"[WARN] No data for season {season}")

@@ -16,6 +16,8 @@ from src.collection.config import (
     OFFICIAL_STANDINGS_PATH,
 )
 
+from src.lib.standings import extract_regular_standings_records
+
 """
 Download match data, build pre-match features, and export official standings.
 """
@@ -470,65 +472,6 @@ def build_processed_dataset(raw_df: pd.DataFrame) -> pd.DataFrame:
     return processed_df
 
 
-def build_ml_dataset(processed_df: pd.DataFrame, drop_draws: bool = True) -> pd.DataFrame:
-    """
-    Build ML-ready dataset from processed data.
-
-    :param processed_df: Processed dataset.
-    :param drop_draws: Whether to drop draw matches.
-    :return: DataFrame with features and target column.
-    """
-    df = processed_df.copy()
-
-    df["start_time"] = pd.to_datetime(df["start_time"], utc=True, errors="coerce")
-    df = df.sort_values("start_time").reset_index(drop=True)
-
-    if drop_draws:
-        df = df[df["target_result"] != "draw"].copy()
-
-    target_column = "target_home_win"
-
-    drop_columns = [
-        "match_id",
-        "season_id",
-        "season_name",
-        "competition_name",
-        "home_team_id",
-        "home_team_name",
-        "away_team_id",
-        "away_team_name",
-        "target_result",
-        "home_score_final",
-        "away_score_final",
-        "start_time",
-    ]
-
-    feature_columns = [col for col in df.columns if col not in drop_columns + [target_column]]
-
-    ml_df = df[feature_columns].copy()
-    ml_df[target_column] = df[target_column]
-
-    return ml_df
-
-
-def _collect_nodes_with_standings(obj: Any, nodes: List[Dict[str, Any]]) -> None:
-    """
-    Recursively collect nested objects containing standings.
-
-    :param obj: Input JSON-like object.
-    :param nodes: Output list for matching nodes.
-    :return: None.
-    """
-    if isinstance(obj, dict):
-        if "standings" in obj and isinstance(obj["standings"], list):
-            nodes.append(obj)
-        for value in obj.values():
-            _collect_nodes_with_standings(value, nodes)
-    elif isinstance(obj, list):
-        for item in obj:
-            _collect_nodes_with_standings(item, nodes)
-
-
 def build_official_regular_standings(season_rows: List[Dict[str, str]]) -> pd.DataFrame:
     """
     Build official regular-season standings dataset.
@@ -550,52 +493,15 @@ def build_official_regular_standings(season_rows: List[Dict[str, str]]) -> pd.Da
             print(f"Standings failed for {season_id}: {exc}")
             continue
 
-        nodes: List[Dict[str, Any]] = []
-        _collect_nodes_with_standings(standings_data, nodes)
-
-        for node in nodes:
-            phase_candidates = [
-                node.get("phase"),
-                node.get("type"),
-                node.get("name"),
-                node.get("description"),
-            ]
-
-            parent_stage = node.get("stage", {})
-            if isinstance(parent_stage, dict):
-                phase_candidates.extend([
-                    parent_stage.get("phase"),
-                    parent_stage.get("type"),
-                    parent_stage.get("name"),
-                    parent_stage.get("description"),
-                ])
-
-            phase_text = " ".join(str(x).lower() for x in phase_candidates if x)
-            if "regular" not in phase_text and "reg" not in phase_text:
-                continue
-
-            for standing_row in node.get("standings", []):
-                competitor = standing_row.get("competitor", {})
-                competitor_id = competitor.get("id")
-                competitor_name = competitor.get("name")
-
-                if not competitor_id:
-                    continue
-
-                records.append({
-                    "competition_id": competition_id,
-                    "season_id": season_id,
-                    "season_name": season_name,
-                    "season": normalize_season_name(season_name),
-                    "team_id": competitor_id,
-                    "team_name": competitor_name,
-                    "official_rank": standing_row.get("rank"),
-                    "official_points": standing_row.get("points"),
-                    "official_played": standing_row.get("played"),
-                    "official_wins": standing_row.get("wins"),
-                    "official_losses": standing_row.get("losses"),
-                    "source_phase_text": phase_text,
-                })
+        records.extend(
+            extract_regular_standings_records(
+                standings_data=standings_data,
+                competition_id=competition_id,
+                season_id=season_id,
+                season_name=season_name,
+                normalized_season=normalize_season_name(season_name),
+            )
+        )
 
     standings_df = pd.DataFrame(records)
 

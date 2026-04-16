@@ -1,7 +1,11 @@
 ﻿from pathlib import Path
-import re
 import pandas as pd
 from playwright.sync_api import sync_playwright
+from src.lib.player_scraper_utils import (
+    clean_text,
+    guess_scores_table,
+    extract_player_and_team_from_player_cell,
+)
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
@@ -12,17 +16,6 @@ URL = "https://fliiga.com/en/statistics/men/"
 TARGET_SEASON_VALUE = "2025-2026"
 OUTPUT_PATH = OUTPUT_DIR / "fliiga_players_2025_2026.csv"
 
-
-def clean_text(value: str) -> str:
-    """
-    Normalize text by collapsing whitespace.
-
-    :param value: Raw text value.
-    :return: Cleaned text string.
-    """
-    if value is None:
-        return ""
-    return re.sub(r"\s+", " ", str(value)).strip()
 
 
 def parse_numeric(value: str):
@@ -97,52 +90,6 @@ def set_regular_season(page) -> None:
     select = selects.first
     select.select_option(value=TARGET_SEASON_VALUE, timeout=5000)
     page.wait_for_timeout(2000)
-
-
-def guess_scores_table(page):
-    """
-    Locate the scores table on the page.
-
-    :param page: Playwright page instance.
-    :return: Table locator.
-    :raises RuntimeError: If no matching table is found.
-    """
-    candidates = page.locator("#points table.sortable-table")
-    if candidates.count() > 0:
-        return candidates.first
-
-    for locator in [page.locator("table.sortable-table"), page.locator("table")]:
-        try:
-            for i in range(locator.count()):
-                table = locator.nth(i)
-                if table.locator("thead tr th").count() >= 5:
-                    return table
-        except Exception:
-            pass
-
-    raise RuntimeError("No F-Liiga scores table found.")
-
-
-def extract_player_and_team_from_player_cell(cell) -> tuple[str, str]:
-    """
-    Extract player name and team name from the player cell.
-
-    :param cell: Table cell locator.
-    :return: Tuple of (player_name, team_name).
-    """
-    try:
-        text = cell.inner_text()
-    except Exception:
-        text = ""
-
-    parts = [clean_text(x) for x in text.split("\n") if clean_text(x)]
-    player_name = parts[0] if parts else ""
-    team_name = ""
-
-    if len(parts) >= 2:
-        team_name = re.sub(r"#\d+\b", "", parts[1]).strip()
-
-    return player_name, team_name
 
 
 def scrape_fliiga_players() -> pd.DataFrame:

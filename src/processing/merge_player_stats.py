@@ -2,6 +2,7 @@
 import re
 import unicodedata
 import pandas as pd
+from src.lib.player_standardization import standardize_player_df
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -12,35 +13,6 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 UNIFIED_OUTPUT_PATH = OUTPUT_DIR / "player_season_stats_unified.csv"
 
-TARGET_COLUMNS = [
-    "source",
-    "league",
-    "season",
-    "team_name",
-    "player_name",
-    "gp",
-    "goals",
-    "assists",
-    "points",
-    "shots",
-    "pim",
-    "plus_minus",
-]
-
-COLUMN_ALIASES = {
-    "source": ["source"],
-    "league": ["league"],
-    "season": ["season"],
-    "team_name": ["team_name", "team", "club"],
-    "player_name": ["player_name", "player", "name", "jmeno", "jméno"],
-    "gp": ["gp", "games_played", "games", "z"],
-    "goals": ["goals", "g", "b"],
-    "assists": ["assists", "a"],
-    "points": ["points", "tp", "kb", "p"],
-    "shots": ["shots", "s", "st"],
-    "pim": ["pim", "penalties", "tm"],
-    "plus_minus": ["plus_minus", "+/-", "plusminus"],
-}
 
 TEAM_RENAME_RAW = {
     "czech": {
@@ -69,7 +41,6 @@ TEAM_RENAME_RAW = {
         "BLACK ANGELS": "Black Angels Prague",
         "BUTCHIS": "Buchis",
     },
-
     "finland": {
         "CLASSIC": "SC Classic Tampere",
         "ERÄVIIKINGIT": "EraViikingit",
@@ -92,7 +63,6 @@ TEAM_RENAME_RAW = {
         "SPV": "SPV",
         "SPV #": "SPV",
     },
-
     "sweden": {
         "AIK IBF": "AIK Innebandy",
         "FBC Kalmarsund": "FBC Kalmarsund",
@@ -115,46 +85,6 @@ TEAM_RENAME_RAW = {
         "Warberg IC": "Warberg IC",
     },
 }
-
-
-def normalize_colname(name: str) -> str:
-    """
-    Normalize column name to a standard format.
-
-    :param name: Original column name.
-    :return: Normalized column name.
-    """
-    return str(name).strip().lower().replace(" ", "_").replace("-", "_")
-
-
-def normalize_season(value: str) -> str:
-    """
-    Convert season format from "YYYY/YYYY" to "YYYY-YYYY".
-
-    :param value: Raw season string.
-    :return: Normalized season string.
-    """
-    value = str(value).strip()
-    if "/" in value:
-        parts = value.split("/")
-        if len(parts) == 2:
-            return f"{parts[0]}-{parts[1]}"
-    return value
-
-
-def clean_text(value):
-    """
-    Clean text values and convert empty values to None.
-
-    :param value: Raw value.
-    :return: Cleaned value or None.
-    """
-    if pd.isna(value):
-        return None
-    value = str(value).strip()
-    if value in {"", "nan", "None", "null"}:
-        return None
-    return value
 
 
 def ascii_normalize(text: str) -> str:
@@ -192,41 +122,6 @@ def build_manual_team_map(raw_map: dict[str, dict[str, str]]) -> dict[str, dict[
 TEAM_RENAME = build_manual_team_map(TEAM_RENAME_RAW)
 
 
-def infer_league_from_file_name(file_name: str) -> str | None:
-    """
-    Infer league from file name.
-
-    :param file_name: File name string.
-    :return: League name or None.
-    """
-    n = file_name.lower()
-    if "ssl" in n:
-        return "sweden"
-    if "fliiga" in n:
-        return "finland"
-    if "extraliga" in n or "cesky" in n:
-        return "czech"
-    return None
-
-
-def find_matching_column(df: pd.DataFrame, aliases: list[str]) -> str | None:
-    """
-    Find a column in DataFrame that matches any alias.
-
-    :param df: Input DataFrame.
-    :param aliases: List of possible column names.
-    :return: Matching column name or None.
-    """
-    normalized_columns = {normalize_colname(col): col for col in df.columns}
-
-    for alias in aliases:
-        alias_norm = normalize_colname(alias)
-        if alias_norm in normalized_columns:
-            return normalized_columns[alias_norm]
-
-    return None
-
-
 def rename_team_name(team_name: str, league: str) -> tuple[str, str]:
     """
     Standardize team name using manual mapping.
@@ -245,63 +140,6 @@ def rename_team_name(team_name: str, league: str) -> tuple[str, str]:
         return league_map[normalized], "manual_override"
 
     return team_name, "unchanged"
-
-
-def standardize_player_df(df: pd.DataFrame, file_name: str) -> pd.DataFrame:
-    """
-    Convert raw player dataset into unified schema.
-
-    :param df: Raw DataFrame.
-    :param file_name: Source file name.
-    :return: Standardized DataFrame.
-    """
-    out = pd.DataFrame()
-
-    for target_col, aliases in COLUMN_ALIASES.items():
-        matched = find_matching_column(df, aliases)
-        out[target_col] = df[matched] if matched else None
-
-    inferred_league = infer_league_from_file_name(file_name)
-
-    if inferred_league and out["league"].isna().all():
-        out["league"] = inferred_league
-
-    if out["source"].isna().all():
-        if inferred_league == "sweden":
-            out["source"] = "ssl"
-        elif inferred_league == "finland":
-            out["source"] = "fliiga"
-        elif inferred_league == "czech":
-            out["source"] = "extraliga"
-
-    if out["season"].isna().all():
-        for token in ["2025_2026", "2024_2025", "2023_2024", "2022_2023"]:
-            if token in file_name.lower():
-                out["season"] = token.replace("_", "-")
-
-    for col in ["source", "league", "season", "team_name", "player_name"]:
-        out[col] = out[col].apply(clean_text)
-
-    out["season"] = out["season"].apply(lambda x: normalize_season(x) if x else None)
-
-    for col in ["gp", "goals", "assists", "points", "shots", "pim", "plus_minus"]:
-        out[col] = pd.to_numeric(out[col], errors="coerce")
-
-    # fallback: points = goals + assists
-    out["points"] = out.apply(
-        lambda row: row["points"]
-        if pd.notna(row["points"])
-        else (
-            (row["goals"] if pd.notna(row["goals"]) else 0)
-            + (row["assists"] if pd.notna(row["assists"]) else 0)
-        ),
-        axis=1,
-    )
-
-    out = out[out["player_name"].notna()]
-    out = out[out["team_name"].notna()]
-
-    return out[TARGET_COLUMNS]
 
 
 def main():
