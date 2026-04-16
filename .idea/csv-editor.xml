@@ -3,76 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\data\floorball_dataset_ml.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\floorball_dataset_ml_3leagues.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\floorball_dataset_processed.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\floorball_dataset_raw.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\floorball_dataset_raw_3leagues.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=":" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\floorball_official_standings.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\player_features_finland.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\player_match_stats_finland.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\processed\final_training_dataset.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\processed\floorball_dataset_ml.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data\processed\floorball_dataset_ml_with_roster.csv">
           <value>
             <Attribute>
@@ -101,13 +31,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\processed\team_name_mapping_generated.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data\processed\team_roster_strength.csv">
           <value>
             <Attribute>
@@ -123,13 +46,6 @@
           </value>
         </entry>
         <entry key="\data\raw\matches\floorball_official_standings.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\raw\players\ceskyflorbal_players_2025_2026.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -214,13 +130,6 @@
           </value>
         </entry>
         <entry key="\data\raw\players\ssl_players_2025_2026.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\models\model_results.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
