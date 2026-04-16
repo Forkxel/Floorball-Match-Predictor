@@ -11,17 +11,33 @@ OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 
 def safe_sum(series: pd.Series) -> float:
+    """
+    Safely sum a numeric series (treat NaN as 0).
+
+    :param series: Input pandas Series.
+    :return: Sum as float.
+    """
     return float(series.fillna(0).sum())
 
 
 def safe_mean(series: pd.Series) -> float:
+    """
+    Safely compute mean (ignore NaN, return 0 if empty).
+
+    :param series: Input pandas Series.
+    :return: Mean value.
+    """
     s = series.dropna()
-    if len(s) == 0:
-        return 0.0
-    return float(s.mean())
+    return float(s.mean()) if len(s) > 0 else 0.0
 
 
 def build_team_roster_strength(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Compute team-level roster strength features from player statistics.
+
+    :param df: Input DataFrame with player-level stats.
+    :return: DataFrame with team-level aggregated features.
+    """
     work = df.copy()
 
     for col in ["gp", "goals", "assists", "points"]:
@@ -30,12 +46,9 @@ def build_team_roster_strength(df: pd.DataFrame) -> pd.DataFrame:
     work["ppg"] = np.where(work["gp"] > 0, work["points"] / work["gp"], 0.0)
 
     rows = []
-
     group_cols = ["league", "season", "team_name"]
 
     for (league, season, team_name), grp in work.groupby(group_cols, dropna=True):
-        grp = grp.copy()
-
         grp = grp.sort_values(
             by=["points", "goals", "ppg"],
             ascending=False,
@@ -96,7 +109,10 @@ def build_team_roster_strength(df: pd.DataFrame) -> pd.DataFrame:
         .rank(ascending=False, method="dense")
     )
 
-    return out.sort_values(["league", "season", "roster_strength"], ascending=[True, True, False]).reset_index(drop=True)
+    return out.sort_values(
+        ["league", "season", "roster_strength"],
+        ascending=[True, True, False]
+    ).reset_index(drop=True)
 
 
 def main():

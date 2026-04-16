@@ -3,12 +3,22 @@ from PIL import Image
 
 from src.app.services import FloorballService
 
+
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 
 class FloorballApp(ctk.CTk):
+    """
+    Main GUI application for match prediction.
+    """
+
     def __init__(self):
+        """
+        Initialize the application window, service layer, and UI state.
+
+        :return: None.
+        """
         super().__init__()
 
         self.service = FloorballService()
@@ -39,20 +49,25 @@ class FloorballApp(ctk.CTk):
         self.empty_logo = ctk.CTkImage(
             light_image=Image.new("RGBA", (42, 42), (0, 0, 0, 0)),
             dark_image=Image.new("RGBA", (42, 42), (0, 0, 0, 0)),
-            size=(42, 42)
+            size=(42, 42),
         )
 
         self.empty_logo_large = ctk.CTkImage(
             light_image=Image.new("RGBA", (110, 110), (0, 0, 0, 0)),
             dark_image=Image.new("RGBA", (110, 110), (0, 0, 0, 0)),
-            size=(110, 110)
+            size=(110, 110),
         )
 
         self._build_ui()
         self.after(100, self._reset_result_panel)
         self._load_competitions()
 
-    def _build_ui(self):
+    def _build_ui(self) -> None:
+        """
+        Build the main application layout and widgets.
+
+        :return: None.
+        """
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
 
@@ -63,14 +78,14 @@ class FloorballApp(ctk.CTk):
         title = ctk.CTkLabel(
             header,
             text="Floorball Match Predictor",
-            font=ctk.CTkFont(size=28, weight="bold")
+            font=ctk.CTkFont(size=28, weight="bold"),
         )
         title.grid(row=0, column=0, padx=20, pady=(18, 6))
 
         subtitle = ctk.CTkLabel(
             header,
             text="Select a league, then choose a home team and an away team to predict the match outcome.",
-            font=ctk.CTkFont(size=14)
+            font=ctk.CTkFont(size=14),
         )
         subtitle.grid(row=1, column=0, padx=20, pady=(0, 18))
 
@@ -91,7 +106,7 @@ class FloorballApp(ctk.CTk):
         self.result_title = ctk.CTkLabel(
             self.result_panel,
             text="",
-            font=ctk.CTkFont(size=16, weight="bold")
+            font=ctk.CTkFont(size=16, weight="bold"),
         )
         self.result_title.grid(row=0, column=0, pady=(24, 0), padx=20)
 
@@ -102,49 +117,49 @@ class FloorballApp(ctk.CTk):
         self.result_home_logo_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            image=self.empty_logo_large
+            image=self.empty_logo_large,
         )
         self.result_home_logo_label.grid(row=0, column=0, pady=(0, 8))
 
         self.vs_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            font=ctk.CTkFont(size=28, weight="bold")
+            font=ctk.CTkFont(size=28, weight="bold"),
         )
         self.vs_label.grid(row=0, column=1, pady=(0, 8))
 
         self.result_away_logo_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            image=self.empty_logo_large
+            image=self.empty_logo_large,
         )
         self.result_away_logo_label.grid(row=0, column=2, pady=(0, 8))
 
         self.result_home_name_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            font=ctk.CTkFont(size=18, weight="bold")
+            font=ctk.CTkFont(size=18, weight="bold"),
         )
         self.result_home_name_label.grid(row=1, column=0, padx=10, pady=(0, 4))
 
         self.result_away_name_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            font=ctk.CTkFont(size=18, weight="bold")
+            font=ctk.CTkFont(size=18, weight="bold"),
         )
         self.result_away_name_label.grid(row=1, column=2, padx=10, pady=(0, 4))
 
         self.result_home_pct_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            font=ctk.CTkFont(size=22, weight="bold")
+            font=ctk.CTkFont(size=22, weight="bold"),
         )
         self.result_home_pct_label.grid(row=2, column=0, padx=10, pady=(0, 10))
 
         self.result_away_pct_label = ctk.CTkLabel(
             self.teams_frame,
             text="",
-            font=ctk.CTkFont(size=22, weight="bold")
+            font=ctk.CTkFont(size=22, weight="bold"),
         )
         self.result_away_pct_label.grid(row=2, column=2, padx=10, pady=(0, 10))
 
@@ -157,28 +172,28 @@ class FloorballApp(ctk.CTk):
             height=28,
             highlightthickness=0,
             bd=0,
-            bg="#2b2b2b"
+            bg="#2b2b2b",
         )
         self.bar_canvas.pack(fill="x", expand=True)
 
         self.result_pick_label = ctk.CTkLabel(
             self.result_panel,
             text="",
-            font=ctk.CTkFont(size=18, weight="bold")
+            font=ctk.CTkFont(size=18, weight="bold"),
         )
         self.result_pick_label.grid(row=3, column=0, pady=(18, 6), padx=20)
 
         self.result_subtitle_label = ctk.CTkLabel(
             self.result_panel,
             text="",
-            font=ctk.CTkFont(size=14)
+            font=ctk.CTkFont(size=14),
         )
         self.result_subtitle_label.grid(row=4, column=0, pady=(6, 20), padx=20)
 
         ctk.CTkLabel(
             controls,
             text="League",
-            font=ctk.CTkFont(size=16, weight="bold")
+            font=ctk.CTkFont(size=16, weight="bold"),
         ).pack(anchor="w", padx=14, pady=(14, 8))
 
         self.league_logo_label = ctk.CTkLabel(
@@ -186,7 +201,7 @@ class FloorballApp(ctk.CTk):
             text="",
             width=42,
             height=42,
-            image=self.empty_logo
+            image=self.empty_logo,
         )
         self.league_logo_label.pack(anchor="w", padx=14, pady=(0, 8))
 
@@ -197,14 +212,14 @@ class FloorballApp(ctk.CTk):
             values=[],
             command=self.on_league_change,
             width=320,
-            state="readonly"
+            state="readonly",
         )
         self.league_combo.pack(anchor="w", padx=14, pady=(0, 18))
 
         ctk.CTkLabel(
             controls,
             text="Home Team",
-            font=ctk.CTkFont(size=16, weight="bold")
+            font=ctk.CTkFont(size=16, weight="bold"),
         ).pack(anchor="w", padx=14, pady=(0, 8))
 
         self.home_logo_label = ctk.CTkLabel(
@@ -212,7 +227,7 @@ class FloorballApp(ctk.CTk):
             text="",
             width=42,
             height=42,
-            image=self.empty_logo
+            image=self.empty_logo,
         )
         self.home_logo_label.pack(anchor="w", padx=14, pady=(0, 8))
 
@@ -223,14 +238,14 @@ class FloorballApp(ctk.CTk):
             values=[],
             command=self.on_home_change,
             width=320,
-            state="disabled"
+            state="disabled",
         )
         self.home_combo.pack(anchor="w", padx=14, pady=(0, 18))
 
         ctk.CTkLabel(
             controls,
             text="Away Team",
-            font=ctk.CTkFont(size=16, weight="bold")
+            font=ctk.CTkFont(size=16, weight="bold"),
         ).pack(anchor="w", padx=14, pady=(0, 8))
 
         self.away_logo_label = ctk.CTkLabel(
@@ -238,7 +253,7 @@ class FloorballApp(ctk.CTk):
             text="",
             width=42,
             height=42,
-            image=self.empty_logo
+            image=self.empty_logo,
         )
         self.away_logo_label.pack(anchor="w", padx=14, pady=(0, 8))
 
@@ -249,7 +264,7 @@ class FloorballApp(ctk.CTk):
             values=[],
             command=self.on_away_change,
             width=320,
-            state="disabled"
+            state="disabled",
         )
         self.away_combo.pack(anchor="w", padx=14, pady=(0, 18))
 
@@ -258,19 +273,36 @@ class FloorballApp(ctk.CTk):
             text="Predict Match",
             command=self.predict_match,
             width=320,
-            height=42
+            height=42,
         )
         self.predict_button.pack(anchor="w", padx=14, pady=(8, 10))
 
-    def _show_probability_bar(self):
+    def _show_probability_bar(self) -> None:
+        """
+        Show the probability bar widget.
+
+        :return: None.
+        """
         self.bar_frame.grid()
         self.bar_canvas.pack(fill="x", expand=True)
 
-    def _hide_probability_bar(self):
+    def _hide_probability_bar(self) -> None:
+        """
+        Hide and clear the probability bar widget.
+
+        :return: None.
+        """
         self.bar_canvas.delete("all")
         self.bar_frame.grid_remove()
 
-    def _draw_probability_bar(self, home_prob: float, away_prob: float):
+    def _draw_probability_bar(self, home_prob: float, away_prob: float) -> None:
+        """
+        Draw the win probability bar for both teams.
+
+        :param home_prob: Predicted home win probability.
+        :param away_prob: Predicted away win probability.
+        :return: None.
+        """
         self._show_probability_bar()
         self.bar_canvas.delete("all")
         self.bar_canvas.update_idletasks()
@@ -294,19 +326,25 @@ class FloorballApp(ctk.CTk):
 
         self.bar_canvas.create_rectangle(
             0, 0, home_width, height,
-            fill=home_color, outline=home_color
+            fill=home_color, outline=home_color,
         )
         self.bar_canvas.create_rectangle(
             home_width, 0, width, height,
-            fill=away_color, outline=away_color
+            fill=away_color, outline=away_color,
         )
         self.bar_canvas.create_line(
             home_width, 0, home_width, height,
             fill="white",
-            width=2
+            width=2,
         )
 
-    def _reset_result_panel(self, message=""):
+    def _reset_result_panel(self, message: str = "") -> None:
+        """
+        Reset the result panel to its default empty state.
+
+        :param message: Optional title message.
+        :return: None.
+        """
         self.result_title.configure(text=message)
 
         self.result_home_logo = None
@@ -325,7 +363,13 @@ class FloorballApp(ctk.CTk):
 
         self._hide_probability_bar()
 
-    def _show_result_error(self, message: str):
+    def _show_result_error(self, message: str) -> None:
+        """
+        Show an error message in the result panel.
+
+        :param message: Error message to display.
+        :return: None.
+        """
         self.result_title.configure(text="")
 
         self.result_home_logo = None
@@ -344,19 +388,39 @@ class FloorballApp(ctk.CTk):
 
         self._hide_probability_bar()
 
-    def _clear_home_logo(self):
+    def _clear_home_logo(self) -> None:
+        """
+        Clear the selected home team logo.
+
+        :return: None.
+        """
         self.current_home_logo = None
         self.home_logo_label.configure(image=self.empty_logo, text="")
 
-    def _clear_away_logo(self):
+    def _clear_away_logo(self) -> None:
+        """
+        Clear the selected away team logo.
+
+        :return: None.
+        """
         self.current_away_logo = None
         self.away_logo_label.configure(image=self.empty_logo, text="")
 
-    def _clear_league_logo(self):
+    def _clear_league_logo(self) -> None:
+        """
+        Clear the selected competition logo.
+
+        :return: None.
+        """
         self.current_competition_logo = None
         self.league_logo_label.configure(image=self.empty_logo, text="")
 
-    def _refresh_team_comboboxes(self):
+    def _refresh_team_comboboxes(self) -> None:
+        """
+        Refresh home and away team dropdown options.
+
+        :return: None.
+        """
         selected_home = self.home_var.get().strip()
         selected_away = self.away_var.get().strip()
 
@@ -379,15 +443,27 @@ class FloorballApp(ctk.CTk):
         self.home_combo.set(selected_home)
         self.away_combo.set(selected_away)
 
-    def _load_competitions(self):
+    def _load_competitions(self) -> None:
+        """
+        Load competition options into the league dropdown.
+
+        :return: None.
+        """
         display_values = []
+
         for comp_id, comp_name in self.service.get_competition_options():
             display_values.append(comp_name)
             self.competition_map[comp_name] = comp_id
 
         self.league_combo.configure(values=display_values)
 
-    def on_league_change(self, selected_name: str):
+    def on_league_change(self, selected_name: str) -> None:
+        """
+        Handle league selection change.
+
+        :param selected_name: Selected competition name.
+        :return: None.
+        """
         competition_id = self.competition_map.get(selected_name)
         if not competition_id:
             return
@@ -416,7 +492,13 @@ class FloorballApp(ctk.CTk):
         self._refresh_team_comboboxes()
         self._reset_result_panel()
 
-    def on_home_change(self, selected_team: str):
+    def on_home_change(self, selected_team: str) -> None:
+        """
+        Handle home team selection change.
+
+        :param selected_team: Selected home team name.
+        :return: None.
+        """
         if not selected_team:
             self._clear_home_logo()
             self._refresh_team_comboboxes()
@@ -440,7 +522,13 @@ class FloorballApp(ctk.CTk):
 
         self._refresh_team_comboboxes()
 
-    def on_away_change(self, selected_team: str):
+    def on_away_change(self, selected_team: str) -> None:
+        """
+        Handle away team selection change.
+
+        :param selected_team: Selected away team name.
+        :return: None.
+        """
         if not selected_team:
             self._clear_away_logo()
             self._refresh_team_comboboxes()
@@ -464,7 +552,12 @@ class FloorballApp(ctk.CTk):
 
         self._refresh_team_comboboxes()
 
-    def predict_match(self):
+    def predict_match(self) -> None:
+        """
+        Build model input, run prediction, and update the result panel.
+
+        :return: None.
+        """
         league_name = self.league_var.get().strip()
         home_team_name = self.home_var.get().strip()
         away_team_name = self.away_var.get().strip()
@@ -491,7 +584,7 @@ class FloorballApp(ctk.CTk):
 
         try:
             (
-                X_input,
+                x_input,
                 home_stats,
                 away_stats,
                 official_home,
@@ -504,10 +597,10 @@ class FloorballApp(ctk.CTk):
             ) = self.service.build_prediction_input(
                 competition_id=competition_id,
                 home_team_id=home_team_id,
-                away_team_id=away_team_id
+                away_team_id=away_team_id,
             )
 
-            prob = self.service.predict_proba(X_input)[0]
+            prob = self.service.predict_proba(x_input)[0]
             home_win_prob = float(prob[1])
             away_win_prob = float(prob[0])
 

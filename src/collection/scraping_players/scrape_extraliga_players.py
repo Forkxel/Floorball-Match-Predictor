@@ -29,17 +29,35 @@ ITEMS_PER_PAGE = "100"
 
 
 def clean_text(value: str) -> str:
+    """
+    Normalize text value by trimming whitespace.
+
+    :param value: Raw text value.
+    :return: Cleaned text string.
+    """
     if value is None:
         return ""
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
 def parse_numeric(value: str):
+    """
+    Convert text value to numeric.
+
+    :param value: Raw numeric string.
+    :return: Parsed numeric value or NaN.
+    """
     value = clean_text(value).replace(",", ".")
     return pd.to_numeric(value, errors="coerce")
 
 
 def try_accept_cookies(page) -> None:
+    """
+    Try to accept the cookie banner if it is visible.
+
+    :param page: Playwright page instance.
+    :return: None.
+    """
     for text in ["Přijmout", "Souhlasím", "Accept", "OK"]:
         try:
             btn = page.get_by_text(text, exact=True)
@@ -52,6 +70,12 @@ def try_accept_cookies(page) -> None:
 
 
 def wait_for_player_statistics_ready(page) -> None:
+    """
+    Wait until the player statistics page is ready.
+
+    :param page: Playwright page instance.
+    :return: None.
+    """
     page.wait_for_selector("#frm-playerStatisticsFilter-team", state="attached", timeout=15000)
     page.wait_for_selector("#frm-playerStatisticsFilter-part", state="attached", timeout=15000)
     page.wait_for_selector("#frm-playerStatisticsFilter-type", state="attached", timeout=15000)
@@ -60,9 +84,19 @@ def wait_for_player_statistics_ready(page) -> None:
 
 
 def build_filtered_url(base_url: str, part_value: str, team_value: str | None = None, page_num: int | None = None) -> str:
+    """
+    Build filtered statistics URL.
+
+    :param base_url: Base competition statistics URL.
+    :param part_value: Division or competition part value.
+    :param team_value: Optional team filter value.
+    :param page_num: Optional pagination page number.
+    :return: Final filtered URL.
+    """
     params = {
         "playerStatisticsFilter[part]": part_value,
         "playerStatisticsFilter[type]": TYPE_VALUE,
+        "playerStatisticsGrid-itemsPerPage": ITEMS_PER_PAGE,
     }
 
     if team_value is not None:
@@ -75,13 +109,19 @@ def build_filtered_url(base_url: str, part_value: str, team_value: str | None = 
 
 
 def get_team_options(page) -> list[tuple[str, str]]:
+    """
+    Extract all team options from the team filter.
+
+    :param page: Playwright page instance.
+    :return: List of tuples in format (team_value, team_name).
+    """
     options = page.locator("#frm-playerStatisticsFilter-team option")
     out = []
 
     for i in range(options.count()):
-        opt = options.nth(i)
-        value = clean_text(opt.get_attribute("value"))
-        text = clean_text(opt.inner_text())
+        option = options.nth(i)
+        value = clean_text(option.get_attribute("value"))
+        text = clean_text(option.inner_text())
 
         if not value or not text or text == "Všechny týmy":
             continue
@@ -92,48 +132,78 @@ def get_team_options(page) -> list[tuple[str, str]]:
 
 
 def get_total_pages(page) -> int:
+    """
+    Detect the total number of pagination pages.
+
+    :param page: Playwright page instance.
+    :return: Total page count.
+    """
     footer = page.locator("form#frm-playerStatisticsGrid-paginationForm h5")
     if footer.count() == 0:
         return 1
 
     text = clean_text(footer.first.inner_text())
-    m = re.search(r"z\s+(\d+)", text)
-    if not m:
+    match = re.search(r"z\s+(\d+)", text)
+    if not match:
         return 1
-    return int(m.group(1))
+
+    return int(match.group(1))
 
 
 def get_player_table(page):
+    """
+    Get the player statistics table element.
+
+    :param page: Playwright page instance.
+    :return: First matching table locator.
+    :raises RuntimeError: If the statistics table is missing.
+    """
     locator = page.locator("#snippet-playerStatisticsGrid-playerStatisticsGrid table")
     if locator.count() == 0:
-        raise RuntimeError("No player statistics table.")
+        raise RuntimeError("No player statistics table found.")
     return locator.first
 
 
 def extract_headers(table) -> list[str]:
+    """
+    Extract table header names.
+
+    :param table: Table locator.
+    :return: List of header labels.
+    """
     headers = []
     ths = table.locator("thead tr th")
+
     for i in range(ths.count()):
         headers.append(clean_text(ths.nth(i).inner_text()))
+
     return headers
 
 
 def parse_player_row(tds, season: str, team_name: str) -> dict | None:
-    values = [clean_text(tds.nth(j).inner_text()) for j in range(tds.count())]
+    """
+    Parse one player row from the statistics table.
+
+    :param tds: Locator containing table cells.
+    :param season: Season label.
+    :param team_name: Team name.
+    :return: Parsed player stats dictionary or None.
+    """
+    values = [clean_text(tds.nth(i).inner_text()) for i in range(tds.count())]
 
     if len(values) < 29:
         return None
 
-    player_name = values[1] if len(values) > 1 else ""
+    player_name = values[1]
     if not player_name:
         return None
 
-    gp = parse_numeric(values[4])           # Z
-    goals = parse_numeric(values[5])        # B
-    assists = parse_numeric(values[8])      # A
-    points = parse_numeric(values[9])       # KB
-    plus_minus = parse_numeric(values[18])  # +/-
-    shots = parse_numeric(values[23])       # S
+    gp = parse_numeric(values[4])
+    goals = parse_numeric(values[5])
+    assists = parse_numeric(values[8])
+    points = parse_numeric(values[9])
+    plus_minus = parse_numeric(values[18])
+    shots = parse_numeric(values[23])
 
     return {
         "source": "extraliga",
@@ -152,10 +222,20 @@ def parse_player_row(tds, season: str, team_name: str) -> dict | None:
 
 
 def scrape_one_team(page, base_url: str, season: str, part_value: str, team_value: str, team_name: str) -> list[dict]:
+    """
+    Scrape all player statistics pages for one team.
+
+    :param page: Playwright page instance.
+    :param base_url: Base competition statistics URL.
+    :param season: Season label.
+    :param part_value: Division or competition part value.
+    :param team_value: Team filter value.
+    :param team_name: Team name.
+    :return: List of parsed player rows.
+    """
     rows = []
     seen = set()
 
-    # stránka 1 jen pro zjištění počtu stran
     first_url = build_filtered_url(
         base_url=base_url,
         part_value=part_value,
@@ -195,7 +275,6 @@ def scrape_one_team(page, base_url: str, season: str, part_value: str, team_valu
 
         before = len(rows)
 
-        # debug sample hráčů z první stránky
         if page_num == 1:
             sample_players = []
             for i in range(min(5, row_count)):
@@ -210,6 +289,7 @@ def scrape_one_team(page, base_url: str, season: str, part_value: str, team_valu
             tr = trs.nth(i)
             tds = tr.locator("td")
             parsed = parse_player_row(tds, season, team_name)
+
             if not parsed:
                 continue
 
@@ -238,10 +318,24 @@ def scrape_one_team(page, base_url: str, season: str, part_value: str, team_valu
 
 
 def scrape_one_season(page, season: str, base_url: str, part_value: str) -> pd.DataFrame:
+    """
+    Scrape player statistics for one season.
+
+    :param page: Playwright page instance.
+    :param season: Season label.
+    :param base_url: Base competition statistics URL.
+    :param part_value: Division or competition part value.
+    :return: DataFrame with season player statistics.
+    """
     all_rows = []
 
-    # úvodní stránka jen pro načtení team options
-    initial_url = build_filtered_url(base_url=base_url, part_value=part_value, team_value=None, page_num=1)
+    initial_url = build_filtered_url(
+        base_url=base_url,
+        part_value=part_value,
+        team_value=None,
+        page_num=1,
+    )
+
     page.goto(initial_url, wait_until="networkidle", timeout=60000)
     page.wait_for_timeout(2500)
     try_accept_cookies(page)
@@ -261,8 +355,7 @@ def scrape_one_season(page, season: str, base_url: str, part_value: str) -> pd.D
         )
         all_rows.extend(team_rows)
 
-    df = pd.DataFrame(all_rows).drop_duplicates().reset_index(drop=True)
-    return df
+    return pd.DataFrame(all_rows).drop_duplicates().reset_index(drop=True)
 
 
 def main():
@@ -271,11 +364,9 @@ def main():
         page = browser.new_page(viewport={"width": 1800, "height": 1300})
 
         for season, cfg in SEASON_CONFIG.items():
-            print(f"\n==============================")
             print(f"SEASON: {season}")
             print(f"URL: {cfg['base_url']}")
             print(f"PART: {cfg['part_value']}")
-            print(f"==============================")
 
             df = scrape_one_season(
                 page=page,

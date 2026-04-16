@@ -2,8 +2,8 @@
 import re
 import unicodedata
 import customtkinter as ctk
-import pandas as pd
 import joblib
+import pandas as pd
 from PIL import Image
 
 
@@ -20,8 +20,15 @@ TEAM_LOGOS_DIR = os.path.join(ASSETS_DIR, "teams")
 
 
 def normalize_text(value: str) -> str:
+    """
+    Normalize text to lowercase ASCII-like form.
+
+    :param value: Raw text value.
+    :return: Normalized text string.
+    """
     if value is None or pd.isna(value):
         return ""
+
     text = unicodedata.normalize("NFKD", str(value))
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     text = text.lower()
@@ -31,6 +38,12 @@ def normalize_text(value: str) -> str:
 
 
 def normalize_team_name(value: str) -> str:
+    """
+    Normalize team name and apply manual replacements.
+
+    :param value: Raw team name.
+    :return: Normalized team name.
+    """
     text = normalize_text(value)
 
     replacements = {
@@ -51,27 +64,39 @@ def normalize_team_name(value: str) -> str:
 
 
 def normalize_season(value: str) -> str | None:
+    """
+    Normalize season string to YYYY-YYYY format.
+
+    :param value: Raw season value.
+    :return: Normalized season string or None.
+    """
     if pd.isna(value):
         return None
 
     text = str(value).strip()
 
-    m = re.search(r"(20\d{2})-(20\d{2})", text)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}"
+    match = re.search(r"(20\d{2})-(20\d{2})", text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}"
 
-    m = re.search(r"(20\d{2})/(20\d{2})", text)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}"
+    match = re.search(r"(20\d{2})/(20\d{2})", text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}"
 
-    m = re.search(r"(\d{2})/(\d{2})", text)
-    if m:
-        return f"20{int(m.group(1)):02d}-20{int(m.group(2)):02d}"
+    match = re.search(r"(\d{2})/(\d{2})", text)
+    if match:
+        return f"20{int(match.group(1)):02d}-20{int(match.group(2)):02d}"
 
     return None
 
 
 def previous_season(season: str) -> str | None:
+    """
+    Compute the previous season label.
+
+    :param season: Season string in YYYY-YYYY format.
+    :return: Previous season string or None.
+    """
     if not isinstance(season, str):
         return None
 
@@ -89,12 +114,26 @@ def previous_season(season: str) -> str | None:
 
 
 def sanitize_id_for_filename(value: str) -> str:
+    """
+    Sanitize identifier for safe filename usage.
+
+    :param value: Raw identifier.
+    :return: Sanitized filename-safe string.
+    """
     return str(value).replace(":", "_").replace("/", "_").replace("\\", "_")
 
 
 def load_ctk_image(image_path: str, size: tuple[int, int]) -> ctk.CTkImage | None:
+    """
+    Load an image as a CTkImage.
+
+    :param image_path: Path to the image file.
+    :param size: Target image size.
+    :return: CTkImage instance or None.
+    """
     if not os.path.exists(image_path):
         return None
+
     try:
         pil_image = Image.open(image_path)
         return ctk.CTkImage(light_image=pil_image, dark_image=pil_image, size=size)
@@ -103,6 +142,10 @@ def load_ctk_image(image_path: str, size: tuple[int, int]) -> ctk.CTkImage | Non
 
 
 class FloorballService:
+    """
+    Service layer for loading data, resolving teams, and preparing model predictions.
+    """
+
     def __init__(self):
         self._validate_paths()
 
@@ -125,7 +168,13 @@ class FloorballService:
         for _, row in self.roster_df.iterrows():
             self.roster_lookup[(row["league"], row["season_norm"], row["team_name_norm"])] = row["roster_strength"]
 
-    def _validate_paths(self):
+    def _validate_paths(self) -> None:
+        """
+        Validate that all required input files exist.
+
+        :return: None.
+        :raises FileNotFoundError: If any required file is missing.
+        """
         if not os.path.exists(DATA_PATH):
             raise FileNotFoundError(f"Processed dataset not found: {DATA_PATH}")
 
@@ -136,11 +185,24 @@ class FloorballService:
             raise FileNotFoundError(f"Model file not found: {MODEL_PATH}")
 
     def get_competition_logo(self, competition_id: str) -> ctk.CTkImage | None:
+        """
+        Load the logo for a competition.
+
+        :param competition_id: Competition identifier.
+        :return: CTkImage or None.
+        """
         filename = f"{sanitize_id_for_filename(competition_id)}.png"
         path = os.path.join(COMPETITION_LOGOS_DIR, filename)
         return load_ctk_image(path, (42, 42))
 
     def get_team_logo(self, team_id: str, size: tuple[int, int] = (42, 42)) -> ctk.CTkImage | None:
+        """
+        Load the logo for a team.
+
+        :param team_id: Team identifier.
+        :param size: Requested image size.
+        :return: CTkImage or None.
+        """
         filename = f"{sanitize_id_for_filename(team_id)}.png"
 
         for root, _, files in os.walk(TEAM_LOGOS_DIR):
@@ -151,6 +213,11 @@ class FloorballService:
         return None
 
     def get_competition_options(self) -> list[tuple[str, str]]:
+        """
+        Get all available competitions.
+
+        :return: List of tuples in format (competition_id, competition_name).
+        """
         comp_df = (
             self.df[["competition_id", "competition_name"]]
             .drop_duplicates()
@@ -160,6 +227,13 @@ class FloorballService:
         return list(comp_df.itertuples(index=False, name=None))
 
     def get_latest_season_id_for_competition(self, competition_id: str) -> str:
+        """
+        Get the latest season identifier for a competition.
+
+        :param competition_id: Competition identifier.
+        :return: Latest season id.
+        :raises ValueError: If no matches are found for the competition.
+        """
         comp_df = self.df[self.df["competition_id"] == competition_id].copy()
         if comp_df.empty:
             raise ValueError("No matches found for selected competition.")
@@ -168,6 +242,13 @@ class FloorballService:
         return season_order.index[-1]
 
     def get_latest_season_name_for_competition(self, competition_id: str) -> str:
+        """
+        Get the latest season label for a competition.
+
+        :param competition_id: Competition identifier.
+        :return: Latest season name.
+        :raises ValueError: If no matches are found for the competition.
+        """
         comp_df = self.df[self.df["competition_id"] == competition_id].copy()
         if comp_df.empty:
             raise ValueError("No matches found for selected competition.")
@@ -176,6 +257,12 @@ class FloorballService:
         return comp_df.loc[latest_idx, "season"]
 
     def get_teams_for_competition(self, competition_id: str) -> list[tuple[str, str]]:
+        """
+        Get all teams for the latest season of a competition.
+
+        :param competition_id: Competition identifier.
+        :return: List of tuples in format (team_id, team_name).
+        """
         latest_season_id = self.get_latest_season_id_for_competition(competition_id)
 
         if not self.official_df.empty:
@@ -215,6 +302,14 @@ class FloorballService:
         return list(teams_df.itertuples(index=False, name=None))
 
     def compute_team_stats(self, team_id: str, matches: pd.DataFrame, home_context: bool) -> dict:
+        """
+        Compute aggregate team statistics from historical matches.
+
+        :param team_id: Team identifier.
+        :param matches: Match DataFrame.
+        :param home_context: Whether to compute context form for home matches.
+        :return: Dictionary with aggregated team stats.
+        """
         team_matches = matches[
             (matches["home_team_id"] == team_id) |
             (matches["away_team_id"] == team_id)
@@ -305,6 +400,13 @@ class FloorballService:
         }
 
     def make_rank_map(self, matches_before: pd.DataFrame, season_id: str) -> dict:
+        """
+        Build ranking positions for teams within a season.
+
+        :param matches_before: Match DataFrame containing previous matches.
+        :param season_id: Season identifier.
+        :return: Mapping of team_id to rank.
+        """
         season_matches = matches_before[matches_before["season_id"] == season_id].copy()
 
         team_ids = set(season_matches["home_team_id"]).union(set(season_matches["away_team_id"]))
@@ -329,6 +431,14 @@ class FloorballService:
         return {team_id: idx + 1 for idx, (team_id, *_rest) in enumerate(table_rows)}
 
     def get_official_team_stats(self, competition_id: str, season_id: str, team_id: str) -> dict:
+        """
+        Get official standing values for a specific team.
+
+        :param competition_id: Competition identifier.
+        :param season_id: Season identifier.
+        :param team_id: Team identifier.
+        :return: Dictionary with official rank, points, and matches played.
+        """
         if self.official_df.empty:
             return {
                 "official_rank": None,
@@ -360,15 +470,38 @@ class FloorballService:
         }
 
     def get_league_season_roster_average(self, league: str, season: str) -> float | None:
+        """
+        Compute average roster strength for a league and season.
+
+        :param league: League identifier.
+        :param season: Normalized season label.
+        :return: Average roster strength or None.
+        """
         rows = self.roster_df[
             (self.roster_df["league"] == league) &
             (self.roster_df["season_norm"] == season)
         ]
         if rows.empty:
             return None
+
         return float(rows["roster_strength"].mean())
 
-    def get_team_roster_strength_with_fallback(self, league: str, prev_season: str | None, current_season: str | None, team_name: str):
+    def get_team_roster_strength_with_fallback(
+        self,
+        league: str,
+        prev_season: str | None,
+        current_season: str | None,
+        team_name: str,
+    ):
+        """
+        Resolve team roster strength using season and league fallbacks.
+
+        :param league: League identifier.
+        :param prev_season: Previous season label.
+        :param current_season: Current season label.
+        :param team_name: Team name.
+        :return: Tuple of (roster_strength, source_label).
+        """
         team_name_norm = normalize_team_name(team_name)
 
         if prev_season is not None:
@@ -394,6 +527,14 @@ class FloorballService:
         return None, "missing"
 
     def build_prediction_input(self, competition_id: str, home_team_id: str, away_team_id: str):
+        """
+        Build model input features and supporting metadata for one match prediction.
+
+        :param competition_id: Competition identifier.
+        :param home_team_id: Home team identifier.
+        :param away_team_id: Away team identifier.
+        :return: Tuple containing model input DataFrame and auxiliary metadata.
+        """
         comp_df = self.df[self.df["competition_id"] == competition_id].copy()
         if comp_df.empty:
             raise ValueError("No data found for selected competition.")
@@ -459,44 +600,36 @@ class FloorballService:
                 f"home={home_team_name}, away={away_team_name}"
             )
 
-        X_input = pd.DataFrame([{
+        x_input = pd.DataFrame([{
             "competition_id": competition_id,
             "league": league,
-
             "home_rank": home_rank,
             "away_rank": away_rank,
             "rank_diff": away_rank - home_rank,
-
             "home_table_points": home_stats["points"],
             "away_table_points": away_stats["points"],
             "table_points_diff": home_stats["points"] - away_stats["points"],
-
             "home_played": home_stats["played"],
             "away_played": away_stats["played"],
-
             "home_goal_diff": home_stats["goal_diff"],
             "away_goal_diff": away_stats["goal_diff"],
             "goal_diff_diff": home_stats["goal_diff"] - away_stats["goal_diff"],
-
             "home_form_last5": home_stats["form_last5"],
             "away_form_last5": away_stats["form_last5"],
             "form_diff_last5": home_stats["form_last5"] - away_stats["form_last5"],
-
             "home_goals_for_avg_last5": home_stats["goals_for_avg_last5"],
             "home_goals_against_avg_last5": home_stats["goals_against_avg_last5"],
             "away_goals_for_avg_last5": away_stats["goals_for_avg_last5"],
             "away_goals_against_avg_last5": away_stats["goals_against_avg_last5"],
-
             "home_home_form_last5": home_stats["context_form_last5"],
             "away_away_form_last5": away_stats["context_form_last5"],
-
             "home_roster_strength": home_roster_strength,
             "away_roster_strength": away_roster_strength,
             "roster_strength_diff": home_roster_strength - away_roster_strength,
         }])
 
         return (
-            X_input,
+            x_input,
             home_stats,
             away_stats,
             official_home,
@@ -508,5 +641,11 @@ class FloorballService:
             away_roster_source,
         )
 
-    def predict_proba(self, X_input: pd.DataFrame):
-        return self.model.predict_proba(X_input)
+    def predict_proba(self, x_input: pd.DataFrame):
+        """
+        Predict class probabilities for prepared model input.
+
+        :param x_input: Model input DataFrame.
+        :return: Predicted probabilities.
+        """
+        return self.model.predict_proba(x_input)

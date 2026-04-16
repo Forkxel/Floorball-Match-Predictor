@@ -13,27 +13,39 @@ ML_WITH_ROSTER_PATH = PROCESSED_DIR / "floorball_dataset_ml_with_roster.csv"
 
 
 def normalize_season(value: str) -> str | None:
+    """
+    Normalize season string to YYYY-YYYY format.
+
+    :param value: Raw season value.
+    :return: Normalized season string or None.
+    """
     if pd.isna(value):
         return None
 
     text = str(value).strip()
 
-    m = re.search(r"(20\d{2})-(20\d{2})", text)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}"
+    match = re.search(r"(20\d{2})-(20\d{2})", text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}"
 
-    m = re.search(r"(20\d{2})/(20\d{2})", text)
-    if m:
-        return f"{m.group(1)}-{m.group(2)}"
+    match = re.search(r"(20\d{2})/(20\d{2})", text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}"
 
-    m = re.search(r"(\d{2})/(\d{2})", text)
-    if m:
-        return f"20{int(m.group(1)):02d}-20{int(m.group(2)):02d}"
+    match = re.search(r"(\d{2})/(\d{2})", text)
+    if match:
+        return f"20{int(match.group(1)):02d}-20{int(match.group(2)):02d}"
 
     return None
 
 
 def previous_season(season: str) -> str | None:
+    """
+    Compute the previous season label.
+
+    :param season: Season string in YYYY-YYYY format.
+    :return: Previous season string or None.
+    """
     if not isinstance(season, str):
         return None
 
@@ -51,6 +63,13 @@ def previous_season(season: str) -> str | None:
 
 
 def build_ml_from_processed_with_roster(df: pd.DataFrame, drop_draws: bool = True) -> pd.DataFrame:
+    """
+    Build an ML-ready dataset from processed matches with roster features.
+
+    :param df: Processed matches DataFrame with roster columns.
+    :param drop_draws: Whether to remove draw matches.
+    :return: ML-ready DataFrame with features and target.
+    """
     work = df.copy()
 
     work["start_time"] = pd.to_datetime(work["start_time"], utc=True, errors="coerce")

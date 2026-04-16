@@ -14,17 +14,35 @@ OUTPUT_PATH = OUTPUT_DIR / "fliiga_players_2025_2026.csv"
 
 
 def clean_text(value: str) -> str:
+    """
+    Normalize text by collapsing whitespace.
+
+    :param value: Raw text value.
+    :return: Cleaned text string.
+    """
     if value is None:
         return ""
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
 def parse_numeric(value: str):
+    """
+    Convert text value to numeric.
+
+    :param value: Raw numeric string.
+    :return: Parsed numeric value or NaN.
+    """
     value = clean_text(value).replace(",", ".")
     return pd.to_numeric(value, errors="coerce")
 
 
 def try_accept_cookies(page) -> None:
+    """
+    Try to accept the cookie banner if present.
+
+    :param page: Playwright page instance.
+    :return: None.
+    """
     for text in ["Accept", "I agree", "OK", "Allow all"]:
         try:
             btn = page.get_by_text(text, exact=True)
@@ -37,35 +55,58 @@ def try_accept_cookies(page) -> None:
 
 
 def click_scores_tab(page) -> None:
+    """
+    Open the Scores tab on the statistics page.
+
+    :param page: Playwright page instance.
+    :return: None.
+    :raises RuntimeError: If the Scores tab cannot be clicked.
+    """
     candidates = [
         page.get_by_role("button", name="Scores"),
         page.get_by_text("Scores", exact=True),
     ]
-    for c in candidates:
+
+    for candidate in candidates:
         try:
-            if c.count() > 0:
-                c.first.click(timeout=3000)
+            if candidate.count() > 0:
+                candidate.first.click(timeout=3000)
                 page.wait_for_timeout(1500)
                 return
         except Exception:
             pass
-    raise RuntimeError("Couldnt click on tab Scores.")
+
+    raise RuntimeError("Could not click the Scores tab.")
 
 
 def set_regular_season(page) -> None:
+    """
+    Select the target season from the season dropdown.
+
+    :param page: Playwright page instance.
+    :return: None.
+    :raises RuntimeError: If no season selector is found.
+    """
     selects = page.locator(".season-select select")
     if selects.count() == 0:
         selects = page.locator("select")
 
     if selects.count() == 0:
-        raise RuntimeError("No season select on F-Liiga page.")
+        raise RuntimeError("No season select found on the F-Liiga page.")
 
-    sel = selects.first
-    sel.select_option(value=TARGET_SEASON_VALUE, timeout=5000)
+    select = selects.first
+    select.select_option(value=TARGET_SEASON_VALUE, timeout=5000)
     page.wait_for_timeout(2000)
 
 
 def guess_scores_table(page):
+    """
+    Locate the scores table on the page.
+
+    :param page: Playwright page instance.
+    :return: Table locator.
+    :raises RuntimeError: If no matching table is found.
+    """
     candidates = page.locator("#points table.sortable-table")
     if candidates.count() > 0:
         return candidates.first
@@ -79,10 +120,16 @@ def guess_scores_table(page):
         except Exception:
             pass
 
-    raise RuntimeError("No F-Liiga scores table.")
+    raise RuntimeError("No F-Liiga scores table found.")
 
 
 def extract_player_and_team_from_player_cell(cell) -> tuple[str, str]:
+    """
+    Extract player name and team name from the player cell.
+
+    :param cell: Table cell locator.
+    :return: Tuple of (player_name, team_name).
+    """
     try:
         text = cell.inner_text()
     except Exception:
@@ -99,6 +146,11 @@ def extract_player_and_team_from_player_cell(cell) -> tuple[str, str]:
 
 
 def scrape_fliiga_players() -> pd.DataFrame:
+    """
+    Scrape player statistics from the F-Liiga statistics page.
+
+    :return: DataFrame with parsed player statistics.
+    """
     rows = []
 
     with sync_playwright() as p:
@@ -158,8 +210,9 @@ def scrape_fliiga_players() -> pd.DataFrame:
 
 def main():
     df = scrape_fliiga_players()
+
     if df.empty:
-        raise RuntimeError("No data find for F-Liiga.")
+        raise RuntimeError("No data found for F-Liiga.")
 
     df.to_csv(OUTPUT_PATH, index=False)
     print(f"Saved: {OUTPUT_PATH}")

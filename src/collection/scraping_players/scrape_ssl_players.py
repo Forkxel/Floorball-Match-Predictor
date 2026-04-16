@@ -23,12 +23,24 @@ TARGET_TEAM = "Alla Lag"
 
 
 def clean_text(value: str) -> str:
+    """
+    Normalize text by collapsing whitespace.
+
+    :param value: Raw text value.
+    :return: Cleaned text string.
+    """
     if value is None:
         return ""
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
 def safe_inner_text(locator) -> str:
+    """
+    Safely read text from a locator.
+
+    :param locator: Playwright locator.
+    :return: Cleaned text or an empty string.
+    """
     try:
         return clean_text(locator.inner_text())
     except Exception:
@@ -36,16 +48,24 @@ def safe_inner_text(locator) -> str:
 
 
 def try_click_cookie_buttons(page) -> None:
+    """
+    Try to accept the cookie banner if present.
+
+    :param page: Playwright page instance.
+    :return: None.
+    """
     candidates = [
         "button:has-text('Accept')",
         "button:has-text('I agree')",
         "button:has-text('Godkänn')",
         "button:has-text('OK')",
     ]
-    for sel in candidates:
+
+    for selector in candidates:
         try:
-            if page.locator(sel).count() > 0:
-                page.locator(sel).first.click(timeout=2000)
+            locator = page.locator(selector)
+            if locator.count() > 0:
+                locator.first.click(timeout=2000)
                 page.wait_for_timeout(700)
                 return
         except Exception:
@@ -53,6 +73,13 @@ def try_click_cookie_buttons(page) -> None:
 
 
 def open_select_by_visible_text(page, visible_text: str) -> bool:
+    """
+    Open a select-like control by its currently visible text.
+
+    :param page: Playwright page instance.
+    :param visible_text: Visible text of the current selection.
+    :return: True if the control was opened, otherwise False.
+    """
     candidates = [
         page.get_by_text(visible_text, exact=True),
         page.get_by_role("button", name=visible_text),
@@ -72,6 +99,13 @@ def open_select_by_visible_text(page, visible_text: str) -> bool:
 
 
 def choose_option_from_open_menu(page, option_text: str) -> bool:
+    """
+    Choose an option from an already opened menu.
+
+    :param page: Playwright page instance.
+    :param option_text: Visible option text.
+    :return: True if the option was selected, otherwise False.
+    """
     candidates = [
         page.get_by_role("option", name=option_text),
         page.get_by_text(option_text, exact=True),
@@ -91,13 +125,29 @@ def choose_option_from_open_menu(page, option_text: str) -> bool:
 
 
 def set_filter(page, currently_visible_text: str, target_option_text: str) -> bool:
+    """
+    Open a filter and select the target option.
+
+    :param page: Playwright page instance.
+    :param currently_visible_text: Currently visible filter value.
+    :param target_option_text: Target option to select.
+    :return: True if the filter was updated, otherwise False.
+    """
     opened = open_select_by_visible_text(page, currently_visible_text)
     if not opened:
         return False
+
     return choose_option_from_open_menu(page, target_option_text)
 
 
 def guess_table(page):
+    """
+    Locate the player statistics table on the page.
+
+    :param page: Playwright page instance.
+    :return: Table locator.
+    :raises RuntimeError: If no suitable table is found.
+    """
     candidates = [
         page.locator("table"),
         page.locator("[role='table']"),
@@ -118,12 +168,19 @@ def guess_table(page):
             except Exception:
                 continue
 
-    raise RuntimeError("Couldn't find table with player stats.")
+    raise RuntimeError("Couldn't find a table with player stats.")
 
 
 def extract_headers(table) -> list[str]:
+    """
+    Extract header labels from the table.
+
+    :param table: Table locator.
+    :return: List of header names.
+    """
     headers = []
     ths = table.locator("thead tr th")
+
     if ths.count() > 0:
         for i in range(ths.count()):
             headers.append(clean_text(ths.nth(i).inner_text()))
@@ -132,11 +189,19 @@ def extract_headers(table) -> list[str]:
     first_row_cells = table.locator("tr").first.locator("th, td")
     for i in range(first_row_cells.count()):
         headers.append(clean_text(first_row_cells.nth(i).inner_text()))
+
     return headers
 
 
 def parse_row(cells_text: list[str], season: str) -> dict | None:
-    values = [clean_text(v) for v in cells_text if clean_text(v) != ""]
+    """
+    Parse one player row from table cell values.
+
+    :param cells_text: List of raw cell texts.
+    :param season: Season label.
+    :return: Parsed player row or None.
+    """
+    values = [clean_text(value) for value in cells_text if clean_text(value) != ""]
 
     if len(values) < 7:
         return None
@@ -154,9 +219,9 @@ def parse_row(cells_text: list[str], season: str) -> dict | None:
     if len(numeric_tail) < 5:
         return None
 
-    def to_num(v):
-        v = v.replace(",", ".")
-        return pd.to_numeric(v, errors="coerce")
+    def to_num(value):
+        value = value.replace(",", ".")
+        return pd.to_numeric(value, errors="coerce")
 
     gp = to_num(numeric_tail[0])
     goals = to_num(numeric_tail[1]) if len(numeric_tail) > 1 else None
@@ -184,6 +249,13 @@ def parse_row(cells_text: list[str], season: str) -> dict | None:
 
 
 def extract_rows_from_table(table, season: str) -> list[dict]:
+    """
+    Extract all parsed player rows from the current table.
+
+    :param table: Table locator.
+    :param season: Season label.
+    :return: List of parsed player rows.
+    """
     rows = []
     trs = table.locator("tbody tr")
     row_count = trs.count()
@@ -194,8 +266,7 @@ def extract_rows_from_table(table, season: str) -> list[dict]:
         cell_texts = []
 
         for j in range(cells.count()):
-            txt = safe_inner_text(cells.nth(j))
-            cell_texts.append(txt)
+            cell_texts.append(safe_inner_text(cells.nth(j)))
 
         row = parse_row(cell_texts, season)
         if row:
@@ -205,6 +276,12 @@ def extract_rows_from_table(table, season: str) -> list[dict]:
 
 
 def click_next_page(page) -> bool:
+    """
+    Move to the next pagination page if possible.
+
+    :param page: Playwright page instance.
+    :return: True if the next page was opened, otherwise False.
+    """
     candidates = [
         page.get_by_role("button", name="Next"),
         page.get_by_role("link", name="Next"),
@@ -225,6 +302,12 @@ def click_next_page(page) -> bool:
 
 
 def scrape_ssl_players(season: str) -> pd.DataFrame:
+    """
+    Scrape SSL player statistics for one season.
+
+    :param season: Season label.
+    :return: DataFrame with parsed player statistics.
+    """
     all_rows = []
     seen_keys = set()
 
@@ -283,8 +366,7 @@ def scrape_ssl_players(season: str) -> pd.DataFrame:
             if new_count == 0:
                 break
 
-            moved = click_next_page(page)
-            if not moved:
+            if not click_next_page(page):
                 break
 
         browser.close()
@@ -302,7 +384,7 @@ def scrape_ssl_players(season: str) -> pd.DataFrame:
 
 def main():
     for season in TARGET_SEASONS:
-        print(f"\n=== SCRAPING SEASON {season} ===")
+        print(f"\nSCRAPING SEASON {season}")
         df = scrape_ssl_players(season)
 
         if df.empty:
