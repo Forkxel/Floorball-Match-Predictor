@@ -14,8 +14,17 @@ class FloorballApp(ctk.CTk):
         self.service = FloorballService()
 
         self.title("Floorball Match Predictor")
-        self.geometry("980x760")
-        self.minsize(980, 760)
+        window_width = 980
+        window_height = 760
+
+        screen_width = self.winfo_screenwidth()
+        screen_height = self.winfo_screenheight()
+
+        x = (screen_width // 2) - (window_width // 2)
+        y = (screen_height // 2) - (window_height // 2)
+
+        self.geometry(f"{window_width}x{window_height}+{x}+{y}")
+        self.resizable(False, False)
 
         self.competition_map = {}
         self.team_name_to_id = {}
@@ -503,13 +512,13 @@ class FloorballApp(ctk.CTk):
             away_win_prob = float(prob[0])
 
             if home_win_prob >= 0.70:
-                suggested_pick = f"Pick: {home_team_name}"
+                suggested_pick = f"Suggested bet: {home_team_name}"
             elif home_win_prob <= 0.30:
-                suggested_pick = f"Pick: {away_team_name}"
+                suggested_pick = f"Suggested bet: {away_team_name}"
             else:
-                suggested_pick = "Pick: No bet / low confidence"
+                suggested_pick = "Suggested bet: No recommended bet"
 
-            self.result_title.configure(text=f"{league_name} • {season_name}")
+            self.result_title.configure(text=f"{season_name}")
             self.vs_label.configure(text="VS")
 
             self.result_home_name_label.configure(text=home_team_name)
